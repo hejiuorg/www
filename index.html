@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>喝酒 - hejiu.org - 今朝有酒今朝醉</title>
+    <style>
+        :root { --primary: #2b6cb0; --text: #2d3748; }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: system-ui, sans-serif; line-height: 1.6; color: var(--text); }
+        
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        .search { width: 100%; padding: 12px; border: 2px solid var(--primary); border-radius: 8px; margin: 20px 0; }
+        
+        .nav { display: flex; gap: 12px; margin: 20px 0; flex-wrap: wrap; }
+        .nav a { padding: 8px 16px; background: #f7fafc; border-radius: 20px; text-decoration: none; color: var(--primary); }
+        
+        .category { margin: 30px 0; }
+        .category h2 { border-left: 4px solid var(--primary); padding-left: 12px; }
+        .subcategory { margin-left: 20px; }
+        .subcategory h3 { color: #4a5568; margin: 15px 0; }
+        .origin-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 15px; }
+        .origin-item { padding: 15px; border: 1px solid #e2e8f0; border-radius: 8px; }
+        .origin-item strong { display: block; margin-bottom: 8px; color: var(--primary); }
+
+        footer { background: #f7fafc; text-align: center; padding: 20px; margin-top: 40px; }
+
+        @media (max-width: 768px) {
+            .origin-list { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>醴斝斟玄露 - 全球酒品大全（350+品种）</h1>
+        <input type="text" class="search" placeholder="搜索酒类或产地..." onkeyup="searchWine(this.value)">
+        
+        <div class="nav">
+            <a href="#asia">亚洲</a>
+			<a href="#europe">欧洲</a>
+            <a href="#north-america">北美洲</a>
+            <a href="#south-america">南美洲</a>
+	        <a href="#africa">非洲</a>
+            <a href="#oceania">大洋洲</a>
+        </div>
+
+<!-- 亚洲 -->
+<div class="category" id="asia">
+    <h2>亚洲产区（68种）</h2>
+    
+    <div class="subcategory">
+        <h3>中国</h3>
+        <div class="origin-list">
+            <div class="origin-item">
+                <strong>酱香型白酒</strong>
+                茅台（贵州仁怀）、郎酒（四川古蔺）、国台（茅台镇）、珍酒（遵义）、武陵酒（湖南常德）
+            </div>
+            <div class="origin-item">
+                <strong>浓香型白酒</strong>
+                五粮液（四川宜宾）、泸州老窖（四川泸州）、剑南春（四川绵竹）、洋河大曲（江苏宿迁）
+            </div>
+            <div class="origin-item">
+                <strong>清香型白酒</strong>
+                汾酒（山西杏花村）、宝丰酒（河南宝丰）、黄鹤楼酒（湖北武汉）
+            </div>
+        </div>
+
+        <h3>日本</h3>
+        <div class="origin-list">
+            <div class="origin-item">
+                <strong>清酒</strong>
+                獭祭（山口县）、十四代（山形县）、久保田（新潟县）、月桂冠（京都）
+            </div>
+            <div class="origin-item">
+                <strong>烧酎</strong>
+                黑雾岛（鹿儿岛）、魔王（大分县）、萨摩白波（鹿儿岛）
+            </div>
+            <div class="origin-item">
+                <strong>威士忌</strong>
+                山崎（大阪）、白州（山梨县）、三得利角瓶（京都）
+            </div>
+        </div>
+
+        <h3>韩国</h3>
+        <div class="origin-list">
+            <div class="origin-item">
+                <strong>烧酒</strong>
+                真露（首尔）、初饮初乐（首尔）、好天好饮（釜山）
+            </div>
+            <div class="origin-item">
+                <strong>水果酒</strong>
+                清州苹果酒（忠清北道）、绿茶烧酒（济州岛）、东海岸啤酒（江原道）
+            </div>
+        </div>
+
+        <h3>东南亚</h3>
+        <div class="origin-list">
+            <div class="origin-item">
+                <strong>泰国</strong>
+                象牌啤酒（曼谷）、湄公威士忌（清迈）、红牛能量酒（曼谷）
+            </div>
+            <div class="origin-item">
+                <strong>越南</strong>
+                河内啤酒（河内）、西贡威士忌（胡志明市）
+            </div>
+            <div class="origin-item">
+                <strong>印度尼西亚</strong>
+                Arak米酒（巴厘岛）、Brem Balikan棕榈酒（苏门答腊）
+            </div>
+        </div>
+
+        <h3>南亚</h3>
+        <div class="origin-list">
+            <div class="origin-item">
+                <strong>印度</strong>
+                雅沐特威士忌（班加罗尔）、芬尼椰子酒（果阿）、皇家挑战威士忌（孟买）
+            </div>
+            <div class="origin-item">
+                <strong>尼泊尔</strong>
+                牦牛伏特加（加德满都）、廓尔喀朗姆酒（博卡拉）
+            </div>
+        </div>
+
+        <h3>其他特色</h3>
+        <div class="origin-list">
+            <div class="origin-item">
+                <strong>蒙古</strong>
+                Airag马奶酒（乌兰巴托）、成吉思汗伏特加（达尔汗）
+            </div>
+            <div class="origin-item">
+                <strong>菲律宾</strong>
+                Tuba椰子酒（宿务）、Lambanog棕榈酒（拉古纳）
+            </div>
+        </div>
+    </div>
+</div>
+		
+<!-- 欧洲 -->
+<div class="category" id="europe">
+    <h2>欧洲产区（60+品种）</h2>
+    
+    <div class="subcategory">
+        <h3>法国</h3>
+        <div class="origin-list">
+            <div class="origin-item">
+                <strong>波尔多红葡萄酒</strong>
+                拉菲古堡（波亚克）、木桐酒庄（波亚克）、玛歌酒庄（玛歌村）
+            </div>
+            <div class="origin-item">
+                <strong>干邑白兰地</strong>
+                轩尼诗XO（干邑区）、马爹利蓝带（夏朗德省）、人头马路易十三（大香槟区）
+            </div>
+            <div class="origin-item">
+                <strong>香槟</strong>
+                唐培里侬（埃佩尔奈）、库克（兰斯）、巴黎之花（白丘）
+            </div>
+        </div>
+
+        <h3>意大利</h3>
+        <div class="origin-list">
+            <div class="origin-item">
+                <strong>巴罗洛红葡萄酒</strong>
+                嘉科萨（皮埃蒙特）、Vietti（巴罗洛村）、Pio Cesare（阿尔巴）
+            </div>
+            <div class="origin-item">
+                <strong>格拉帕果渣白兰地</strong>
+                Nonino（弗留利）、Berta（皮埃蒙特）
+            </div>
+        </div>
+
+        <h3>德国</h3>
+        <div class="origin-list">
+            <div class="origin-item">
+                <strong>雷司令白葡萄酒</strong>
+                Egon Müller（摩泽尔）、Dr. Loosen（摩泽尔）
+            </div>
+            <div class="origin-item">
+                <strong>黑啤酒</strong>
+                教士黑啤（慕尼黑）、艾丁格黑啤（巴伐利亚）
+            </div>
+        </div>
+
+        <h3>苏格兰</h3>
+        <div class="origin-list">
+            <div class="origin-item">
+                <strong>单一麦芽威士忌</strong>
+                麦卡伦（斯佩塞）、拉弗格（艾雷岛）、格兰菲迪（斯佩塞）
+            </div>
+            <div class="origin-item">
+                <strong>调和威士忌</strong>
+                尊尼获加蓝方（爱丁堡）、芝华士18年（斯特拉塞斯拉）
+            </div>
+        </div>
+
+        <h3>西班牙</h3>
+        <div class="origin-list">
+            <div class="origin-item">
+                <strong>雪利酒</strong>
+                Tio Pepe（赫雷斯）、Gonzalez Byass（赫雷斯）
+            </div>
+            <div class="origin-item">
+                <strong>里奥哈红葡萄酒</strong>
+                Marqués de Riscal（里奥哈）、CVNE（里奥哈）
+            </div>
+        </div>
+
+        <h3>其他特色</h3>
+        <div class="origin-list">
+            <div class="origin-item">
+                <strong>匈牙利托卡伊贵腐酒</strong>
+                Royal Tokaji（托卡伊）、Disznókő（托卡伊）
+            </div>
+            <div class="origin-item">
+                <strong>希腊茴香酒</strong>
+                Ouzo 12（莱斯沃斯岛）、Plomari（希俄斯岛）
+            </div>
+            <div class="origin-item">
+                <strong>荷兰金酒</strong>
+                波尔斯（斯希丹）、Nolet's（斯希丹）
+            </div>
+            <div class="origin-item">
+                <strong>波兰伏特加</strong>
+                Belvedere（华沙）、Chopin（波德拉谢）
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 北美洲 -->
+<div class="category" id="north-america">
+    <h2>北美洲产区（新增36种）</h2>
+    <div class="subcategory">
+        <h3>美国</h3>
+        <div class="origin-list">
+            <div class="origin-item">
+                <strong>波本威士忌</strong>
+                金宾（肯塔基）、美格（洛雷托）、四玫瑰（劳伦斯堡）、野火鸡（劳伦斯堡）
+            </div>
+            <div class="origin-item">
+                <strong>黑麦威士忌</strong>
+                酩帝诗（肯塔基）、老奥弗霍尔德（宾夕法尼亚）、萨泽拉克（新奥尔良）
+            </div>
+            <div class="origin-item">
+                <strong>田纳西威士忌</strong>
+                杰克丹尼（林奇堡）、乔治迪克尔（塔拉霍马）
+            </div>
+            <div class="origin-item">
+                <strong>纳帕谷葡萄酒</strong>
+                作品一号（纳帕谷）、啸鹰（奥克维尔）、蒙大维（奥克维尔）
+            </div>
+            <div class="origin-item">
+                <strong>俄勒冈黑皮诺</strong>
+                杜鲁安酒庄（威拉米特谷）、庞氏酒庄（邓迪丘）
+            </div>
+            <div class="origin-item">
+                <strong>精酿啤酒</strong>
+                鹅岛IPA（芝加哥）、角鲨头60分钟（特拉华）、内华达山脉淡色艾尔（加利福尼亚）
+            </div>
+            <div class="origin-item">
+                <strong>其他特色</strong>
+                苹果杰克白兰地（新泽西）、月光威士忌（阿巴拉契亚）、南方舒适利口酒（新奥尔良）
+            </div>
+        </div>
+
+        <h3>加拿大</h3>
+        <div class="origin-list">
+            <div class="origin-item">
+                <strong>冰酒</strong>
+                云岭威代尔（尼亚加拉）、杰克逊瑞格雷司令（奥肯那根）、皮勒霞多丽（安大略）
+            </div>
+            <div class="origin-item">
+                <strong>威士忌</strong>
+                加拿大俱乐部（安大略）、皇冠北境丰收（阿尔伯塔）
+            </div>
+            <div class="origin-item">
+                <strong>苹果酒</strong>
+                海狸牌传统苹果酒（不列颠哥伦比亚）、斯诺苹果酒（新斯科舍）
+            </div>
+        </div>
+
+        <h3>墨西哥</h3>
+        <div class="origin-list">
+            <div class="origin-item">
+                <strong>特基拉龙舌兰</strong>
+                唐胡里奥（特基拉镇）、培恩（哈利斯科）、卡勒23号（洛斯阿尔托斯）
+            </div>
+            <div class="origin-item">
+                <strong>梅斯卡尔酒</strong>
+                德尔马格克（瓦哈卡）、洛斯丹泽斯（圣迭戈）
+            </div>
+            <div class="origin-item">
+                <strong>新兴葡萄酒</strong>
+                卡萨马德罗赤霞珠（下加利福尼亚）、拉塞蒂霞多丽（克雷塔罗）
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 南美洲 -->
+<div class="category" id="south-america">
+    <h2>南美洲产区（新增32种）</h2>
+    <div class="subcategory">
+        <h3>阿根廷</h3>
+        <div class="origin-list">
+            <div class="origin-item">
+                <strong>马尔贝克红葡萄酒</strong>
+                卡氏家族Nicolás Catena Zapata、诺顿珍藏、安第斯台阶Altos Las Hormigas
+            </div>
+            <div class="origin-item">
+                <strong>特浓情白葡萄酒</strong>
+                苏珊娜巴博庄Susana Balbo、翠帝Trivento
+            </div>
+            <div class="origin-item">
+                <strong>伯纳达混酿</strong>
+                阿尔塔维斯塔Alta Vista、圣胡安老藤
+            </div>
+            <div class="origin-item">
+                <strong>品丽珠红葡萄酒</strong>
+                阿连那酒庄Bodega Alenna、门多萨高海拔
+            </div>
+        </div>
+
+        <h3>智利</h3>
+        <div class="origin-list">
+            <div class="origin-item">
+                <strong>佳美娜红葡萄酒</strong>
+                活灵魂Almaviva、蒙特斯紫天使、干露魔爵
+            </div>
+            <div class="origin-item">
+                <strong>派斯混酿</strong>
+                皮普诺Pipeno、博若莱风格派斯
+            </div>
+            <div class="origin-item">
+                <strong>赤霞珠红葡萄酒</strong>
+                伊拉苏Vinedo Chadwick、桑塔丽塔真实家园
+            </div>
+            <div class="origin-item">
+                <strong>长相思白葡萄酒</strong>
+                卡萨布兰卡谷圣艾玛、莱达Leyda
+            </div>
+        </div>
+
+        <h3>乌拉圭</h3>
+        <div class="origin-list">
+            <div class="origin-item">
+                <strong>丹娜红葡萄酒</strong>
+                加西亚酒庄Bodega Garzón、阿蒂加斯Artigas
+            </div>
+            <div class="origin-item">
+                <strong>混酿艺术</strong>
+                丹娜-梅洛混酿、百年老藤品丽珠
+            </div>
+        </div>
+
+        <h3>秘鲁/智利</h3>
+        <div class="origin-list">
+            <div class="origin-item">
+                <strong>皮斯科白兰地</strong>
+                秘鲁皮斯科Portón、智利皮斯科Alto del Carmen
+            </div>
+        </div>
+
+        <h3>巴西</h3>
+        <div class="origin-list">
+            <div class="origin-item">
+                <strong>梅洛红葡萄酒</strong>
+                塞拉高察山谷Miolo、Aurora酒庄
+            </div>
+            <div class="origin-item">
+                <strong>霞多丽白葡萄酒</strong>
+                Casa Valduga、Salton Intenso
+            </div>
+        </div>
+
+        <h3>特色混酿</h3>
+        <div class="origin-list">
+            <div class="origin-item">
+                <strong>马尔贝克-伯纳达混酿</strong>
+                Zuccardi Q、El Enemigo
+            </div>
+            <div class="origin-item">
+                <strong>佳美娜-西拉混酿</strong>
+                Montes Alpha、Lapostolle Clos Apalta
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 非洲 -->
+<div class="category" id="africa">
+    <h2>非洲产区（32种）</h2>
+    
+    <div class="subcategory">
+        <h3>啤酒</h3>
+        <div class="origin-list">
+            <div class="origin-item">
+                <strong>坦桑尼亚</strong>
+                Savanna苹果啤酒、Kilimanjaro苦啤、King Oryx中国风味啤酒
+            </div>
+            <div class="origin-item">
+                <strong>南非</strong>
+                Castle拉格、Windhoek德式黑啤
+            </div>
+            <div class="origin-item">
+                <strong>赞比亚</strong>
+                Mosi女王指定啤酒、Chibuku摇摇啤酒
+            </div>
+            <div class="origin-item">
+                <strong>尼日利亚</strong>
+                Star小清新啤酒、Heroes德式拉格
+            </div>
+        </div>
+
+        <h3>传统酿造酒</h3>
+        <div class="origin-list">
+            <div class="origin-item">
+                <strong>棕榈酒</strong>
+                尼日利亚Ogogoro烈酒、塞拉利昂Poyo低度酒
+            </div>
+            <div class="origin-item">
+                <strong>蜂蜜酒</strong>
+                南非Umqombothi、肯尼亚Bolibao
+            </div>
+            <div class="origin-item">
+                <strong>香蕉酒</strong>
+                乌干达Waragi烈酒、坦桑尼亚Konyagi
+            </div>
+            <div class="origin-item">
+                <strong>玉米酒</strong>
+                津巴布韦Chibuku、尼日利亚Burukutu
+            </div>
+        </div>
+
+        <h3>葡萄酒</h3>
+        <div class="origin-list">
+            <div class="origin-item">
+                <strong>南非特色</strong>
+                比诺塔吉红葡萄酒、白诗南干白
+            </div>
+            <div class="origin-item">
+                <strong>知名酒庄</strong>
+                尼德堡酒园、KWV酒庄
+            </div>
+        </div>
+
+        <h3>烈酒</h3>
+        <div class="origin-list">
+            <div class="origin-item">
+                <strong>南非</strong>
+                Amarula奶油利口酒、Van Ryn白兰地
+            </div>
+            <div class="origin-item">
+                <strong>肯尼亚</strong>
+                Tusker大象啤酒、Kibao伏特加
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 大洋洲 -->
+<div class="category" id="oceania">
+    <h2>大洋洲产区（42+品种）</h2>
+    
+    <div class="subcategory">
+        <h3>澳大利亚葡萄酒</h3>
+        <div class="origin-list">
+            <div class="origin-item">
+                <strong>红葡萄酒</strong>
+                维蒙蒂诺（Coriole酒庄）、桑娇维塞（麦克拉仑谷）、内比奥罗（国王谷）、黑达沃拉（米尔杜拉）、丹魄（阿德莱德山）
+            </div>
+            <div class="origin-item">
+                <strong>白葡萄酒</strong>
+                绿菲特丽娜（阿德莱德山）、菲亚诺（猎人谷）、阿斯提寇（克莱尔谷）、雷司令freak系列
+            </div>
+            <div class="origin-item">
+                <strong>自然酒</strong>
+                Momento Mori真爱永恒干红、Shobbrook百年赛美蓉干白、Rieslingfreak No.10干白
+            </div>
+        </div>
+
+        <h3>澳大利亚烈酒</h3>
+        <div class="origin-list">
+            <div class="origin-item">
+                <strong>琴酒</strong>
+                Four Pillars柠檬风味、Antipodes火山矿物款
+            </div>
+            <div class="origin-item">
+                <strong>威士忌</strong>
+                Lark塔斯马尼亚单麦芽、Starward双桶陈酿
+            </div>
+            <div class="origin-item">
+                <strong>朗姆酒</strong>
+                Bundaberg皇家珍藏款、Beenleigh双黑桶
+            </div>
+        </div>
+
+        <h3>啤酒与特色酒</h3>
+        <div class="origin-list">
+            <div class="origin-item">
+                <strong>精酿啤酒</strong>
+                Coopers二次发酵艾尔、Stone&Wood太平洋艾尔
+            </div>
+            <div class="origin-item">
+                <strong>加烈酒</strong>
+                Penfolds Grange、Seppeltsfield百年茶色
+            </div>
+            <div class="origin-item">
+                <strong>创新酒款</strong>
+                Tom Shobbrook火山土壤混酿、Ngeringa生物动力法霞多丽
+            </div>
+        </div>
+
+        <h3>新西兰特色</h3>
+        <div class="origin-list">
+            <div class="origin-item">
+                <strong>长相思</strong>
+                云雾之湾（马尔堡）、Craggy Range（霍克斯湾）
+            </div>
+            <div class="origin-item">
+                <strong>黑皮诺</strong>
+                Felton Road（中奥塔哥）、Ata Rangi（马丁堡）
+            </div>
+            <div class="origin-item">
+                <strong>苹果酒</strong>
+                Zeffer发酵苹果酒、The Apple Press传统法起泡
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    </div>
+
+    <footer>
+        <p>© hejiu.org 喝酒</p>
+    </footer>
+
+    <script>
+        function searchWine(keyword) {
+            const items = document.querySelectorAll('.origin-item');
+            keyword = keyword.toLowerCase();
+            items.forEach(item => {
+                const text = item.textContent.toLowerCase();
+                item.style.display = text.includes(keyword) ? 'block' : 'none';
+            });
+        }
+    </script>
+</body>
+</html>
