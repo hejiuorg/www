@@ -1,0 +1,22 @@
+window.ChinaProvinceData = [
+  { id: 'guizhou', name: '贵州省', nameEn: 'Guizhou', icon: '🏯', region: 'southwest', cities: ['renhuai', 'zunyi', 'guiyang', 'xishui', 'tongren', 'jinsha'] },
+  { id: 'sichuan', name: '四川省', nameEn: 'Sichuan', icon: '🏮', region: 'southwest', cities: ['yibin', 'luzhou', 'mianzhu', 'gulin', 'chengdu', 'suining'] },
+  { id: 'shanxi', name: '山西省', nameEn: 'Shanxi', icon: '🏺', region: 'north', cities: ['fenyang', 'xinghuacun', 'taiyuan'] },
+  { id: 'zhejiang', name: '浙江省', nameEn: 'Zhejiang', icon: '🏞️', region: 'east', cities: ['shaoxing', 'hangzhou', 'jiaxing', 'ningbo'] },
+  { id: 'shandong', name: '山东省', nameEn: 'Shandong', icon: '⛰️', region: 'east', cities: ['qingdao', 'jinan', 'jingzhi', 'anqiu', 'lanling', 'qufu'] },
+  { id: 'jiangsu', name: '江苏省', nameEn: 'Jiangsu', icon: '🏘️', region: 'east', cities: ['suqian', 'lianyungang', 'huaian', 'nanjing'] },
+  { id: 'beijing', name: '北京市', nameEn: 'Beijing', icon: '🏛️', region: 'north', cities: ['beijing', 'daxing', 'shunyi'] },
+  { id: 'taiwan', name: '台湾省', nameEn: 'Taiwan', icon: '🗺️', region: 'east', cities: ['kinmen', 'taipei', 'puli', 'matsu', 'yilan'] },
+  { id: 'anhui', name: '安徽省', nameEn: 'Anhui', icon: '🏯', region: 'east', cities: ['bozhou', 'huaibei', 'luan', 'fuyang'] },
+  { id: 'hubei', name: '湖北省', nameEn: 'Hubei', icon: '🌊', region: 'central', cities: ['songzi', 'yichang', 'wuhan', 'zhijiang', 'daye'] },
+  { id: 'henan', name: '河南省', nameEn: 'Henan', icon: '🏺', region: 'central', cities: ['luoyang', 'luyi', 'sanmenxia', 'ningling', 'pingdingshan'] },
+  { id: 'shaanxi', name: '陕西省', nameEn: 'Shaanxi', icon: '🏯', region: 'northwest', cities: ['baoji', 'meixian', 'baishui', 'chenggu', 'yulin'] },
+  { id: 'guangdong', name: '广东省', nameEn: 'Guangdong', icon: '🥟', region: 'south', cities: ['foshan', 'jiujiang', 'heyuan', 'meizhou'] },
+  { id: 'guangxi', name: '广西壮族自治区', nameEn: 'Guangxi', icon: '⛰️', region: 'south', cities: ['guilin', 'quanzhou', 'hechi', 'wuzhou'] },
+  { id: 'xinjiang', name: '新疆维吾尔自治区', nameEn: 'Xinjiang', icon: '🌾', region: 'northwest', cities: ['yili', 'urumqi', 'shihezi', 'xinyuan'] },
+  { id: 'yunnan', name: '云南省', nameEn: 'Yunnan', icon: '🌸', region: 'southwest', cities: ['kunming', 'mile', 'yuxi', 'yongsheng', 'dali'] },
+  { id: 'neimenggu', name: '内蒙古自治区', nameEn: 'Inner Mongolia', icon: '🌿', region: 'north', cities: ['chifeng', 'bayannur', 'tongliao', 'xilin_gol'] },
+  { id: 'heilongjiang', name: '黑龙江省', nameEn: 'Heilongjiang', icon: '❄️', region: 'northeast', cities: ['qqhr', 'haerbin', 'fuyu', 'shuangcheng'] },
+  { id: 'hebei', name: '河北省', nameEn: 'Hebei', icon: '🏛️', region: 'north', cities: ['hengshui', 'baoding', 'handan', 'chengde', 'zhangjiakou'] },
+  { id: 'hunan', name: '湖南省', nameEn: 'Hunan', icon: '🏞️', region: 'central', cities: ['jishou', 'changde', 'changsha', 'shaoyang'] }
+];
