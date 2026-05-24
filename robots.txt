@@ -1,87 +1,9 @@
-# robots.txt for 喝酒去 - World Spirits & Taverns
+# robots.txt for hejiu.org
 # https://hejiu.org/
 
 User-agent: *
 Allow: /
-
-# Sitemap location
-Sitemap: https://hejiu.org/sitemap.xml
-
-# Crawl delay for polite crawling
-Crawl-delay: 1
-
-# Disallow sensitive or temporary areas (if any)
-Disallow: /api/
-Disallow: /admin/
-Disallow: /*.json$
-
-# Allow major search engines
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Baiduspider
-Allow: /
-
-User-agent: YandexBot
-Allow: /
-
-User-agent: Sogou News Spider
-Allow: /
-
-User-agent: DuckDuckBot
-Allow: /
-
-# AI and research bots
-User-agent: GPTBot
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: Claude-Web
-Allow: /
-
-User-agent: anthropic-ai
-Allow: /
-
-User-agent: Google-Extended
-Allow: /
-
-User-agent: Bytespider
-Allow: /
-
-# Social media crawlers
-User-agent: Twitterbot
-Allow: /
-
-User-agent: FacebookExternalHit
-Allow: /
-
-User-agent: LinkedInBot
-Allow: /
-
-User-agent: Pinterestbot
-Allow: /
-
-User-agent: WhatsApp
-Allow: /
-
-# Common crawlers
-User-agent: Applebot
-Allow: /
-
-User-agent: Slurp
-Allow: /
-
-User-agent: teoma
-Allow: /
-
-User-agent: bingbot
-Allow: /
-
-# Performance and security
-User-agent: *
 Crawl-delay: 2
+
+# Sitemap
+Sitemap: https://hejiu.org/sitemap.xml

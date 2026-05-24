@@ -164,13 +164,13 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://hejiu.org/#/continent/north-america</loc>
+    <loc>https://hejiu.org/#/continent/north_america</loc>
     <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://hejiu.org/#/continent/south-america</loc>
+    <loc>https://hejiu.org/#/continent/south_america</loc>
     <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>

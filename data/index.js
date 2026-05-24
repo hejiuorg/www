@@ -1,8 +1,6 @@
 window.LiquorData = window.LiquorData || {};
 window.AllLiquors = [];
 window.AllPubs = [];
-window.AllPubCountries = [];
-window.LiquorData._loaded = {};
 
 window.WinePoetry = [
   { verse: '人生得意须尽欢，莫使金樽空对月', source: '《将进酒》· 李白' },
@@ -66,8 +64,6 @@ window.WinePoetry = [
   { verse: '我醉君复乐，陶然共忘机', source: '《下终南山过斛斯山人宿置酒》· 李白' },
   { verse: '酒困路长惟欲睡，日高人渴漫思茶', source: '《浣溪沙》· 苏轼' }
 ];
-window.LiquorData._pubLoaded = {};
-
 window.CategoryMeta = [
   { id: 'baijiu', name: '白酒', nameEn: 'Baijiu', icon: '🏯', desc: '中国传统蒸馏酒，以高粱、小麦等为原料，历史悠久，香型丰富多样。', color: '#8b4513' },
   { id: 'yellow_wine', name: '黄酒', nameEn: 'Yellow Wine', icon: '🏺', desc: '世界三大古酒之一，以糯米、黍米等为原料，温和醇厚，营养丰富。', color: '#b8860b' },
