@@ -1,158 +1,135 @@
-(function () {
-  function loadScript(src) {
-    return new Promise((resolve) => {
-      const script = document.createElement('script');
-      script.src = src;
-      script.onload = () => resolve();
-      script.onerror = () => resolve();
-      document.head.appendChild(script);
-    });
-  }
+import api from './js/api.js';
+import store from './js/store.js';
+import Router from './js/router-core.js';
+import Search from './js/search.js';
 
-  function loadScriptsParallel(scripts) {
-    return Promise.all(scripts.map(s => loadScript(s)));
-  }
-
-  async function initApp() {
-    try {
-      await loadScript('data/index.js');
-    } catch (e) { console.warn('data/index.js load failed'); }
-
-    const worldScripts = [
-      'data/world/continents.js',
-      'data/world/countries.js',
-      'data/world/france.js', 'data/world/italy.js', 'data/world/japan.js',
-      'data/world/uk.js', 'data/world/usa.js', 'data/world/germany.js',
-      'data/world/mexico.js', 'data/world/russia.js', 'data/world/korea.js',
-      'data/world/spain.js', 'data/world/portugal.js', 'data/world/ireland.js',
-      'data/world/brazil.js', 'data/world/australia.js', 'data/world/cuba.js',
-      'data/world/belgium.js', 'data/world/netherlands.js', 'data/world/greece.js',
-      'data/world/poland.js', 'data/world/hungary.js'
-    ];
-
-    const chinaScripts = [
-      'data/china/china_index.js',
-      'data/china/guizhou.js', 'data/china/sichuan.js', 'data/china/shanxi.js',
-      'data/china/zhejiang.js', 'data/china/shandong.js', 'data/china/jiangsu.js',
-      'data/china/beijing.js', 'data/china/taiwan.js', 'data/china/anhui.js',
-      'data/china/hubei.js', 'data/china/henan.js', 'data/china/shaanxi.js',
-      'data/china/guangdong.js', 'data/china/guangxi.js', 'data/china/xinjiang.js',
-      'data/china/yunnan.js', 'data/china/neimenggu.js', 'data/china/heilongjiang.js',
-      'data/china/hebei.js', 'data/china/hunan.js'
-    ];
-
-    const pubScripts = [
-      'data/pub/ireland.js',
-      'data/pub/uk.js',
-      'data/pub/france.js',
-      'data/pub/germany.js',
-      'data/pub/italy.js',
-      'data/pub/belgium.js',
-      'data/pub/spain.js',
-      'data/pub/portugal.js',
-      'data/pub/austria.js',
-      'data/pub/usa.js',
-      'data/pub/netherlands.js',
-      'data/pub/czech.js',
-      'data/pub/hungary.js',
-      'data/pub/switzerland.js',
-      'data/pub/japan.js',
-      'data/pub/russia.js',
-      'data/pub/scotland.js',
-      'data/pub/sweden.js',
-      'data/pub/korea.js',
-      'data/pub/thailand.js',
-      'data/pub/india.js',
-      'data/pub/vietnam.js',
-      'data/pub/china.js',
-      'data/pub/south_africa.js',
-      'data/pub/argentina.js',
-      'data/pub/australia.js',
-      'data/pub/brazil.js',
-      'data/pub/chile.js',
-      'data/pub/morocco.js',
-      'data/pub/mexico.js',
-      'data/pub/canada.js',
-      'data/pub/new_zealand.js'
-    ];
-
-    await loadScriptsParallel([...worldScripts, ...chinaScripts, ...pubScripts]);
-
-    Object.keys(window.LiquorData || {}).forEach(key => {
-      if (key.startsWith('_')) return;
-      const items = window.LiquorData[key];
-      if (Array.isArray(items)) {
-        items.forEach(item => {
-          if (item && item.id && !AllLiquors.find(l => l.id === item.id)) {
-            AllLiquors.push(item);
-          }
-        });
-      }
-    });
-
-    Object.keys(window.PubData || {}).forEach(key => {
-      if (key.startsWith('_')) return;
-      const items = window.PubData[key];
-      if (Array.isArray(items)) {
-        items.forEach(item => {
-          if (item && item.id) {
-            AllPubs.push(item);
-          }
-        });
-      }
-    });
-
-    AllLiquors.forEach(liq => {
-      const c = (window.CountryData || []).find(x => x.id === liq.origin);
-      const prov = (window.ChinaProvinceData || []).find(x => x.id === liq.region);
-      if (c) {
-        liq._continent = c.continent;
-        liq._country = c.id;
-        liq._countryName = c.name;
-      }
-      if (prov) {
-        liq._province = prov.id;
-        liq._provinceName = prov.name;
-      }
-    });
-
-    AllPubs.forEach(pub => {
-      const c = (window.CountryData || []).find(x => x.id === pub.country);
-      if (c) {
-        pub._continent = c.continent;
-        pub._countryName = c.name;
-      }
-      if (pub.country === 'china') {
-        const pubCityMap = {
-          '成都': 'sichuan', '绍兴': 'zhejiang', '上海': 'shanghai',
-          '广州': 'guangdong', '汾阳': 'shanxi', '北京': 'beijing'
-        };
-        const pId = pubCityMap[pub.city];
-        const p = (window.ChinaProvinceData || []).find(x => x.id === pId);
-        if (p) {
-          pub._province = p.id;
-          pub._provinceName = p.name;
-        }
-      }
-    });
-
-    const coreModules = ['js/utils.js', 'js/theme.js', 'js/components.js', 'js/search.js', 'js/router.js'];
-    for (const mod of coreModules) {
-      await loadScript(mod);
+const Theme = {
+  init() {
+    const saved = localStorage.getItem('hejiu-theme');
+    if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    this.updateToggleIcon();
+  },
+  toggle() {
+    const current = document.documentElement.getAttribute('data-theme');
+    if (current === 'dark') {
+      document.documentElement.removeAttribute('data-theme');
+      localStorage.setItem('hejiu-theme', 'light');
+    } else {
+      document.documentElement.setAttribute('data-theme', 'dark');
+      localStorage.setItem('hejiu-theme', 'dark');
     }
+    this.updateToggleIcon();
+  },
+  updateToggleIcon() {
+    const btn = document.getElementById('theme-toggle');
+    if (!btn) return;
+    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    btn.innerHTML = isDark
+      ? '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>'
+      : '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
+  }
+};
+
+async function initApp() {
+  try {
+    // 并行加载核心数据
+    const [core, continents, countries, chinaProvinces] = await Promise.all([
+      api.loadModule('./zh/index.json'),
+      api.loadModule('./zh/world/continents.json'),
+      api.loadModule('./zh/world/countries.json'),
+      api.loadModule('./zh/china/china_index.json')
+    ]);
+    store.setCoreData(core);
+    store.setContinentData(continents);
+    store.setCountryData(countries);
+    store.setChinaProvinceData(chinaProvinces);
+
+    // 并行加载中国酒数据
+    const chinaFiles = [
+      'guizhou', 'sichuan', 'shanxi', 'zhejiang', 'shandong', 'jiangsu',
+      'beijing', 'taiwan', 'anhui', 'hubei', 'henan', 'shaanxi',
+      'guangdong', 'guangxi', 'xinjiang', 'yunnan', 'neimenggu', 'heilongjiang',
+      'hebei', 'hunan', 'liaoning', 'jiangxi', 'xizang', 'shanghai',
+      'tianjin', 'chongqing', 'fujian', 'gansu', 'ningxia',
+      'qinghai', 'jilin', 'hainan'
+    ];
+    const chinaLoads = chinaFiles.map(f =>
+      api.loadModule(`./zh/china/${f}.json`).then(data => store.addLiquors(data))
+    );
+
+    // 并行加载世界酒数据
+    const worldFiles = [
+      'france', 'italy', 'japan', 'uk', 'usa', 'germany',
+      'mexico', 'russia', 'korea', 'spain', 'portugal', 'ireland',
+      'brazil', 'australia', 'cuba', 'belgium', 'netherlands', 'greece',
+      'poland', 'hungary', 'argentina', 'austria', 'canada', 'chile',
+      'czech', 'india', 'morocco', 'new_zealand', 'scotland',
+      'south_africa', 'sweden', 'switzerland', 'thailand', 'vietnam',
+      'finland', 'peru', 'ethiopia'
+    ];
+    const worldLoads = worldFiles.map(f =>
+      api.loadModule(`./zh/world/${f}.json`).then(data => store.addLiquors(data))
+    );
+
+    // 并行加载酒馆数据
+    const pubFiles = [
+      'ireland', 'uk', 'france', 'germany', 'italy', 'belgium',
+      'spain', 'portugal', 'austria', 'usa', 'netherlands', 'czech',
+      'hungary', 'switzerland', 'japan', 'russia', 'scotland', 'sweden',
+      'china', 'vietnam', 'thailand', 'india', 'korea', 'south_africa',
+      'argentina', 'australia', 'brazil', 'chile', 'morocco', 'mexico',
+      'canada', 'new_zealand', 'cuba', 'finland', 'greece', 'poland',
+      'denmark', 'norway', 'turkey', 'peru', 'ethiopia', 'singapore',
+      'egypt'
+    ];
+    const pubLoads = pubFiles.map(f =>
+      api.loadModule(`./zh/pub/${f}.json`).then(data => store.addPubs(data))
+    );
+
+    await Promise.all([...chinaLoads, ...worldLoads, ...pubLoads]);
 
     Theme.init();
-    Search.init();
+
+    // PWA 独立模式检测
+    if (window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone) {
+      document.documentElement.setAttribute('data-standalone', '');
+    }
+
     Router.init();
+    Search.init();
 
-    document.getElementById('theme-toggle').addEventListener('click', () => {
-      Theme.toggle();
-    });
-  }
+    document.getElementById('theme-toggle').addEventListener('click', () => Theme.toggle());
 
-  initApp().catch(err => {
+    // 空闲时预加载高频页面
+    if (window.requestIdleCallback) {
+      requestIdleCallback(() => {
+        import('./js/china.js');
+        import('./js/world.js');
+        import('./js/pub.js');
+        import('./js/categories.js');
+      });
+    }
+
+  } catch (err) {
     console.error('App init error:', err);
     document.getElementById('main-content').innerHTML =
-      '<div class="empty-state"><span class="empty-state-icon">🏺</span><h2>加载中...</h2><p>请稍候，正在为您探寻美酒佳酿与传奇酒馆</p></div>';
+      '<div class="empty"><span class="empty__icon">🏺</span><h2>加载中...</h2><p>请稍候，正在为您探寻美酒佳酿与传奇酒馆</p></div>';
+  }
+}
+
+// ===== 移动端底部导航栏高亮 =====
+function updateBottomNav() {
+  const params = new URLSearchParams(window.location.search);
+  const page = params.get('page') || 'home';
+  document.querySelectorAll('.bottom-nav__item').forEach(el => {
+    el.classList.toggle('bottom-nav__item--active', el.dataset.page === page);
   });
-})();
+}
+
+initApp();
+
+// 底部导航高亮：每次主内容更新后刷新
+const mainEl = document.getElementById('main-content');
+if (mainEl) {
+  new MutationObserver(() => updateBottomNav()).observe(mainEl, { childList: true });
+}

@@ -1,0 +1,23 @@
+{
+  "name": "喝酒去",
+  "short_name": "喝酒去",
+  "description": "探索世界酒文化与传奇酒馆",
+  "start_url": "/?page=home",
+  "scope": "/",
+  "id": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "background_color": "#faf7f2",
+  "theme_color": "#8b4513",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍺</text></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "lang": "zh-CN",
+  "categories": ["education", "food"]
+}
