@@ -32,7 +32,7 @@ const Theme = {
 
 async function initApp() {
   try {
-    // 并行加载核心数据
+    // 阶段1：加载核心元数据（4个文件，快速）
     const [core, continents, countries, chinaProvinces] = await Promise.all([
       api.loadModule('./zh/index.json'),
       api.loadModule('./zh/world/continents.json'),
@@ -44,7 +44,16 @@ async function initApp() {
     store.setCountryData(countries);
     store.setChinaProvinceData(chinaProvinces);
 
-    // 并行加载中国酒数据
+    // 立即渲染首页（此时可能仅有核心数据，酒品/酒馆计数为0）
+    Theme.init();
+    if (window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone) {
+      document.documentElement.setAttribute('data-standalone', '');
+    }
+    Router.init();
+    Search.init();
+    document.getElementById('theme-toggle').addEventListener('click', () => Theme.toggle());
+
+    // 阶段2：优先加载酒馆数据（首页"今日名馆"核心内容）
     const chinaFiles = [
       'guizhou', 'sichuan', 'shanxi', 'zhejiang', 'shandong', 'jiangsu',
       'beijing', 'taiwan', 'anhui', 'hubei', 'henan', 'shaanxi',
@@ -53,11 +62,6 @@ async function initApp() {
       'tianjin', 'chongqing', 'fujian', 'gansu', 'ningxia',
       'qinghai', 'jilin', 'hainan'
     ];
-    const chinaLoads = chinaFiles.map(f =>
-      api.loadModule(`./zh/china/${f}.json`).then(data => store.addLiquors(data))
-    );
-
-    // 并行加载世界酒数据
     const worldFiles = [
       'france', 'italy', 'japan', 'uk', 'usa', 'germany',
       'mexico', 'russia', 'korea', 'spain', 'portugal', 'ireland',
@@ -67,11 +71,6 @@ async function initApp() {
       'south_africa', 'sweden', 'switzerland', 'thailand', 'vietnam',
       'finland', 'peru', 'ethiopia'
     ];
-    const worldLoads = worldFiles.map(f =>
-      api.loadModule(`./zh/world/${f}.json`).then(data => store.addLiquors(data))
-    );
-
-    // 并行加载酒馆数据
     const pubFiles = [
       'ireland', 'uk', 'france', 'germany', 'italy', 'belgium',
       'spain', 'portugal', 'austria', 'usa', 'netherlands', 'czech',
@@ -82,23 +81,28 @@ async function initApp() {
       'denmark', 'norway', 'turkey', 'peru', 'ethiopia', 'singapore',
       'egypt'
     ];
+
+    // 先加载酒馆文件（43个文件，首页核心内容所需）
     const pubLoads = pubFiles.map(f =>
       api.loadModule(`./zh/pub/${f}.json`).then(data => store.addPubs(data))
     );
+    await Promise.all(pubLoads);
 
-    await Promise.all([...chinaLoads, ...worldLoads, ...pubLoads]);
+    // 酒馆数据就绪，刷新首页（酒品统计暂为占位，但"今日名馆"已显示）
+    const curPage = Router.currentParams.page;
+    if (curPage === 'home') Router.handleRoute();
 
-    Theme.init();
+    // 阶段3：后台加载全部酒品数据
+    const liquorLoads = [
+      ...chinaFiles.map(f => api.loadModule(`./zh/china/${f}.json`).then(data => store.addLiquors(data))),
+      ...worldFiles.map(f => api.loadModule(`./zh/world/${f}.json`).then(data => store.addLiquors(data)))
+    ];
+    await Promise.all(liquorLoads);
 
-    // PWA 独立模式检测
-    if (window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone) {
-      document.documentElement.setAttribute('data-standalone', '');
+    // 全部数据就绪，刷新当前页
+    if (['home', 'china', 'world', 'pub'].includes(Router.currentParams.page)) {
+      Router.handleRoute();
     }
-
-    Router.init();
-    Search.init();
-
-    document.getElementById('theme-toggle').addEventListener('click', () => Theme.toggle());
 
     // 空闲时预加载高频页面
     if (window.requestIdleCallback) {

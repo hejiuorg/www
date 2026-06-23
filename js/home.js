@@ -8,10 +8,12 @@ export function render(main) {
     return c && !Utils.isChinaLiquor(l);
   }).length;
   const pubCount = store.pubs.length;
+  const pubsReady = pubCount > 0;
+  const allReady = store.liquors.length > 0 && pubCount > 0;
 
   const poetry = store.winePoetry[Math.floor(Math.random() * store.winePoetry.length)] || null;
 
-  const featuredPub = Utils.shuffle(store.pubs)[0];
+  const featuredPub = pubsReady ? Utils.shuffle(store.pubs)[0] : null;
   const pubCountry = featuredPub ? Utils.getCountry(featuredPub.country) : null;
   const patronList = featuredPub && featuredPub.famousPatrons ? featuredPub.famousPatrons.split('、') : [];
   const patronPreview = patronList.slice(0, 2).join('、') + (patronList.length > 2 ? ' 等' : '');
@@ -68,14 +70,16 @@ export function render(main) {
       ${poetry ? `<p class="hero__subtitle">"${poetry.verse}"</p><p class="hero__quote-source">—— ${poetry.source}</p>` : '<p class="hero__subtitle">探寻世界美酒，邂逅百年酒馆</p>'}
     </section>
 
+    ${!pubsReady ? '<div class="empty"><span class="empty__icon">🍺</span><p style="color:var(--text-muted);font-size:0.9rem;">正在加载数据...</p></div>' : ''}
+
     ${pubHtml}
 
     <div class="stats-bar">
-      <a href="?page=china" class="stats-bar__item"><span class="stats-bar__icon">🏮</span>${chinaCount} 款中国美酒</a>
+      <a href="?page=china" class="stats-bar__item"><span class="stats-bar__icon">🏮</span>${allReady ? chinaCount + ' 款' : '🏮'}中国美酒</a>
       <span class="stats-bar__sep">|</span>
-      <a href="?page=world" class="stats-bar__item"><span class="stats-bar__icon">🌍</span>${worldCount} 款世界美酒</a>
+      <a href="?page=world" class="stats-bar__item"><span class="stats-bar__icon">🌍</span>${allReady ? worldCount + ' 款' : '🌍'}世界美酒</a>
       <span class="stats-bar__sep">|</span>
-      <a href="?page=pub" class="stats-bar__item"><span class="stats-bar__icon">🏺</span>${pubCount} 家历史酒馆</a>
+      <a href="?page=pub" class="stats-bar__item"><span class="stats-bar__icon">🏺</span>${pubCount > 0 ? pubCount + ' 家' : '🏺'}历史酒馆</a>
     </div>
   `;
 }
