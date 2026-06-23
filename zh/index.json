@@ -1,0 +1,1993 @@
+{
+  "CategoryMeta": [
+    {
+      "id": "baijiu",
+      "name": "白酒",
+      "color": "#c0392b",
+      "subcategories": [
+        {
+          "icon": "🏺",
+          "name": "酱香型",
+          "id": "sauce_aroma",
+          "nameEn": "Sauce Aroma",
+          "desc": "以茅台为代表，酱香突出、幽雅细腻、空杯留香持久"
+        },
+        {
+          "icon": "🏮",
+          "name": "浓香型",
+          "id": "strong_aroma",
+          "nameEn": "Strong Aroma",
+          "desc": "以五粮液、泸州老窖为代表，窖香浓郁、绵甜甘洌"
+        },
+        {
+          "icon": "🌿",
+          "name": "清香型",
+          "id": "light_aroma",
+          "nameEn": "Light Aroma",
+          "desc": "以汾酒为代表，清香纯正、醇甜柔和、余味爽净"
+        },
+        {
+          "icon": "🍚",
+          "name": "米香型",
+          "id": "rice_aroma",
+          "nameEn": "Rice Aroma",
+          "desc": "以桂林三花酒为代表，蜜香清雅、入口绵柔"
+        },
+        {
+          "icon": "🎭",
+          "name": "兼香型",
+          "id": "mixed_aroma",
+          "nameEn": "Mixed Aroma",
+          "desc": "兼具浓香与酱香风格，口感层次丰富"
+        },
+        {
+          "icon": "🦅",
+          "name": "凤香型",
+          "id": "phoenix_aroma",
+          "nameEn": "Phoenix Aroma",
+          "desc": "以西凤酒为代表，醇香秀雅、甘润挺爽、尾净悠长"
+        },
+        {
+          "icon": "🫘",
+          "name": "芝麻香型",
+          "id": "sesame_aroma",
+          "nameEn": "Sesame Aroma",
+          "desc": "以景芝白干为代表，芝麻香突出、幽雅醇厚"
+        },
+        {
+          "icon": "🏔️",
+          "name": "老白干香型",
+          "id": "laobaigan_aroma",
+          "nameEn": "Laobaigan Aroma",
+          "desc": "以衡水老白干为代表，醇香清雅、甘洌挺拔"
+        },
+        {
+          "icon": "🌸",
+          "name": "馥郁香型",
+          "id": "fuyu_aroma",
+          "nameEn": "Fuyu Aroma",
+          "desc": "以酒鬼酒为代表，馥郁幽雅、醇和细腻"
+        },
+        {
+          "icon": "🫙",
+          "name": "豉香型",
+          "id": "chi_aroma",
+          "nameEn": "Chi Aroma",
+          "desc": "以玉冰烧为代表，豉香独特、醇和甘润"
+        },
+        {
+          "icon": "🌿",
+          "name": "药香型",
+          "id": "herbal_aroma",
+          "nameEn": "Herbal Aroma",
+          "desc": "以董酒为代表，药香舒适、醇和浓郁"
+        },
+        {
+          "icon": "⭐",
+          "name": "特香型",
+          "id": "special_aroma",
+          "nameEn": "Special Aroma",
+          "desc": "以四特酒为代表，香气独特、醇和绵甜"
+        }
+      ],
+      "icon": "🥃",
+      "nameEn": "Baijiu",
+      "desc": "中国传统蒸馏酒，以高粱等谷物为原料，大曲或小曲发酵，是世界消费量最大的烈酒品类"
+    },
+    {
+      "id": "yellow_wine",
+      "name": "黄酒",
+      "color": "#d4a017",
+      "subcategories": [
+        {
+          "icon": "🍶",
+          "name": "半干型黄酒",
+          "id": "semi_dry_yellow",
+          "nameEn": "Semi-Dry Yellow Wine",
+          "desc": "含糖量适中，口感醇和，是黄酒中最常见的品类"
+        },
+        {
+          "icon": "🍯",
+          "name": "甜型黄酒",
+          "id": "sweet_yellow",
+          "nameEn": "Sweet Yellow Wine",
+          "desc": "含糖量较高，甜润醇厚，适合温饮"
+        },
+        {
+          "icon": "🍵",
+          "name": "半甜型黄酒",
+          "id": "half_sweet_yellow",
+          "nameEn": "Half-Sweet Yellow Wine",
+          "desc": "甜度介于干型和甜型之间，口感柔和"
+        }
+      ],
+      "icon": "🍶",
+      "nameEn": "Yellow Wine",
+      "desc": "中国最古老的酒种，以糯米等谷物发酵酿制，温润滋养，被誉为国酒"
+    },
+    {
+      "id": "wine",
+      "name": "葡萄酒",
+      "color": "#722f37",
+      "subcategories": [
+        {
+          "icon": "🍷",
+      "name": "干红葡萄酒",
+      "id": "dry_red_wine",
+      "nameEn": "Dry Red Wine",
+      "desc": "含糖量≤4g/L，口感干爽，单宁丰富"
+    },
+    {
+      "icon": "🍇",
+      "name": "葡萄果酒",
+      "id": "grape_wine",
+      "nameEn": "Grape Wine",
+      "desc": "以葡萄为原料酿造的果酒，涵盖红、白、桃红等多种风格"
+    },
+    {
+      "icon": "🥂",
+          "name": "干白葡萄酒",
+          "id": "dry_white_wine",
+          "nameEn": "Dry White Wine",
+          "desc": "含糖量≤4g/L，清爽酸度，果香纯净"
+        },
+        {
+          "icon": "🍯",
+          "name": "甜白葡萄酒",
+          "id": "sweet_white_wine",
+          "nameEn": "Sweet White Wine",
+          "desc": "含糖量>45g/L，甜润饱满，贵腐/冰酒/晚收"
+        },
+        {
+          "icon": "🌸",
+          "name": "桃红葡萄酒",
+          "id": "rose_wine",
+          "nameEn": "Rosé Wine",
+          "desc": "短暂浸皮获得粉色调，清新果味，介于红白之间"
+        },
+        {
+          "icon": "🍾",
+          "name": "起泡酒",
+          "id": "sparkling",
+          "nameEn": "Sparkling Wine",
+          "desc": "二次发酵产生气泡，欢快活泼"
+        },
+        {
+          "icon": "🍾",
+          "name": "香槟",
+          "id": "champagne",
+          "nameEn": "Champagne",
+          "desc": "法国香槟区传统法起泡酒，气泡细腻持久"
+        },
+        {
+          "icon": "🏺",
+          "name": "加强酒",
+          "id": "fortified",
+          "nameEn": "Fortified Wine",
+          "desc": "添加烈酒强化，包括波特、雪利、马德拉等"
+        },
+        {
+          "icon": "❄️",
+          "name": "冰酒",
+          "id": "ice_wine",
+          "nameEn": "Ice Wine",
+          "desc": "冰冻葡萄酿造，浓缩甜蜜，天赐珍品"
+        }
+      ],
+      "icon": "🍷",
+      "nameEn": "Wine",
+      "desc": "以葡萄发酵酿制的酒类，从干红到甜白到起泡，风格多样，是西方文明的重要载体"
+    },
+    {
+      "id": "beer",
+      "name": "啤酒",
+      "color": "#f39c12",
+      "subcategories": [
+        {
+          "icon": "🍺",
+          "name": "拉格",
+          "id": "lager",
+          "nameEn": "Lager",
+          "desc": "下层发酵，低温熟成，清爽顺口，全球最普及的啤酒类型"
+        },
+        {
+          "icon": "🍻",
+          "name": "艾尔",
+          "id": "ale",
+          "nameEn": "Ale",
+          "desc": "上层发酵，风味丰富，果香酯香突出"
+        },
+        {
+          "icon": "🖤",
+          "name": "世涛",
+          "id": "stout",
+          "nameEn": "Stout",
+          "desc": "深色烘烤，咖啡巧克力风味，口感醇厚"
+        },
+        {
+          "icon": "⛪",
+          "name": "修道院啤酒",
+          "id": "trappist",
+          "nameEn": "Trappist Beer",
+          "desc": "修道院酿造，传统工艺，品质卓越"
+        },
+        {
+          "icon": "🌾",
+          "name": "小麦啤",
+          "id": "wheat",
+          "nameEn": "Wheat Beer",
+          "desc": "小麦比例高，浑浊微酸，爽口宜人"
+        },
+        {
+          "icon": "🦠",
+          "name": "兰比克",
+          "id": "lambic",
+          "nameEn": "Lambic",
+          "desc": "自然发酵，酸爽独特，比利时特色"
+        },
+        {
+          "icon": "🔧",
+          "name": "精酿",
+          "id": "craft",
+          "nameEn": "Craft Beer",
+          "desc": "小批量手工酿造，创新风味，个性表达"
+        },
+        {
+          "icon": "🍺",
+          "name": "皮尔森",
+          "id": "pilsner",
+          "nameEn": "Pilsner",
+          "desc": "捷克起源，金黄色泽，酒花苦香突出"
+        },
+        {
+          "icon": "🌿",
+          "name": "IPA",
+          "id": "ipa",
+          "nameEn": "India Pale Ale",
+          "desc": "大量酒花投入，强烈苦香与果香，精酿运动代表"
+        },
+        {
+          "icon": "🍫",
+          "name": "波特",
+          "id": "porter",
+          "nameEn": "Porter",
+          "desc": "深色艾尔，烘烤麦芽风味，世涛的前身"
+        },
+        {
+          "icon": "🍺",
+          "name": "烈性艾尔",
+          "id": "strong_ale",
+          "nameEn": "Strong Ale",
+          "desc": "高酒精度艾尔啤酒，口感浓郁，层次丰富"
+        }
+      ],
+      "icon": "🍺",
+      "nameEn": "Beer",
+      "desc": "全球最普遍的酒精饮料，以大麦芽、啤酒花、酵母和水为原料，品类繁多"
+    },
+    {
+      "id": "sake",
+      "name": "清酒",
+      "color": "#f5f5dc",
+      "subcategories": [
+        {
+          "icon": "🍚",
+          "name": "纯米酒",
+          "id": "junmai",
+          "nameEn": "Junmai",
+          "desc": "纯米酿造，无添加酒精，米香醇厚"
+        },
+        {
+          "icon": "✨",
+          "name": "大吟酿",
+          "id": "daiginjo",
+          "nameEn": "Daiginjo",
+          "desc": "精米步合50%以下，低温发酵，果香优雅细腻"
+        },
+        {
+          "icon": "🍶",
+          "name": "纯米大吟酿",
+          "id": "junmai_daiginjo",
+          "nameEn": "Junmai Daiginjo",
+          "desc": "纯米大吟酿，精米步合50%以下，清酒最高等级"
+        }
+      ],
+      "icon": "🍶",
+      "nameEn": "Sake",
+      "desc": "日本传统酿造酒，以大米、米曲和水为原料，精致细腻，被称为日本国酒"
+    },
+    {
+      "id": "whisky",
+      "name": "威士忌",
+      "color": "#8b4513",
+      "subcategories": [
+        {
+          "icon": "🏴",
+          "name": "苏格兰威士忌",
+          "id": "scotch",
+          "nameEn": "Scotch Whisky",
+          "desc": "苏格兰酿造，泥煤烟熏或花果芬芳，单一麦芽与调和型各有千秋"
+        },
+        {
+          "icon": "🇺🇸",
+          "name": "波本威士忌",
+          "id": "bourbon",
+          "nameEn": "Bourbon Whiskey",
+          "desc": "美国肯塔基州特产，新橡木桶陈年，甜美香草焦糖风味"
+        },
+        {
+          "icon": "🇯🇵",
+          "name": "日本威士忌",
+          "id": "japanese",
+          "nameEn": "Japanese Whisky",
+          "desc": "日本精工酿造，细腻平衡，近年来屡获国际大奖"
+        },
+        {
+          "icon": "🇮🇪",
+          "name": "爱尔兰威士忌",
+          "id": "irish",
+          "nameEn": "Irish Whiskey",
+          "desc": "三次蒸馏，口感柔顺，花香果香清新"
+        },
+        {
+          "icon": "🇺🇸",
+          "name": "田纳西威士忌",
+          "id": "tennessee",
+          "nameEn": "Tennessee Whiskey",
+          "desc": "田纳西州特产，林肯县工艺木炭过滤，口感柔顺，区别于波本"
+        },
+        {
+          "icon": "⭐",
+          "name": "单一麦芽",
+          "id": "single_malt",
+          "nameEn": "Single Malt",
+          "desc": "单一酒厂的麦芽威士忌，风格纯粹，个性鲜明"
+        },
+        {
+          "icon": "🥃",
+          "name": "调和威士忌",
+          "id": "blended",
+          "nameEn": "Blended Whisky",
+          "desc": "多厂原酒调配，平衡圆润，稳定可靠"
+        }
+      ],
+      "icon": "🥃",
+      "nameEn": "Whisky",
+      "desc": "以谷物为原料，经发芽、发酵、蒸馏、橡木桶陈年而成的烈酒，风味丰富深邃"
+    },
+    {
+      "id": "brandy",
+      "name": "白兰地",
+      "color": "#d2691e",
+      "subcategories": [
+        {
+          "icon": "🇫🇷",
+          "name": "干邑",
+          "id": "cognac",
+          "nameEn": "Cognac",
+          "desc": "法国干邑产区，双重蒸馏，利穆赞橡木桶陈年，优雅细腻"
+        },
+        {
+          "icon": "🇫🇷",
+          "name": "雅文邑",
+          "id": "armagnac",
+          "nameEn": "Armagnac",
+          "desc": "法国雅文邑产区，连续蒸馏，风味更浓郁粗犷"
+        },
+        {
+          "icon": "🍑",
+          "name": "水果白兰地",
+          "id": "fruit_brandy",
+          "nameEn": "Fruit Brandy",
+          "desc": "以葡萄以外的水果蒸馏，果香浓郁，包括樱桃、苹果、梨等"
+        },
+        {
+          "icon": "🍇",
+          "name": "果渣白兰地",
+          "id": "grappa",
+          "nameEn": "Grappa",
+          "desc": "意大利果渣蒸馏烈酒，粗犷有力，风味独特"
+        }
+      ],
+      "icon": "🍇",
+      "nameEn": "Brandy",
+      "desc": "以水果为原料蒸馏陈年而成的烈酒，法国干邑和雅文邑最为著名"
+    },
+    {
+      "id": "vodka",
+      "name": "伏特加",
+      "color": "#e0e0e0",
+      "subcategories": [
+        {
+          "icon": "🔲",
+          "name": "纯伏特加",
+          "id": "plain",
+          "nameEn": "Plain Vodka",
+          "desc": "纯净中性，无添加风味，追求极致纯净"
+        },
+        {
+          "icon": "🍋",
+          "name": "风味伏特加",
+          "id": "flavored",
+          "nameEn": "Flavored Vodka",
+          "desc": "添加天然水果或香料风味，调配更丰富"
+        },
+        {
+          "icon": "💎",
+          "name": "高端伏特加",
+          "id": "premium",
+          "nameEn": "Premium Vodka",
+          "desc": "精选原料，多重蒸馏过滤，口感极致顺滑"
+        },
+        {
+          "icon": "🍸",
+          "name": "经典伏特加",
+          "id": "vodka",
+          "nameEn": "Classic Vodka",
+          "desc": "经典伏特加风味，纯净中性，适合调酒"
+        }
+      ],
+      "icon": "🍸",
+      "nameEn": "Vodka",
+      "desc": "以谷物或马铃薯蒸馏精制的中性烈酒，纯净无色，是鸡尾酒的核心基酒"
+    },
+    {
+      "id": "rum",
+      "name": "朗姆酒",
+      "color": "#654321",
+      "subcategories": [
+        {
+          "icon": "⚪",
+          "name": "白朗姆",
+          "id": "white",
+          "nameEn": "White Rum",
+          "desc": "短期陈年或直接装瓶，清爽纯净，鸡尾酒主力"
+        },
+        {
+          "icon": "🟤",
+          "name": "黑朗姆",
+          "id": "dark",
+          "nameEn": "Dark Rum",
+          "desc": "长期橡木桶陈年，深色浓郁，焦糖香料风味"
+        },
+        {
+          "icon": "🟡",
+          "name": "金朗姆",
+          "id": "gold",
+          "nameEn": "Gold Rum",
+          "desc": "中等陈年，琥珀色泽，平衡了白朗姆与黑朗姆的特点"
+        },
+        {
+          "icon": "🌶️",
+          "name": "加香朗姆",
+          "id": "spiced",
+          "nameEn": "Spiced Rum",
+          "desc": "添加香料调味，肉桂香草等风味，适合调饮"
+        }
+      ],
+      "icon": "🏴‍☠️",
+      "nameEn": "Rum",
+      "desc": "以甘蔗汁或糖蜜发酵蒸馏而成的烈酒，加勒比海特产，海盗与鸡尾酒之魂"
+    },
+    {
+      "id": "tequila",
+      "name": "龙舌兰酒",
+      "color": "#2e8b57",
+      "subcategories": [
+        {
+          "icon": "⚪",
+          "name": "银龙舌兰",
+          "id": "blanco",
+          "nameEn": "Blanco",
+          "desc": "未经陈年或短期陈年，纯正龙舌兰风味，玛格丽特基酒"
+        },
+        {
+          "icon": "🟤",
+          "name": "陈年龙舌兰",
+          "id": "anejo",
+          "nameEn": "Añejo",
+          "desc": "橡木桶陈年1年以上，醇厚复杂，适合细品"
+        },
+        {
+          "icon": "🔥",
+          "name": "梅斯卡尔",
+          "id": "mezcal",
+          "nameEn": "Mezcal",
+          "desc": "龙舌兰芯坑烤蒸馏，烟熏风味独特，风格粗犷"
+        },
+        {
+          "icon": "🟡",
+          "name": "微陈年龙舌兰",
+          "id": "reposado",
+          "nameEn": "Reposado",
+          "desc": "橡木桶陈年2-12个月，兼顾龙舌兰原味与木桶温和"
+        }
+      ],
+      "icon": "🌵",
+      "nameEn": "Tequila",
+      "desc": "墨西哥特产，以蓝色龙舌兰为原料蒸馏而成的烈酒，热情奔放"
+    },
+    {
+      "id": "gin",
+      "name": "金酒",
+      "color": "#87ceeb",
+      "subcategories": [
+        {
+          "icon": "🏴",
+          "name": "伦敦干金酒",
+          "id": "london_dry",
+          "nameEn": "London Dry Gin",
+          "desc": "经典风格，杜松子主导，干爽芳香，金汤力标配"
+        },
+        {
+          "icon": "🇳🇱",
+          "name": "荷兰金酒",
+          "id": "genever",
+          "nameEn": "Genever",
+          "desc": "金酒鼻祖，麦芽风味更重，口感醇厚"
+        },
+        {
+          "icon": "🍸",
+          "name": "干金酒",
+          "id": "dry_gin",
+          "nameEn": "Dry Gin",
+          "desc": "伦敦干金酒风格，以杜松子为主调的经典金酒品类"
+        }
+      ],
+      "icon": "🍸",
+      "nameEn": "Gin",
+      "desc": "以杜松子为主要风味的蒸馏烈酒，草药香气丰富，是鸡尾酒文化的基石"
+    },
+    {
+      "id": "soju",
+      "name": "烧酒",
+      "color": "#95a5a6",
+      "subcategories": [
+        {
+          "icon": "🔥",
+          "name": "蒸馏式",
+          "id": "distilled",
+          "nameEn": "Distilled Soju",
+          "desc": "传统蒸馏工艺，风味醇厚，类似日本烧酎"
+        },
+        {
+          "icon": "💧",
+          "name": "稀释式",
+          "id": "diluted",
+          "nameEn": "Diluted Soju",
+          "desc": "高度酒精稀释调配，清爽顺口，市面主流"
+        }
+      ],
+      "icon": "🥤",
+      "nameEn": "Soju",
+      "desc": "韩国传统蒸馏酒，以大米等谷物为原料，清爽顺口，韩国国民饮品"
+    },
+    {
+      "id": "liqueur",
+      "name": "利口酒",
+      "color": "#e91e63",
+      "subcategories": [
+        {
+          "icon": "🌿",
+          "name": "草本利口酒",
+          "id": "herbal",
+          "nameEn": "Herbal Liqueur",
+          "desc": "以草药、香料调味，风味复杂，常用于餐后消化"
+        },
+        {
+          "icon": "🍓",
+          "name": "水果利口酒",
+          "id": "fruit",
+          "nameEn": "Fruit Liqueur",
+          "desc": "以水果浸泡调味，甜润果香，色彩鲜艳"
+        },
+        {
+          "icon": "🥛",
+          "name": "奶油利口酒",
+          "id": "cream",
+          "nameEn": "Cream Liqueur",
+          "desc": "奶油基利口酒，丝滑醇厚，甜品般享受"
+        },
+        {
+          "icon": "☕",
+          "name": "咖啡利口酒",
+          "id": "coffee",
+          "nameEn": "Coffee Liqueur",
+          "desc": "咖啡风味利口酒，咖啡与酒精的完美融合"
+        },
+        {
+          "icon": "⭐",
+          "name": "茴香味利口酒",
+          "id": "anise",
+          "nameEn": "Anise Liqueur",
+          "desc": "以茴香为主要风味，口感甘甜，常用于餐后消化"
+        }
+      ],
+      "icon": "🍹",
+      "nameEn": "Liqueur",
+      "desc": "以烈酒为基酒，添加糖、水果、草药等调味而成的甜酒，色彩缤纷，风味多样"
+    },
+    {
+      "id": "aperitif",
+      "name": "开胃酒",
+      "color": "#ff6f00",
+      "subcategories": [
+        {
+          "icon": "🌿",
+          "name": "苦味酒",
+          "id": "bitter",
+          "nameEn": "Bitter",
+          "desc": "以草药苦味为特色，刺激味蕾，开胃助消化"
+        },
+        {
+          "icon": "🍸",
+          "name": "味美思",
+          "id": "vermouth",
+          "nameEn": "Vermouth",
+          "desc": "以葡萄酒为基酒，加入草本香料调制的加香型开胃酒"
+        },
+        {
+          "icon": "🌿",
+          "name": "茴香开胃酒",
+          "id": "anise",
+          "nameEn": "Anise Aperitif",
+          "desc": "以茴香为主要风味的开胃酒，加水后呈现乳白色"
+        }
+      ],
+      "icon": "🍸",
+      "nameEn": "Aperitif",
+      "desc": "餐前饮用的酒类，以苦味或草药风味刺激食欲，欧洲饮食文化的重要部分"
+    },
+    {
+      "id": "baijiu_medicinal",
+      "name": "保健酒",
+      "color": "#8b0000",
+      "subcategories": [
+        {
+          "icon": "🏥",
+          "name": "药酒",
+          "id": "medicinal",
+          "nameEn": "Medicinal Wine",
+          "desc": "中药材浸泡，保健养生，传统医学智慧"
+        }
+      ],
+      "icon": "💊",
+      "nameEn": "Medicinal Baijiu",
+      "desc": "以白酒为基酒，加入中药材浸泡调配而成的保健酒，兼具饮用与养生功能"
+    },
+    {
+      "id": "fruit_wine",
+      "name": "果酒",
+      "color": "#ff6347",
+      "subcategories": [
+        {
+          "icon": "🫐",
+          "name": "枸杞酒",
+          "id": "goji",
+          "nameEn": "Goji Wine",
+          "desc": "枸杞发酵，甘甜滋补，宁夏特色"
+        },
+        {
+          "icon": "🍎",
+          "name": "苹果酒",
+          "id": "apple",
+          "nameEn": "Apple Wine",
+          "desc": "苹果发酵酿制，果香清新"
+        },
+        {
+          "icon": "🫐",
+          "name": "梅子酒",
+          "id": "plum",
+          "nameEn": "Plum Wine",
+          "desc": "梅子浸泡或发酵，酸甜可口"
+        },
+        {
+          "icon": "🍇",
+          "name": "桑葚酒",
+          "id": "mulberry",
+          "nameEn": "Mulberry Wine",
+          "desc": "桑葚发酵，色泽紫红，营养丰富"
+        },
+        {
+          "icon": "🍑",
+          "name": "石榴酒",
+          "id": "pomegranate",
+          "nameEn": "Pomegranate Wine",
+          "desc": "石榴发酵，酸甜平衡，抗氧化"
+        },
+        {
+          "icon": "🍒",
+          "name": "山楂酒",
+          "id": "hawthorn",
+          "nameEn": "Hawthorn Wine",
+          "desc": "山楂发酵，酸甜开胃"
+        },
+        {
+          "icon": "🍈",
+          "name": "荔枝酒",
+          "id": "lychee",
+          "nameEn": "Lychee Wine",
+          "desc": "荔枝发酵，花香果甜，岭南特色"
+        },
+        {
+          "icon": "🥝",
+          "name": "猕猴桃酒",
+          "id": "kiwi",
+          "nameEn": "Kiwi Wine",
+          "desc": "猕猴桃发酵，清新果酸"
+        },
+        {
+          "icon": "🌸",
+          "name": "桂花酒",
+          "id": "osmanthus",
+          "nameEn": "Osmanthus Wine",
+          "desc": "桂花浸酿，花香馥郁，中秋佳品"
+        },
+        {
+          "icon": "🏵️",
+          "name": "菊花酒",
+          "id": "chrysanthemum",
+          "nameEn": "Chrysanthemum Wine",
+          "desc": "菊花浸酿，清香淡雅，重阳传统"
+        },
+        {
+          "icon": "🌹",
+          "name": "玫瑰酒",
+          "id": "rose",
+          "nameEn": "Rose Wine",
+          "desc": "玫瑰花瓣浸酿，花香浓郁，浪漫之选"
+        },
+        {
+          "icon": "🍇",
+          "name": "葡萄酒",
+          "id": "grape",
+          "nameEn": "Grape Wine",
+          "desc": "葡萄发酵，广谱品类"
+        },
+        {
+          "icon": "🥛",
+          "name": "奶酒",
+          "id": "milk_wine",
+          "nameEn": "Milk Wine",
+          "desc": "奶类发酵，草原特色，蒙古传统"
+        }
+      ],
+      "icon": "🍎",
+      "nameEn": "Fruit Wine",
+      "desc": "以水果发酵酿制的酒类，果香浓郁，口感甜美，广受欢迎"
+    },
+    {
+      "id": "other",
+      "name": "其他酒类",
+      "color": "#6a6a6a",
+      "subcategories": [
+        {
+          "icon": "🇧🇷",
+          "name": "卡夏莎",
+          "id": "cachaça",
+          "nameEn": "Cachaça",
+          "desc": "巴西甘蔗烈酒，凯匹林纳鸡尾酒基酒"
+        },
+        {
+          "icon": "🐴",
+          "name": "马奶酒",
+          "id": "mare_milk_wine",
+          "nameEn": "Mare Milk Wine",
+          "desc": "马奶发酵，草原游牧民族的古老乳酒"
+        },
+        {
+          "icon": "🍚",
+          "name": "米酒",
+          "id": "rice_wine",
+          "nameEn": "Rice Wine",
+          "desc": "米类发酵酒，亚洲各国各有特色"
+        },
+        {
+          "icon": "🍞",
+          "name": "格瓦斯",
+          "id": "kvass",
+          "nameEn": "Kvass",
+          "desc": "俄罗斯传统面包发酵饮料，微酒精"
+        },
+        {
+          "icon": "🔮",
+          "name": "其他",
+          "id": "other",
+          "nameEn": "Other",
+          "desc": "其他特色酒品"
+        }
+      ],
+      "icon": "🏺",
+      "nameEn": "Other Spirits",
+      "desc": "其他未归类的酒品，包括各国特色酒类和新兴品类"
+    }
+  ],
+  "WinePoetry": [
+    {
+      "verse": "人生得意须尽欢，莫使金樽空对月",
+      "source": "李白《将进酒》"
+    },
+    {
+      "verse": "烹羊宰牛且为乐，会须一饮三百杯",
+      "source": "李白《将进酒》"
+    },
+    {
+      "verse": "古来圣贤皆寂寞，惟有饮者留其名",
+      "source": "李白《将进酒》"
+    },
+    {
+      "verse": "五花马，千金裘，呼儿将出换美酒，与尔同销万古愁",
+      "source": "李白《将进酒》"
+    },
+    {
+      "verse": "兰陵美酒郁金香，玉碗盛来琥珀光",
+      "source": "李白《客中行》"
+    },
+    {
+      "verse": "花间一壶酒，独酌无相亲。举杯邀明月，对影成三人",
+      "source": "李白《月下独酌》"
+    },
+    {
+      "verse": "抽刀断水水更流，举杯消愁愁更愁",
+      "source": "李白《宣州谢朓楼饯别校书叔云》"
+    },
+    {
+      "verse": "且乐生前一杯酒，何须身后千载名",
+      "source": "李白《行路难》"
+    },
+    {
+      "verse": "风吹柳花满店香，吴姬压酒唤客尝",
+      "source": "李白《金陵酒肆留别》"
+    },
+    {
+      "verse": "白日放歌须纵酒，青春作伴好还乡",
+      "source": "杜甫《闻官军收河南河北》"
+    },
+    {
+      "verse": "艰难苦恨繁霜鬓，潦倒新停浊酒杯",
+      "source": "杜甫《登高》"
+    },
+    {
+      "verse": "莫思身外无穷事，且尽生前有限杯",
+      "source": "杜甫《绝句漫兴》"
+    },
+    {
+      "verse": "葡萄美酒夜光杯，欲饮琵琶马上催",
+      "source": "王翰《凉州词》"
+    },
+    {
+      "verse": "醉卧沙场君莫笑，古来征战几人回",
+      "source": "王翰《凉州词》"
+    },
+    {
+      "verse": "借问酒家何处有，牧童遥指杏花村",
+      "source": "杜牧《清明》"
+    },
+    {
+      "verse": "烟笼寒水月笼沙，夜泊秦淮近酒家",
+      "source": "杜牧《泊秦淮》"
+    },
+    {
+      "verse": "对酒当歌，人生几何！譬如朝露，去日苦多",
+      "source": "曹操《短歌行》"
+    },
+    {
+      "verse": "何以解忧？唯有杜康",
+      "source": "曹操《短歌行》"
+    },
+    {
+      "verse": "绿蚁新醅酒，红泥小火炉。晚来天欲雪，能饮一杯无",
+      "source": "白居易《问刘十九》"
+    },
+    {
+      "verse": "醉不成欢惨将别，别时茫茫江浸月",
+      "source": "白居易《琵琶行》"
+    },
+    {
+      "verse": "为我引杯添酒饮，与君把箸击盘歌",
+      "source": "白居易《醉赠刘二十八使君》"
+    },
+    {
+      "verse": "酒入愁肠，化作相思泪",
+      "source": "范仲淹《苏幕遮》"
+    },
+    {
+      "verse": "明月几时有，把酒问青天",
+      "source": "苏轼《水调歌头》"
+    },
+    {
+      "verse": "人生如梦，一尊还酹江月",
+      "source": "苏轼《念奴娇·赤壁怀古》"
+    },
+    {
+      "verse": "酒酣胸胆尚开张，鬓微霜，又何妨",
+      "source": "苏轼《江城子·密州出猎》"
+    },
+    {
+      "verse": "醉里挑灯看剑，梦回吹角连营",
+      "source": "辛弃疾《破阵子》"
+    },
+    {
+      "verse": "今宵酒醒何处，杨柳岸，晓风残月",
+      "source": "柳永《雨霖铃》"
+    },
+    {
+      "verse": "拟把疏狂图一醉，对酒当歌，强乐还无味",
+      "source": "柳永《蝶恋花》"
+    },
+    {
+      "verse": "东篱把酒黄昏后，有暗香盈袖",
+      "source": "李清照《醉花阴》"
+    },
+    {
+      "verse": "三杯两盏淡酒，怎敌他、晚来风急",
+      "source": "李清照《声声慢》"
+    },
+    {
+      "verse": "劝君更尽一杯酒，西出阳关无故人",
+      "source": "王维《送元二使安西》"
+    },
+    {
+      "verse": "开轩面场圃，把酒话桑麻",
+      "source": "孟浩然《过故人庄》"
+    },
+    {
+      "verse": "醉后不知天在水，满船清梦压星河",
+      "source": "唐温如《题龙阳县青草湖》"
+    },
+    {
+      "verse": "桃李春风一杯酒，江湖夜雨十年灯",
+      "source": "黄庭坚《寄黄几复》"
+    },
+    {
+      "verse": "一曲新词酒一杯，去年天气旧亭台",
+      "source": "晏殊《浣溪沙》"
+    },
+    {
+      "verse": "为君持酒劝斜阳，且向花间留晚照",
+      "source": "宋祁《玉楼春》"
+    },
+    {
+      "verse": "酒逢知己千杯少，话不投机半句多",
+      "source": "欧阳修《春日西湖寄谢法曹韵》"
+    },
+    {
+      "verse": "今朝有酒今朝醉，明日愁来明日愁",
+      "source": "罗隐《自遣》"
+    },
+    {
+      "verse": "酒债寻常行处有，人生七十古来稀",
+      "source": "杜甫《曲江》"
+    },
+    {
+      "verse": "一生大笑能几回，斗酒相逢须醉倒",
+      "source": "岑参《凉州馆中与诸判官夜集》"
+    },
+    {
+      "verse": "我醉欲眠卿且去，明朝有意抱琴来",
+      "source": "李白《山中与幽人对酌》"
+    },
+    {
+      "verse": "且就洞庭赊月色，将船买酒白云边",
+      "source": "李白《游洞庭湖》"
+    },
+    {
+      "verse": "把酒祝东风，且共从容",
+      "source": "欧阳修《浪淘沙》"
+    },
+    {
+      "verse": "酒浓春入梦，窗破月寻人",
+      "source": "毛滂《临江仙》"
+    },
+    {
+      "verse": "醉舞下山去，明月逐人归",
+      "source": "黄庭坚《水调歌头》"
+    },
+    {
+      "verse": "酒醒还醉醉还醒，一笑人间今古",
+      "source": "苏轼《渔父》"
+    },
+    {
+      "verse": "床头一壶酒，能更几回眠",
+      "source": "王绩《过酒家》"
+    },
+    {
+      "verse": "但使主人能醉客，不知何处是他乡",
+      "source": "李白《客中行》"
+    },
+    {
+      "verse": "常记溪亭日暮，沉醉不知归路",
+      "source": "李清照《如梦令》"
+    },
+    {
+      "verse": "莫笑农家腊酒浑，丰年留客足鸡豚",
+      "source": "陆游《游山西村》"
+    },
+    {
+      "verse": "更待菊黄家酝熟，共君一醉一陶然",
+      "source": "白居易《与梦得沽酒闲饮且约后期》"
+    },
+    {
+      "verse": "且乐杯中物，谁论世上名",
+      "source": "孟浩然《自洛之越》"
+    },
+    {
+      "verse": "醉月频中圣，迷花不事君",
+      "source": "李白《赠孟浩然》"
+    },
+    {
+      "verse": "相逢意气为君饮，系马高楼垂柳边",
+      "source": "王维《少年行》"
+    },
+    {
+      "verse": "酒困路长惟欲睡，日高人渴漫思茶",
+      "source": "苏轼《浣溪沙》"
+    },
+    {
+      "verse": "人生有酒须当醉，一滴何曾到九泉",
+      "source": "高翥《清明日对酒》"
+    },
+    {
+      "verse": "对酒当歌，人生几何？诗酒趁年华",
+      "source": "苏轼《望江南》"
+    },
+    {
+      "verse": "一生须惜少年时，那能白首下书帷",
+      "source": "王国维《浣溪沙》"
+    },
+    {
+      "verse": "春日宴，绿酒一杯歌一遍",
+      "source": "冯延巳《长命女》"
+    },
+    {
+      "verse": "我欲醉眠芳草，只恐花深里，红尘不到",
+      "source": "苏轼《西江月》"
+    }
+  ],
+  "CityNameMap": {
+    "heyuan": "河源",
+    "jinan": "济南",
+    "shaoyang": "邵阳",
+    "tongliao": "通辽",
+    "wuzhou": "梧州",
+    "luzhou": "泸州",
+    "guilin": "桂林",
+    "beijing": "北京",
+    "yichang": "宜昌",
+    "shunyi": "顺义",
+    "pingdingshan": "平顶山",
+    "shihezi": "石河子",
+    "kinmen": "金门",
+    "xilin_gol": "锡林郭勒",
+    "xinyuan": "新源",
+    "gulin": "古蔺",
+    "huaibei": "淮北",
+    "luan": "六安",
+    "zunyi": "遵义",
+    "luoyang": "洛阳",
+    "kunming": "昆明",
+    "ningling": "宁陵",
+    "renhuai": "仁怀",
+    "huaian": "淮安",
+    "chifeng": "赤峰",
+    "jishou": "吉首",
+    "handan": "邯郸",
+    "fenyang": "汾阳",
+    "jingzhi": "景芝",
+    "jiujiang": "九江",
+    "chenggu": "城固",
+    "shaoxing": "绍兴",
+    "chengde": "承德",
+    "shuangcheng": "双城",
+    "nanjing": "南京",
+    "hangzhou": "杭州",
+    "suqian": "宿迁",
+    "yibin": "宜宾",
+    "guiyang": "贵阳",
+    "changde": "常德",
+    "puli": "埔里",
+    "bayannur": "巴彦淖尔",
+    "fuyang": "阜阳",
+    "meizhou": "梅州",
+    "yuxi": "玉溪",
+    "meixian": "眉县",
+    "xishui": "习水",
+    "yilan": "宜兰",
+    "mile": "弥勒",
+    "daxing": "大兴",
+    "baoji": "宝鸡",
+    "suining": "遂宁",
+    "foshan": "佛山",
+    "xinghuacun": "杏花村",
+    "lanling": "兰陵",
+    "baoding": "保定",
+    "hechi": "河池",
+    "mianzhu": "绵竹",
+    "qufu": "曲阜",
+    "quanzhou": "全州",
+    "fuyu": "富裕",
+    "yulin": "榆林",
+    "qingdao": "青岛",
+    "hengshui": "衡水",
+    "chengdu": "成都",
+    "lianyungang": "连云港",
+    "anqiu": "安丘",
+    "dali": "大理",
+    "wuhan": "武汉",
+    "matsu": "马祖",
+    "haerbin": "哈尔滨",
+    "tongren": "铜仁",
+    "ningbo": "宁波",
+    "bozhou": "亳州",
+    "taipei": "台北",
+    "jinsha": "金沙",
+    "songzi": "松滋",
+    "jiaxing": "嘉兴",
+    "yongsheng": "永胜",
+    "zhangjiakou": "张家口",
+    "yili": "伊犁",
+    "urumqi": "乌鲁木齐",
+    "daye": "大冶",
+    "luyi": "鹿邑",
+    "baishui": "白水",
+    "taiyuan": "太原",
+    "qqhr": "齐齐哈尔",
+    "sanmenxia": "三门峡",
+    "zhijiang": "枝江",
+    "changsha": "长沙"
+  },
+  "TagDefinitions": {
+    "traditional_medicine_wine": "药酒",
+    "korean_traditional": "韩国传统",
+    "weizen_doppelbock": "小麦双料博克",
+    "british_ale": "英式艾尔",
+    "revival": "复兴",
+    "slavic": "斯拉夫",
+    "korean_food": "韩式料理",
+    "nomad": "游牧",
+    "samurai": "武士",
+    "butterscotch": "奶油糖香",
+    "cidre": "苹果酒",
+    "oldest_license": "最老执照",
+    "art_deco": "装饰艺术",
+    "trappist_style": "trappist_style",
+    "japanese_distilled": "日式蒸馏",
+    "freeze_distilled": "冰冻蒸馏",
+    "korean_bbq": "韩式烤肉",
+    "unesco_heritage": "unesco_heritage",
+    "twenty_four_seasons": "二十四节气",
+    "lemon": "柠檬香",
+    "tea_aroma": "茶香",
+    "bali_han_spring": "巴里坤汉泉",
+    "dark_wheat": "深色小麦",
+    "tall_stills": "高蒸馏器",
+    "malt_wine": "麦芽酒",
+    "congee": "佐粥",
+    "nanko_ume": "南高梅",
+    "premium_beer": "高端啤酒",
+    "japanese_whisky": "日本威士忌",
+    "shaoxing_wine": "绍兴酒",
+    "emperor": "皇帝",
+    "brazilian_sugarcane": "巴西甘蔗",
+    "sambuca": "桑布卡",
+    "baijiuer": "白酒儿",
+    "green_tea": "绿茶韵",
+    "greek_brandy": "希腊白兰地",
+    "artist_label": "artist_label",
+    "reinheitsgebot": "啤酒纯净法",
+    "underground_spring": "地下泉水",
+    "manchuria": "满洲",
+    "molasses": "糖蜜",
+    "orange_peel": "陈皮香",
+    "witbier": "比利时白",
+    "black_forest": "黑森林风",
+    "english_hops": "英式酒花",
+    "blend": "调和艺术",
+    "intangible_heritage": "intangible_heritage",
+    "ethnic": "民族",
+    "caramel": "焦糖风味",
+    "dragon": "龙",
+    "nightclub": "夜店",
+    "torrontes": "特浓情",
+    "merlot": "merlot",
+    "brandy_base": "白兰地基酒",
+    "well_water": "井水",
+    "herbal_wine": "药酒",
+    "premium_lager": "高端拉格",
+    "passion_fruit": "百香果香",
+    "semillon": "赛美蓉",
+    "medicinal_herb": "草药",
+    "cane_juice": "甘蔗汁",
+    "feast": "盛宴",
+    "tahona": "石磨",
+    "medicinal_wine": "药酒",
+    "steel": "钢铁",
+    "immortal_wine": "不朽之酒",
+    "auction_record": "拍卖纪录",
+    "seafood": "海鲜绝配",
+    "tobacco": "烟草香",
+    "chinese_herbs": "中草药",
+    "futuristic": "未来感",
+    "ancient_well": "古井",
+    "royal_court": "宫廷",
+    "crown": "皇冠",
+    "iron": "铁",
+    "ussr": "苏联",
+    "bat_logo": "蝙蝠标志",
+    "ceremonial": "仪式感",
+    "jewish_heritage": "犹太传承",
+    "single_estate": "single_estate",
+    "hefeweizen": "酵母小麦啤",
+    "cave_aging": "洞藏陈化",
+    "caffe_corretto": "咖啡搭档",
+    "louche": "乳浊效应",
+    "bamboo_leaf": "竹叶",
+    "sichuan_opera": "川剧",
+    "confucian": "儒家文化",
+    "hongqu": "红曲",
+    "poetry": "诗词",
+    "tsipouro": "齐普罗",
+    "wheat_beer": "小麦啤酒",
+    "cinnamon": "肉桂香",
+    "german_style": "德式风味",
+    "brown_rice": "糙米",
+    "vintage_port": "年份波特",
+    "gong_ting": "宫廷",
+    "army_farm": "军垦农场",
+    "glera": "glera",
+    "rye_vodka": "黑麦伏特加",
+    "chinese_medicinal": "中药",
+    "homemade_tradition": "家酿传统",
+    "charcoal_mellowing": "木炭柔化",
+    "fifth_avenue": "第五大道",
+    "saaz_hops": "萨兹酒花",
+    "peach": "蜜桃香",
+    "chinese_wine_history": "中国酒史",
+    "hakka": "客家",
+    "cradle": "摇篮",
+    "tapas": "塔帕斯",
+    "lincoln_county_process": "林肯郡法",
+    "steam": "蒸汽",
+    "raspberry": "覆盆子香",
+    "seaweed": "海藻",
+    "sichuan_pepper": "花椒香",
+    "salted_plum": "咸梅",
+    "medicinal_whiskey": "药用威士忌",
+    "pastis": "茴香酒",
+    "five_grain": "五粮",
+    "communist": "共产主义",
+    "premium_baijiu": "高端白酒",
+    "dutch_tradition": "荷兰传统",
+    "nine_steaming": "九次蒸煮",
+    "ancient_cellar": "古窖",
+    "pearl": "珍珠",
+    "appassimento": "风干工艺",
+    "dual_maturation": "双重熟成",
+    "marmalade": "果酱",
+    "christmas": "圣诞佳酿",
+    "copper_still": "铜蒸馏器",
+    "baccarat": "巴卡拉",
+    "olive": "橄榄",
+    "girly": "少女风",
+    "archaeological_site": "考古遗址",
+    "dark_lager": "黑拉格",
+    "royal_history": "皇室历史",
+    "tempranillo": "丹魄",
+    "dragon_well": "龙井",
+    "prohibition_era": "禁酒令时代",
+    "navy": "海军",
+    "barbecue": "烧烤绝配",
+    "family_recipe": "家族配方",
+    "whiskey": "威士忌",
+    "tawny_port": "茶色波特",
+    "art_bottle": "艺术瓶身",
+    "feminine": "女性化",
+    "solera": "索莱拉",
+    "magu": "麻姑",
+    "tennessee_whiskey": "田纳西威士忌",
+    "ancient_cellar_1573": "1573古窖",
+    "medieval": "medieval",
+    "square_bottle": "方瓶",
+    "football_beer": "足球啤酒",
+    "oldest_brand": "最老品牌",
+    "brett": "布雷特",
+    "holy_grail": "圣杯",
+    "pepper": "胡椒香",
+    "banquet": "宴会首选",
+    "ancient_capital": "古都",
+    "cult_beer": "膜拜啤酒",
+    "wine_region": "葡萄酒产区",
+    "cave_aged": "洞藏",
+    "slate_soil": "板岩土壤",
+    "seal": "印章",
+    "highball": "嗨棒",
+    "slow_food": "慢食",
+    "gran_reserva": "特级珍藏",
+    "colonial": "殖民",
+    "korean_drama": "韩剧",
+    "mint": "薄荷凉",
+    "spanish_lifestyle": "西班牙生活",
+    "syrah": "syrah",
+    "juniper": "杜松子",
+    "quebec": "魁北克",
+    "soviet": "苏联",
+    "agave": "龙舌兰",
+    "inca": "印加",
+    "noble_rot": "贵腐",
+    "terroir": "风土",
+    "gourd": "葫芦",
+    "dutch_royal": "荷兰皇室",
+    "beijing_craft": "北京精酿",
+    "mongolian": "蒙古",
+    "post_war": "战后",
+    "dessert": "甜品搭档",
+    "secret_recipe": "秘方",
+    "mendeleev": "门捷列夫",
+    "quartz": "石英",
+    "alps": "alps",
+    "kirsch": "樱桃白兰地",
+    "first_tier": "一线品牌",
+    "truffle": "松露",
+    "margarita": "玛格丽特",
+    "silk_road": "丝绸之路",
+    "water_margin": "水浒",
+    "royal_family": "皇室",
+    "american_whisky": "american_whisky",
+    "abbey": "修道院",
+    "muscat": "麝香葡萄",
+    "rose_petals": "玫瑰花瓣",
+    "con_la_mosca": "加咖啡豆",
+    "sauvignon_blanc": "长相思",
+    "sesame": "芝麻",
+    "fig": "无花果",
+    "cascade_hops": "卡斯凯特酒花",
+    "marathon": "马拉松",
+    "moonshine": "私酿",
+    "starkbierfest": "烈性啤酒节",
+    "sangiovese": "sangiovese",
+    "heroic": "英雄",
+    "nalewka": "波兰浸泡酒",
+    "flor": "酵母花层",
+    "vapour_infusion": "蒸汽浸香",
+    "solera_system": "索莱拉系统",
+    "jasmine": "茉莉香",
+    "margarita_base": "玛格丽特基酒",
+    "scottish_gin": "苏格兰金酒",
+    "fino": "菲诺",
+    "maritime": "海洋性",
+    "stadium": "体育场",
+    "australian_wine": "australian_wine",
+    "scholar": "文人",
+    "pub_culture": "酒吧文化",
+    "sculpture": "雕塑",
+    "sangria": "桑格利亚",
+    "royal": "皇家",
+    "pit_roasted": "坑烤",
+    "russian_wheat": "俄式小麦",
+    "sipping_tequila": "细品龙舌兰",
+    "gin_tonic": "金汤力",
+    "mizunara": "水楢木",
+    "clay_pot": "陶坛",
+    "chilean_wine": "chilean_wine",
+    "rice_liquor": "米酒",
+    "winter_olympics": "冬奥会",
+    "polar_bear": "北极熊",
+    "riesling": "雷司令",
+    "monk_heritage": "monk_heritage",
+    "cabernet_sauvignon": "cabernet_sauvignon",
+    "cosmopolitan": "大都会",
+    "imperial": "皇家",
+    "albarino": "阿尔巴利诺",
+    "danzhu": "丹竹",
+    "chu_culture": "楚文化",
+    "lunar_new_year": "农历新年",
+    "angel_share": "天使分享",
+    "cult_wine": "膜拜酒",
+    "kangxi": "康熙",
+    "warm_sake": "温清酒",
+    "laobaigan": "老白干",
+    "coriander": "芫荽香",
+    "negroni": "内格罗尼",
+    "triple_sec": "橙皮利口酒",
+    "bulls_blood": "公牛血",
+    "polish_tradition": "波兰传统",
+    "palinka": "水果白兰地",
+    "steam_beer": "蒸汽啤酒",
+    "aszú": "阿苏贵腐",
+    "argentine_wine": "argentine_wine",
+    "cult_classic": "膜拜经典",
+    "deceptive": "隐藏劲道",
+    "anthocyanin": "花青素",
+    "ancestor_of_liquor": "酒祖",
+    "louche_effect": "乳浊效应",
+    "indian_pale_ale": "印度淡艾",
+    "craftsmanship": "匠心",
+    "glacier_water": "冰川水",
+    "artesian_water": "自流井水",
+    "sugarcane_juice": "甘蔗汁",
+    "centuries_old": "百年传承",
+    "dubbel": "双料啤酒",
+    "white_pepper": "白胡椒香",
+    "ancient": "古老传承",
+    "ancient_remedy": "古方良药",
+    "spritz": "斯普利兹",
+    "bordeaux_style": "bordeaux_style",
+    "irish_spirit": "爱尔兰烈酒",
+    "devil": "魔鬼",
+    "single_vineyard": "single_vineyard",
+    "sherry": "雪利酒",
+    "russian_classic": "俄罗斯经典",
+    "tba": "逐粒贵腐",
+    "daiquiri": "代基里",
+    "scotch_whisky": "苏格兰威士忌",
+    "brut": "干型",
+    "belgian_beer": "比利时啤酒",
+    "kpop": "K-POP",
+    "lime": "青柠香",
+    "unique_resin": "树脂香",
+    "hunter": "猎人",
+    "apricot": "杏香",
+    "brazilian_culture": "巴西文化",
+    "chocolate": "巧克力香",
+    "moscow_mule": "莫斯科骡子",
+    "black_tea": "红茶韵",
+    "quadrupel": "四料啤酒",
+    "champagne_like": "香槟般",
+    "probiotic": "益生菌",
+    "state_banquet": "国宴用酒",
+    "hotpot": "火锅绝配",
+    "malbec": "马尔贝克",
+    "herbal_liqueur": "草本利口酒",
+    "cognac_base": "干邑基酒",
+    "chinese_sorghum": "中国高粱",
+    "university": "大学",
+    "chinese_tradition": "中国传统",
+    "mojito_base": "莫吉托基酒",
+    "immortal": "不朽",
+    "extra_anejo": "超陈年龙舌兰",
+    "cherry": "樱桃香",
+    "monks": "僧侣",
+    "taoist": "道教",
+    "pine_resin": "松脂香",
+    "noble_hop": "贵族酒花",
+    "tar_and_roses": "焦油玫瑰",
+    "botanical": "botanical",
+    "heather_peat": "heather_peat",
+    "botrytis": "贵腐",
+    "scottish_style": "scottish_style",
+    "pale_ale": "淡色艾尔",
+    "cocktail_standard": "调酒必备",
+    "iodine": "碘味",
+    "cao_cao": "曹操",
+    "nebbiolo": "nebbiolo",
+    "old_world": "旧世界",
+    "dumpling": "饺子",
+    "chinese_craft": "中国精酿",
+    "prohibition": "禁酒令",
+    "super_tuscan": "super_tuscan",
+    "late_harvest": "晚收",
+    "absinthe": "苦艾酒",
+    "dim_sum": "点心",
+    "kopstootje": "金酒仪式",
+    "classical_poetry": "古典诗词",
+    "dark_rum": "黑朗姆",
+    "california_common": "加州普通",
+    "imperial_court": "宫廷",
+    "bai_ethnic": "白族",
+    "opera": "歌剧",
+    "greek_spirit": "希腊烈酒",
+    "ming_dynasty": "明朝",
+    "doppelbock": "双料博克",
+    "five_cereals": "五谷",
+    "leather": "皮革香",
+    "pinot_noir": "pinot_noir",
+    "dark_beer": "黑啤",
+    "yogurt": "酸奶",
+    "antioxidant": "抗氧化",
+    "four_seasons": "四季",
+    "mango": "芒果香",
+    "bison_grass": "野牛草",
+    "retsina": "松脂酒",
+    "phoenix": "凤凰",
+    "black_raspberry": "黑树莓",
+    "polished_rice": "精米",
+    "grilled_meat": "烤肉",
+    "mastiha": "乳香脂",
+    "border": "边境",
+    "jazz": "爵士",
+    "german_beer": "德国啤酒",
+    "cuban_classic": "古巴经典",
+    "dunkelweizen": "深色小麦啤",
+    "french_brandy": "法国白兰地",
+    "hunting_master": "狩猎大师",
+    "rock_and_roll": "摇滚",
+    "rye_whiskey": "黑麦威士忌",
+    "first_growth": "first_growth",
+    "party": "派对必备",
+    "american_hops": "美式酒花",
+    "chunwan": "春晚同款",
+    "sun_dried": "晒干",
+    "hip_hop": "嘻哈",
+    "sunflower": "向日葵",
+    "street_drink": "街头饮品",
+    "chinese_new_year": "春节必备",
+    "izakaya": "居酒屋",
+    "corn_whiskey": "玉米威士忌",
+    "sipping_rum": "细品朗姆",
+    "national_drink": "国民饮品",
+    "foot_treading": "脚踩压榨",
+    "battlefield_liquor": "战场之酒",
+    "green_apple": "青苹果香",
+    "trademark_war": "商标之争",
+    "dańkowskie_gold": "丹科夫斯基黄金",
+    "pure_rice": "纯米",
+    "sushi": "寿司搭配",
+    "oldest_cocktail": "最古鸡尾酒",
+    "spring_water": "泉水",
+    "winter_wheat": "冬小麦",
+    "soft_water": "软水",
+    "pomace": "果渣",
+    "cultural_symbol": "文化符号",
+    "snowball_cocktail": "雪球鸡尾酒",
+    "seven_herbs": "七味草药",
+    "pdo_protected": "原产地保护",
+    "shuihuzhuan": "水浒传",
+    "pea_starter": "豌豆曲",
+    "libai_poem": "李白诗篇"
+  },
+  "TagCategories": {
+    "flavor": {
+      "name": "风味特征",
+      "icon": "👃",
+      "tags": [
+        "butterscotch",
+        "lemon",
+        "tea_aroma",
+        "nanko_ume",
+        "green_tea",
+        "orange_peel",
+        "black_forest",
+        "caramel",
+        "passion_fruit",
+        "tobacco",
+        "cinnamon",
+        "peach",
+        "raspberry",
+        "sichuan_pepper",
+        "salted_plum",
+        "pepper",
+        "mint",
+        "rose_petals",
+        "jasmine",
+        "coriander",
+        "white_pepper",
+        "lime",
+        "unique_resin",
+        "apricot",
+        "chocolate",
+        "black_tea",
+        "cherry",
+        "pine_resin",
+        "tar_and_roses",
+        "heather_peat",
+        "iodine",
+        "leather",
+        "mango",
+        "black_raspberry",
+        "sunflower",
+        "green_apple",
+        "dańkowskie_gold"
+      ]
+    },
+    "craft": {
+      "name": "酿造工艺",
+      "icon": "🔧",
+      "tags": [
+        "japanese_distilled",
+        "freeze_distilled",
+        "blend",
+        "tahona",
+        "cave_aging",
+        "charcoal_mellowing",
+        "lincoln_county_process",
+        "nine_steaming",
+        "appassimento",
+        "dual_maturation",
+        "solera",
+        "cave_aged",
+        "vapour_infusion",
+        "solera_system",
+        "pit_roasted",
+        "botrytis",
+        "late_harvest",
+        "foot_treading",
+        "pdo_protected"
+      ]
+    },
+    "occasion": {
+      "name": "饮用场景",
+      "icon": "🎉",
+      "tags": [
+        "korean_food",
+        "korean_bbq",
+        "congee",
+        "seafood",
+        "christmas",
+        "barbecue",
+        "banquet",
+        "spanish_lifestyle",
+        "dessert",
+        "starkbierfest",
+        "pub_culture",
+        "sipping_tequila",
+        "lunar_new_year",
+        "warm_sake",
+        "state_banquet",
+        "hotpot",
+        "cocktail_standard",
+        "party",
+        "chunwan",
+        "street_drink",
+        "chinese_new_year",
+        "izakaya",
+        "sipping_rum",
+        "national_drink",
+        "sushi",
+        "oldest_cocktail",
+        "snowball_cocktail"
+      ]
+    },
+    "culture": {
+      "name": "文化历史",
+      "icon": "📜",
+      "tags": [
+        "traditional_medicine_wine",
+        "korean_traditional",
+        "weizen_doppelbock",
+        "british_ale",
+        "revival",
+        "slavic",
+        "nomad",
+        "samurai",
+        "cidre",
+        "oldest_license",
+        "trappist_style",
+        "unesco_heritage",
+        "twenty_four_seasons",
+        "tall_stills",
+        "premium_beer",
+        "japanese_whisky",
+        "shaoxing_wine",
+        "emperor",
+        "sambuca",
+        "baijiuer",
+        "greek_brandy",
+        "reinheitsgebot",
+        "manchuria",
+        "molasses",
+        "witbier",
+        "intangible_heritage",
+        "ethnic",
+        "dragon",
+        "nightclub",
+        "torrontes",
+        "merlot",
+        "brandy_base",
+        "premium_lager",
+        "semillon",
+        "feast",
+        "steel",
+        "immortal_wine",
+        "auction_record",
+        "futuristic",
+        "ancient_well",
+        "royal_court",
+        "crown",
+        "iron",
+        "ussr",
+        "ceremonial",
+        "jewish_heritage",
+        "single_estate",
+        "hefeweizen",
+        "caffe_corretto",
+        "louche",
+        "sichuan_opera",
+        "confucian",
+        "hongqu",
+        "poetry",
+        "tsipouro",
+        "german_style",
+        "vintage_port",
+        "gong_ting",
+        "army_farm",
+        "glera",
+        "homemade_tradition",
+        "fifth_avenue",
+        "chinese_wine_history",
+        "hakka",
+        "cradle",
+        "tapas",
+        "seaweed",
+        "pastis",
+        "communist",
+        "premium_baijiu",
+        "dutch_tradition",
+        "ancient_cellar",
+        "marmalade",
+        "copper_still",
+        "baccarat",
+        "olive",
+        "girly",
+        "archaeological_site",
+        "dark_lager",
+        "royal_history",
+        "tempranillo",
+        "prohibition_era",
+        "navy",
+        "family_recipe",
+        "whiskey",
+        "tawny_port",
+        "feminine",
+        "magu",
+        "tennessee_whiskey",
+        "ancient_cellar_1573",
+        "medieval",
+        "football_beer",
+        "oldest_brand",
+        "brett",
+        "holy_grail",
+        "ancient_capital",
+        "cult_beer",
+        "wine_region",
+        "slate_soil",
+        "seal",
+        "highball",
+        "slow_food",
+        "gran_reserva",
+        "colonial",
+        "korean_drama",
+        "syrah",
+        "juniper",
+        "quebec",
+        "soviet",
+        "inca",
+        "noble_rot",
+        "terroir",
+        "gourd",
+        "dutch_royal",
+        "beijing_craft",
+        "mongolian",
+        "secret_recipe",
+        "mendeleev",
+        "alps",
+        "kirsch",
+        "first_tier",
+        "truffle",
+        "margarita",
+        "silk_road",
+        "water_margin",
+        "royal_family",
+        "american_whisky",
+        "abbey",
+        "muscat",
+        "con_la_mosca",
+        "sauvignon_blanc",
+        "sesame",
+        "fig",
+        "marathon",
+        "moonshine",
+        "sangiovese",
+        "heroic",
+        "nalewka",
+        "flor",
+        "margarita_base",
+        "scottish_gin",
+        "fino",
+        "maritime",
+        "stadium",
+        "australian_wine",
+        "scholar",
+        "sculpture",
+        "sangria",
+        "royal",
+        "gin_tonic",
+        "mizunara",
+        "clay_pot",
+        "chilean_wine",
+        "winter_olympics",
+        "polar_bear",
+        "riesling",
+        "monk_heritage",
+        "cabernet_sauvignon",
+        "cosmopolitan",
+        "imperial",
+        "albarino",
+        "danzhu",
+        "chu_culture",
+        "angel_share",
+        "cult_wine",
+        "kangxi",
+        "laobaigan",
+        "negroni",
+        "triple_sec",
+        "bulls_blood",
+        "polish_tradition",
+        "palinka",
+        "aszú",
+        "argentine_wine",
+        "cult_classic",
+        "deceptive",
+        "anthocyanin",
+        "ancestor_of_liquor",
+        "louche_effect",
+        "indian_pale_ale",
+        "craftsmanship",
+        "centuries_old",
+        "dubbel",
+        "ancient",
+        "ancient_remedy",
+        "spritz",
+        "bordeaux_style",
+        "irish_spirit",
+        "devil",
+        "single_vineyard",
+        "sherry",
+        "russian_classic",
+        "tba",
+        "daiquiri",
+        "scotch_whisky",
+        "brut",
+        "belgian_beer",
+        "kpop",
+        "hunter",
+        "brazilian_culture",
+        "moscow_mule",
+        "quadrupel",
+        "champagne_like",
+        "probiotic",
+        "malbec",
+        "cognac_base",
+        "university",
+        "chinese_tradition",
+        "mojito_base",
+        "immortal",
+        "extra_anejo",
+        "monks",
+        "taoist",
+        "scottish_style",
+        "pale_ale",
+        "cao_cao",
+        "nebbiolo",
+        "old_world",
+        "dumpling",
+        "chinese_craft",
+        "prohibition",
+        "super_tuscan",
+        "absinthe",
+        "dim_sum",
+        "kopstootje",
+        "classical_poetry",
+        "dark_rum",
+        "california_common",
+        "imperial_court",
+        "bai_ethnic",
+        "opera",
+        "greek_spirit",
+        "ming_dynasty",
+        "doppelbock",
+        "pinot_noir",
+        "dark_beer",
+        "yogurt",
+        "antioxidant",
+        "four_seasons",
+        "bison_grass",
+        "retsina",
+        "phoenix",
+        "grilled_meat",
+        "mastiha",
+        "border",
+        "jazz",
+        "german_beer",
+        "cuban_classic",
+        "dunkelweizen",
+        "french_brandy",
+        "hunting_master",
+        "rock_and_roll",
+        "first_growth",
+        "shuihuzhuan",
+        "pea_starter",
+        "libai_poem"
+      ]
+    },
+    "ingredient": {
+      "name": "原料特征",
+      "icon": "🌾",
+      "tags": [
+        "bali_han_spring",
+        "dark_wheat",
+        "malt_wine",
+        "brazilian_sugarcane",
+        "underground_spring",
+        "english_hops",
+        "well_water",
+        "herbal_wine",
+        "medicinal_herb",
+        "cane_juice",
+        "medicinal_wine",
+        "chinese_herbs",
+        "wheat_beer",
+        "brown_rice",
+        "rye_vodka",
+        "chinese_medicinal",
+        "saaz_hops",
+        "steam",
+        "medicinal_whiskey",
+        "five_grain",
+        "pearl",
+        "dragon_well",
+        "agave",
+        "cascade_hops",
+        "russian_wheat",
+        "rice_liquor",
+        "steam_beer",
+        "glacier_water",
+        "artesian_water",
+        "sugarcane_juice",
+        "herbal_liqueur",
+        "chinese_sorghum",
+        "noble_hop",
+        "botanical",
+        "five_cereals",
+        "polished_rice",
+        "rye_whiskey",
+        "american_hops",
+        "sun_dried",
+        "hip_hop",
+        "corn_whiskey",
+        "pure_rice",
+        "spring_water",
+        "winter_wheat",
+        "soft_water",
+        "pomace",
+        "seven_herbs"
+      ]
+    },
+    "brand": {
+      "name": "品牌特色",
+      "icon": "⭐",
+      "tags": [
+        "art_deco",
+        "artist_label",
+        "bat_logo",
+        "bamboo_leaf",
+        "art_bottle",
+        "square_bottle",
+        "post_war",
+        "quartz",
+        "battlefield_liquor",
+        "trademark_war",
+        "cultural_symbol"
+      ]
+    }
+  }
+}
