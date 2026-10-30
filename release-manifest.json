@@ -1,0 +1,2358 @@
+{
+  "manifestSchemaVersion": 1,
+  "siteKey": "beverages",
+  "siteRepository": "site-alcoholic-beverages",
+  "siteCommit": "e0fe09dbe270b58ec7c6770d63ac60a7d05fe62e",
+  "host": "hejiu.org",
+  "siteUrl": "https://hejiu.org",
+  "buildMode": "production",
+  "generatedAt": "2026-10-29T23:32:27.941Z",
+  "coreVersion": "0.1.0",
+  "contentSchemaVersion": 1,
+  "contractHashes": {
+    "types": "3af5ce1fb6d806e9e3c2bf508371b641c2fd77e9245788fe756e4ab093ba4843",
+    "repositories": "d66f5ea5e3ffd14f48b04b7df25344521abd5a41ed10bd0ba27a8e02630d23dc",
+    "relations": "3a596922a19e1c8400fe47edf0a8661058d195be2f4fea6fa6264e67a820d4a9"
+  },
+  "toolVersions": {
+    "astro": "7.4.4",
+    "pagefind": "1.5.2",
+    "node": "v26.8.1"
+  },
+  "contentCommits": null,
+  "contentCommitNote": "G2 local workspace has no remote commits yet; content identity is the file SHA256 tree below.",
+  "contentTreeSha256": "d00d83ce80b6a6ba752cf3c97093fc394f59e310447154766725d715473dff95",
+  "contentFiles": [
+    {
+      "repository": "alcohol-atlas",
+      "path": "en/place/american-bar-savoy.md",
+      "sha256": "183e4221332e644a547bdae24389b1f1f993e5b0bd99d5a2578149ef322c968e",
+      "id": "place:american-bar-savoy",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-atlas",
+      "path": "en/place/cafe-central.md",
+      "sha256": "4a9aaa31bec83d831f4c7ecdf55a1d304123a38ac7febaf245954a9609b7ff61",
+      "id": "place:cafe-central",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-atlas",
+      "path": "en/place/cafe-de-flore.md",
+      "sha256": "6716b3ccc8abb3597d328d34f3f54d07d956ee03a674695edca9e522274fa67f",
+      "id": "place:cafe-de-flore",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-atlas",
+      "path": "en/place/caffe-florian.md",
+      "sha256": "4af660b10d2e04616f7532635f6fa08450e72de2f1dee7dfa5d707b86dd5f422",
+      "id": "place:caffe-florian",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-atlas",
+      "path": "en/place/eagle-and-child.md",
+      "sha256": "90e0b69f6f5eef18848e51f1de2447d8f198a763edcfcb54a00d27ca5d0199d8",
+      "id": "place:eagle-and-child",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-atlas",
+      "path": "en/place/el-floridita.md",
+      "sha256": "e6af4bd8ef64b6e3e020555d570cad425206211c554cd21d5428154d9444dbd4",
+      "id": "place:el-floridita",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-atlas",
+      "path": "en/place/gujing-wine-culture-museum.md",
+      "sha256": "a30c31b08f49cb5e9267f6c829019573db017cd231d3c3f0ab34e9d3f0a01380",
+      "id": "place:gujing-wine-culture-museum",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-atlas",
+      "path": "en/place/harrys-bar-venice.md",
+      "sha256": "b1dc3bb406d49853379b3418378751a1c230333e394cabe45b32f5b2470e7ab9",
+      "id": "place:harrys-bar-venice",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-atlas",
+      "path": "en/place/hofbrauhaus.md",
+      "sha256": "710f3fac21a7651642daa7970a55e9ff85d508c03491b8fdd01385841c8bd568",
+      "id": "place:hofbrauhaus",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-atlas",
+      "path": "en/place/la-bodeguita-del-medio.md",
+      "sha256": "7a54a60fa72763c2e2f594cc2f0c6f2d62c7837b055289259e7dd42f6c8e6506",
+      "id": "place:la-bodeguita-del-medio",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-atlas",
+      "path": "en/place/les-deux-magots.md",
+      "sha256": "b39b93f4a5f999958165faa27260b6d1a5d9bd64eaf81c0c9482bb98eceecd9a",
+      "id": "place:les-deux-magots",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-atlas",
+      "path": "en/place/mcsorleys-old-ale-house.md",
+      "sha256": "0b32795fdcc8ac8a5e41c17f89a2cdc9122e5f54248235f1b918d41a7d5337a0",
+      "id": "place:mcsorleys-old-ale-house",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-atlas",
+      "path": "en/place/raffles-long-bar.md",
+      "sha256": "0fb4648280650cfc055d79e96e8f1d96cc516b48cf0641768d1feb537b28c5ac",
+      "id": "place:raffles-long-bar",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-atlas",
+      "path": "en/place/schlenkerla.md",
+      "sha256": "ca28b01cb89e981a4fd8d1e883e5c89996c76bcf426e9bace89ca2348d29bbd0",
+      "id": "place:schlenkerla",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-atlas",
+      "path": "en/place/u-fleku.md",
+      "sha256": "3faa09bfef22df7b0da1057e8415fd09dbee75e2567a7942b83a862aa33103b6",
+      "id": "place:u-fleku",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-atlas",
+      "path": "en/place/white-horse-tavern.md",
+      "sha256": "5995f38517fc83785e54965ce2ed1981f87264697247147ea83da84289daebf7",
+      "id": "place:white-horse-tavern",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-atlas",
+      "path": "en/place/ye-olde-cheshire-cheese.md",
+      "sha256": "ed24b3e0b320cf51cf3eb7a90f19d7a1a99abbfe2fabf98c83e103d096f25004",
+      "id": "place:ye-olde-cheshire-cheese",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-atlas",
+      "path": "zh/place/american-bar-savoy.md",
+      "sha256": "835c79ddf3164f051709a777df50bb18a1de0db6a5d4ec244d35fc59e9b738c0",
+      "id": "place:american-bar-savoy",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-atlas",
+      "path": "zh/place/cafe-central.md",
+      "sha256": "72696a99bd4193ab8b824b1a07839a4a86f08b6a8510e3e0a2df2645537e1e03",
+      "id": "place:cafe-central",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-atlas",
+      "path": "zh/place/cafe-de-flore.md",
+      "sha256": "c3e85a692ee22d0e6bb83eaa6cc40eb7564c16b73a93f35bececd349a5d8f7ee",
+      "id": "place:cafe-de-flore",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-atlas",
+      "path": "zh/place/caffe-florian.md",
+      "sha256": "b7c7b237e0e59dbd7ac01fc31dd4cefb1fc1ebb46d02465119b670d1a9cfea61",
+      "id": "place:caffe-florian",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-atlas",
+      "path": "zh/place/eagle-and-child.md",
+      "sha256": "aebbbf65419e3ddeea2d772221958b5b3a0d529bd56e2bde8471b231d760454b",
+      "id": "place:eagle-and-child",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-atlas",
+      "path": "zh/place/el-floridita.md",
+      "sha256": "02829f9f9474fe569ae81c05343876afd07db49b9d97823b7fbee445490625fe",
+      "id": "place:el-floridita",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-atlas",
+      "path": "zh/place/gujing-wine-culture-museum.md",
+      "sha256": "1f19c407e3eeb3e0db7fe2350753d4632ea2e20b56efdefc05a415365a2006d3",
+      "id": "place:gujing-wine-culture-museum",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-atlas",
+      "path": "zh/place/harrys-bar-venice.md",
+      "sha256": "4ede0e259485b890665b01326791c4a78b2a814b8a13e8425c15ae519e4edf3c",
+      "id": "place:harrys-bar-venice",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-atlas",
+      "path": "zh/place/hofbrauhaus.md",
+      "sha256": "d6c630a4e229fbbe8f8f79915226396115349d397796fd22996ac9e7507c83ee",
+      "id": "place:hofbrauhaus",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-atlas",
+      "path": "zh/place/la-bodeguita-del-medio.md",
+      "sha256": "fd3e376fdae23302ccab05accb07e36289004b42d4a42ee35b21d11bcce00453",
+      "id": "place:la-bodeguita-del-medio",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-atlas",
+      "path": "zh/place/les-deux-magots.md",
+      "sha256": "64073c0988e1c8e9f8109d463ecdd98af42e3b6fb8c53972489d9be8fb09ca6b",
+      "id": "place:les-deux-magots",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-atlas",
+      "path": "zh/place/mcsorleys-old-ale-house.md",
+      "sha256": "b46f8f1ef6eb8b0edeb301812dc089f971e3e5fb5955ff63105cc129ebc19ed0",
+      "id": "place:mcsorleys-old-ale-house",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-atlas",
+      "path": "zh/place/raffles-long-bar.md",
+      "sha256": "feffc4aef8a8e9aa831e4186915ea90f298bebf1a63f48dc0b1deb294f282589",
+      "id": "place:raffles-long-bar",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-atlas",
+      "path": "zh/place/schlenkerla.md",
+      "sha256": "f7248301864fba14055445d4b49907edd08481514ab0b09617c7bda82d3f643c",
+      "id": "place:schlenkerla",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-atlas",
+      "path": "zh/place/u-fleku.md",
+      "sha256": "ccd4bec05efe9393174ab652a2958adb2a4b7b59215b9fe3012b777ab6ed1f6a",
+      "id": "place:u-fleku",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-atlas",
+      "path": "zh/place/white-horse-tavern.md",
+      "sha256": "9f5988a1269e420ee5d3f685bf5f642f3b6738261981356b1c6061017d2df5c8",
+      "id": "place:white-horse-tavern",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-atlas",
+      "path": "zh/place/ye-olde-cheshire-cheese.md",
+      "sha256": "f6d80df8e14a7f68589b9c939adf65a3ed316c5e33818576167d5a48d8d47046",
+      "id": "place:ye-olde-cheshire-cheese",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-culture",
+      "path": "en/article/beyond-the-pub.md",
+      "sha256": "bd5db2dad77c9a3af806e7bcd16b0e17cff8864aad34a8f04f3c6d2025a896ae",
+      "id": "culture-article:beyond-the-pub",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-culture",
+      "path": "en/article/place-and-process.md",
+      "sha256": "fc7970dd654a7f2f5bafdbd6117ade1c1cd99c114087d8ace0a3cae8e4d85559",
+      "id": "culture-article:place-and-process",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-culture",
+      "path": "en/article/pub-and-city.md",
+      "sha256": "1a04eff86d9c5d25ee244010d234900ec512e97dabcd27f0d58ecf49d9214288",
+      "id": "culture-article:pub-and-city",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-culture",
+      "path": "en/article/time-in-a-cup.md",
+      "sha256": "be3c212d0d563ac425e41d49e336bfe94c4e0ca0442a031d20f182ba94bbdc37",
+      "id": "culture-article:time-in-a-cup",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-culture",
+      "path": "zh/article/beyond-the-pub.md",
+      "sha256": "d77f8f214b4670ee589f3c2b13157090c2c80b3473b69213a3401fc1271273ad",
+      "id": "culture-article:beyond-the-pub",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-culture",
+      "path": "zh/article/place-and-process.md",
+      "sha256": "c177cb22dac6283326175f5d0a9d7094548d16ae2cb55bfa2a7117290cbec9ef",
+      "id": "culture-article:place-and-process",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-culture",
+      "path": "zh/article/pub-and-city.md",
+      "sha256": "c23f7bbe0a8fbd4a7024f82c324364bca7a763d5157cc8fcf116ed0f09313d02",
+      "id": "culture-article:pub-and-city",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-culture",
+      "path": "zh/article/time-in-a-cup.md",
+      "sha256": "6022eb92d963ff32a7dbf54e7b85fcdda84664de247156f92bc709853694477e",
+      "id": "culture-article:time-in-a-cup",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-guide",
+      "path": "en/guide/choose-a-glass.md",
+      "sha256": "e75b78f08f76736c3d57dc8c79b9c80ea514c1d33829ccd30af611f5c69bc9f9",
+      "id": "guide:choose-a-glass",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-guide",
+      "path": "en/guide/cocktail-basics.md",
+      "sha256": "364ce165baab7d30c0051af9f8809adeddfe98108251553d17dbcba77592ddc4",
+      "id": "guide:cocktail-basics",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-guide",
+      "path": "en/guide/first-tasting.md",
+      "sha256": "10d934af8dfd0da2f4ca02af937ff96027516fc58ab2736d5092fe185e1abb93",
+      "id": "guide:first-tasting",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-guide",
+      "path": "en/guide/food-pairing.md",
+      "sha256": "098e9a32f0b91ae18e2f7eb591f28efa3bee888adcf3ba2b8ffd5a99b8735f30",
+      "id": "guide:food-pairing",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-guide",
+      "path": "en/guide/ice-and-temperature.md",
+      "sha256": "ad3587533e2919a29141c1a3c34cd67e8228c757c98f1ad9d8699f83664019e5",
+      "id": "guide:ice-and-temperature",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-guide",
+      "path": "en/guide/read-a-label.md",
+      "sha256": "203b8c848a619b66e1838532d0fe78a93515501ac8af8e0dbd8a72ba5b62f22f",
+      "id": "guide:read-a-label",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-guide",
+      "path": "en/recipe/negroni.md",
+      "sha256": "970d28fd868b76aae950ab868a21086fb84d5d3665f42d6250f5514211192e5a",
+      "id": "recipe:negroni",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-guide",
+      "path": "en/vessel/rocks-glass.md",
+      "sha256": "527374264c33efb9ad540f767ea814f79bea871f1f3a279c101945413eca14a5",
+      "id": "vessel:rocks-glass",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-guide",
+      "path": "zh/guide/choose-a-glass.md",
+      "sha256": "1fb57520deb2e32087d9abdeab58bf13eeae0406a02860a529b48edb75f3dccc",
+      "id": "guide:choose-a-glass",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-guide",
+      "path": "zh/guide/cocktail-basics.md",
+      "sha256": "87512efff0a454d090e2d5c1abc6a49b2586c44d1b7fd66ba94781aa4a3cd063",
+      "id": "guide:cocktail-basics",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-guide",
+      "path": "zh/guide/first-tasting.md",
+      "sha256": "806397b4fc79d4806b4adc6456c17f4f458c7105def44aeaa11a5d2074f21bca",
+      "id": "guide:first-tasting",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-guide",
+      "path": "zh/guide/food-pairing.md",
+      "sha256": "a7538d3d7450c9b66d2db9765594e30c68352b818c9959c0de78e9de1aeb64a0",
+      "id": "guide:food-pairing",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-guide",
+      "path": "zh/guide/ice-and-temperature.md",
+      "sha256": "a09a38c3d24be8b1c039b14e7c335c7d54e6204d9b99ec0a66f569f75e8a3a11",
+      "id": "guide:ice-and-temperature",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-guide",
+      "path": "zh/guide/read-a-label.md",
+      "sha256": "61dddc05bca15f1ffa6fb1a27de4ec984a74d5ce2f0c6295a847bf0052d8b3ab",
+      "id": "guide:read-a-label",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-guide",
+      "path": "zh/recipe/negroni.md",
+      "sha256": "0f4f5b50a57a79d8b30e81f8d322460da2b930168a00d0e0c7cfd5c2eaf5da75",
+      "id": "recipe:negroni",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcohol-guide",
+      "path": "zh/vessel/rocks-glass.md",
+      "sha256": "8ac00882d998eabcf6826f4e6283822a8a9d5407bb0c7dd75a659f3793d6dfc5",
+      "id": "vessel:rocks-glass",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/brand/gujing-gongjiu.md",
+      "sha256": "665c2976a6cc47de2b7f35c304b5ef90ab807ada727c7a6dcb5ca82e733bc8dc",
+      "id": "brand:gujing-gongjiu",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/cocktail/negroni.md",
+      "sha256": "7a8c80e5ab257be2be3a6a8bb2c278421324cca8761048bab0d47bc6de20d49f",
+      "id": "cocktail:negroni",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink-style/aperitif.md",
+      "sha256": "19347c140c012fc039cd138d02078c4f63c20cce3b83df23df1753eda1de43ee",
+      "id": "drink-style:aperitif",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink-style/baijiu-medicinal.md",
+      "sha256": "b62b602a56c09cb38c9553068e1db3fb0c602c17c681d8afa7149a06d68ddcac",
+      "id": "drink-style:baijiu-medicinal",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink-style/baijiu.md",
+      "sha256": "b2c10cb29818b28674a26956faa7ba634e2615db02b68ad7bfe4c02ec4732541",
+      "id": "drink-style:baijiu",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink-style/beer.md",
+      "sha256": "7342d52c5d9853e91ac3d530e41a8db0196ed37e550be9c9eeac2880932269bd",
+      "id": "drink-style:beer",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink-style/brandy.md",
+      "sha256": "39d7f78769005d219d723c3663f260c86c71281645e474d67e6ce77fb0aa22f0",
+      "id": "drink-style:brandy",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink-style/fruit-wine.md",
+      "sha256": "49ada0794b6ded1ecbae2eb095a928a3578587439b383ecaf442f46684116066",
+      "id": "drink-style:fruit-wine",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink-style/gin.md",
+      "sha256": "db456e26a828eab7ec2a98e7e477410613ae94943e6dd9800838a37dfd37ed49",
+      "id": "drink-style:gin",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink-style/liqueur.md",
+      "sha256": "10d05ed8617984538025a8ad704b4c292d473f620d434f6d31fd3b3dc14e9707",
+      "id": "drink-style:liqueur",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink-style/rum.md",
+      "sha256": "bef81f76251547639870b84459b89bf9285996c148b65b1345e367e118ba37d8",
+      "id": "drink-style:rum",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink-style/sake.md",
+      "sha256": "46839c7f8229f4c69a19a419d82063203778148c882acd48cec4378fa07068ed",
+      "id": "drink-style:sake",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink-style/soju.md",
+      "sha256": "29ee21fb8e93e2f7932d94f446b51c7b59bbbbddc399e83a35cce2741c1f105e",
+      "id": "drink-style:soju",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink-style/strong-aroma-baijiu.md",
+      "sha256": "7feea501adde56bf389d85c24df60f7c8c4c7f9dd89e933f7e3d770a15438e57",
+      "id": "drink-style:strong-aroma-baijiu",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink-style/tequila.md",
+      "sha256": "3ccddbcaf5dad74f7c108080a7706327ca397f8419104097a0908a3019de14e6",
+      "id": "drink-style:tequila",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink-style/vodka.md",
+      "sha256": "35d779c8a4254ed2bf1c2deeb70f71363dae137da18117139df95b7b176515de",
+      "id": "drink-style:vodka",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink-style/whisky.md",
+      "sha256": "657abd16bd018b44115be440f8fe8b411b4e0aa48a20205ce3e83861ec262827",
+      "id": "drink-style:whisky",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink-style/wine.md",
+      "sha256": "5f26c48cec2e42f4a33fcb545bba47a00ee89970472d1ce9078174ca5ce88664",
+      "id": "drink-style:wine",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink-style/yellow-wine.md",
+      "sha256": "2b1c8140814e49b70511e4d2da9f0a94daa3670d9b202992c9c7dad9b069cce8",
+      "id": "drink-style:yellow-wine",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink/australia-penfolds-grange.md",
+      "sha256": "26feabec6b1bba7b6f61a86c1c274adf9b5df0a5f78836e533373b2aa16fecd7",
+      "id": "drink:australia-penfolds-grange",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink/beijing-erguotou.md",
+      "sha256": "8827310472931f41b919f37f1d0a033079475e15ec7d6ae4b0e22effbf6543e7",
+      "id": "drink:beijing-erguotou",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink/cuba-bacardi-carta-blanca.md",
+      "sha256": "f537e9120c1ae50e953f98a1dfad9cbff3c0be713a0dfa23c6e506608324734e",
+      "id": "drink:cuba-bacardi-carta-blanca",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink/cuba-havana-club-7-year-old.md",
+      "sha256": "5c5a2fbe5b13c3d2389bc2f5923317ed1ddf635aa83ab38b53727049c5b16203",
+      "id": "drink:cuba-havana-club-7-year-old",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink/czech-pilsnerurquell.md",
+      "sha256": "b4988ecac42ef83b23a38488b660a47304d39672f0d4ff1722d306a8b452b78c",
+      "id": "drink:czech-pilsnerurquell",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink/france-chartreuse.md",
+      "sha256": "a540c24d51cf0ad2bdcd086403a09c77d5307cfce119872ac35389cfe67f44a6",
+      "id": "drink:france-chartreuse",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink/france-chateaulafiterothschild.md",
+      "sha256": "347de7bb97d0e436cca35ca1484783dc3b82ae8abd05ed07e355629e910054af",
+      "id": "drink:france-chateaulafiterothschild",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink/france-domperignon.md",
+      "sha256": "74b6e5a9fb0ab8c571e39cf3243968c3de6129f6dc21805a66629a3e9db38f09",
+      "id": "drink:france-domperignon",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink/france-hennessyxo.md",
+      "sha256": "d1d6274e9e78e63c82ea75533d84ceb8fbbb6af400f2b55851275310e396e8e3",
+      "id": "drink:france-hennessyxo",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink/france-romaneeconti.md",
+      "sha256": "107f200e5dc9d8545e5fc5e4141919c5f3aa5f98a40240465a6dcc9546b77043",
+      "id": "drink:france-romaneeconti",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink/guizhou-moutai.md",
+      "sha256": "dd48237f964dd1edb1bef9c5b7d42ede89582c26b4ae335b97385449c5497373",
+      "id": "drink:guizhou-moutai",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink/hunan-jiugui.md",
+      "sha256": "e49c79ce47baa4a5a9606d693fc944a5341d2d917b90360bb13b935aff00def3",
+      "id": "drink:hunan-jiugui",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink/ireland-guinnessdraughtstout.md",
+      "sha256": "ff00d75d956e61d4840d46cd5c28c10b732a3b332798599acaecb490860a2eb8",
+      "id": "drink:ireland-guinnessdraughtstout",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink/ireland-jamesonirishwhiskey.md",
+      "sha256": "cf264904ad455d1e65569ef4a1034a6c877d69f1e5b2b9b9ad3364c145151000",
+      "id": "drink:ireland-jamesonirishwhiskey",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink/italy-campari.md",
+      "sha256": "d5cab92d3aba87f32ac8a1c8088f4a6177c93af1c8a377d5fa7e098ae19c871d",
+      "id": "drink:italy-campari",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink/italy-sassicaia.md",
+      "sha256": "2396683ba5a10f88972f6be952aee0a7c95e5190803dd8f844113451c70ba179",
+      "id": "drink:italy-sassicaia",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink/japan-yamazaki.md",
+      "sha256": "1d0b695f6c5fa25bc698cbef0caacab138de50500e4fe51ddbae22fe319716e3",
+      "id": "drink:japan-yamazaki",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink/jiangsu-yanghe.md",
+      "sha256": "552d5cc37090ba2faddb5ab711084b104021b1de7c1dd6e40e5e2d047c7bdcef",
+      "id": "drink:jiangsu-yanghe",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink/scotland-themacallan.md",
+      "sha256": "4f2b067de8b58da1c09e26b8e671f63bb67e572ddc86420733636662afe9b8ae",
+      "id": "drink:scotland-themacallan",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink/shaanxi-xifengjiu.md",
+      "sha256": "12381c8739892de3fc6717a1389198f7356fb800930cd0b93d00dad02fd32dd6",
+      "id": "drink:shaanxi-xifengjiu",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink/shandong-changyu.md",
+      "sha256": "d2c0e0679294857b112a0509e3b4678d73f51e7ac065cf4975b01a564fa6d7a1",
+      "id": "drink:shandong-changyu",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink/shandong-tsingtao.md",
+      "sha256": "5dd23b93a04980fff86c6d5de7875f7cda7365a52cad4af674f9c415a0ab978e",
+      "id": "drink:shandong-tsingtao",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink/shanxi-fenjiu.md",
+      "sha256": "60e3393cbb5a53c0ccf5ec44ff394ec5793686c4da2fb4c774b572f0305be348",
+      "id": "drink:shanxi-fenjiu",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink/sichuan-jiannanchun.md",
+      "sha256": "d6be2e47c5dff10e984b4c20f8dbce22e1baacf9b0577de176f5a2d11f775c83",
+      "id": "drink:sichuan-jiannanchun",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink/sichuan-langjiu.md",
+      "sha256": "5e1b1893542bca0a9f1d27acfee8fd8b5a2be8975993b34acb9ba45d3d5296c2",
+      "id": "drink:sichuan-langjiu",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink/sichuan-luzhoulaojiao.md",
+      "sha256": "18fec63f1e7445e4fe2105199485a7488d420862cf7bc7d4f17b583d2e26bd25",
+      "id": "drink:sichuan-luzhoulaojiao",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink/sichuan-wuliangye.md",
+      "sha256": "ecaf5963997821110c8c374527c0e24eb97b49566c8768c0907104d416d70fd7",
+      "id": "drink:sichuan-wuliangye",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink/sweden-absolutvodka.md",
+      "sha256": "74c894cf1c653ecc6fca9f305904df858a27ac4d84c3f82932bf845b619631de",
+      "id": "drink:sweden-absolutvodka",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink/uk-beefeater.md",
+      "sha256": "9e7df2a7951532f9d2d621295a96cbb0e54b884d32c082f5fa5415cb7b3a5479",
+      "id": "drink:uk-beefeater",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink/usa-jackdaniels.md",
+      "sha256": "f1d280f41ba5b16b8292760fa6b391e67454b107fa6b1048c53b4e04c3bddab6",
+      "id": "drink:usa-jackdaniels",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/drink/zhejiang-guyuelongshan.md",
+      "sha256": "b974c9c857b6c56da06be7a02af4780833137c7407058ea02b27a4ee34c0eeab",
+      "id": "drink:zhejiang-guyuelongshan",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/producer/gujing-distillery.md",
+      "sha256": "239108e94a83e6b9106f54add3c595e64b9f67a139bf7aea580d507a77e206e4",
+      "id": "producer:gujing-distillery",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/region/anhui.md",
+      "sha256": "84473b98138334a9f12fd8bd4e40b2d955319c3b75436c45aa09c09b239d2c8f",
+      "id": "region:anhui",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/region/bozhou.md",
+      "sha256": "7ec844ae5625a1ea17cced70884fde145e580a8da8b1cf8e5b3349ddd9a5478f",
+      "id": "region:bozhou",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "en/region/china.md",
+      "sha256": "5ce14433920be1acf4ef04406ff5e02ee0fdce1600dce2f07ec79505a97467d7",
+      "id": "region:china",
+      "lang": "en",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/brand/gujing-gongjiu.md",
+      "sha256": "e064186e36f51cd01c92fbb8e67051b4b2974fed85f9e718852e794372e5c097",
+      "id": "brand:gujing-gongjiu",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/cocktail/negroni.md",
+      "sha256": "1fd410d2e261e190253e12ecdd2154d0581edf1808ab6375b034f2300501bb2d",
+      "id": "cocktail:negroni",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink-style/aperitif.md",
+      "sha256": "8eec4e82c845cb37225f8aba008869c0c449b782ac42251e108131d7b1c80b3a",
+      "id": "drink-style:aperitif",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink-style/baijiu-medicinal.md",
+      "sha256": "54981e969501d28c5740705055ee4c0f6b50ff0af94ebe7567b78d6207c6bcc4",
+      "id": "drink-style:baijiu-medicinal",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink-style/baijiu.md",
+      "sha256": "57e3c0ad456e40b71f8ee2e3a7d8308e9699300d525f18cb6230b716e6f06aa3",
+      "id": "drink-style:baijiu",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink-style/beer.md",
+      "sha256": "0c8623af1a6074fa10038867388f6f4040fb4e1944431531db33e2eec640a79c",
+      "id": "drink-style:beer",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink-style/brandy.md",
+      "sha256": "f7c8e7047cd0fe362cae0008a402e5415dc48c7ac9c608639b0d4ca11dd75435",
+      "id": "drink-style:brandy",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink-style/fruit-wine.md",
+      "sha256": "5e1d758b8ba60a955d51108ece18b7623f8adc771682b1a4831a6a4647862a4f",
+      "id": "drink-style:fruit-wine",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink-style/gin.md",
+      "sha256": "512fa6c57bcdeca377d39de3039a211855e343fbeec76cf38c84812921e1914a",
+      "id": "drink-style:gin",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink-style/liqueur.md",
+      "sha256": "0d03bdccbcaa8d238521c100a6429713ca34b68dfa81497201f266caca126828",
+      "id": "drink-style:liqueur",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink-style/other.md",
+      "sha256": "3c4222b8a2ce484d73035c4372dc508f24149b59a3fb77b2ae8c15e81caf446b",
+      "id": "drink-style:other",
+      "lang": "zh",
+      "status": "draft"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink-style/rum.md",
+      "sha256": "6086a73d211c8ae7aa1ad63d386dcb03c00c59a431446845e566dbc23a7e5b90",
+      "id": "drink-style:rum",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink-style/sake.md",
+      "sha256": "664ac649eb2c62c2f54b8ba62901f84b19a2850d8e92504e74d26bbcc76e5e57",
+      "id": "drink-style:sake",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink-style/soju.md",
+      "sha256": "e84f908e07d600e4cfa12a0d56bb6380436fc3b1e82e390369e71f378c944c3a",
+      "id": "drink-style:soju",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink-style/strong-aroma-baijiu.md",
+      "sha256": "d70f664fd8c325c9d8db1c333a9a91fcac012f1dd05dd663b30c659cf4e7da36",
+      "id": "drink-style:strong-aroma-baijiu",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink-style/tequila.md",
+      "sha256": "465098d61b4df6c41bb0f558a9a8a7db9abb3b8a86e9646b8c2fdfdd3c4480cd",
+      "id": "drink-style:tequila",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink-style/vodka.md",
+      "sha256": "1d4d316bc94754825451d69542171f31e17ad3511b807b94431a8b5940d4d616",
+      "id": "drink-style:vodka",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink-style/whisky.md",
+      "sha256": "e803825e4c858852731573a8faf6a94f7f62e14a8874f0246317650e467948bf",
+      "id": "drink-style:whisky",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink-style/wine.md",
+      "sha256": "d183e73e147b7b3b4aeb929cb9f1bc929c7f5462e1d91c1ecd4c76a74358db7f",
+      "id": "drink-style:wine",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink-style/yellow-wine.md",
+      "sha256": "cf458584391654ad8569f5f9ea953e36de8851c0732a0cf81bd77560b6bcddca",
+      "id": "drink-style:yellow-wine",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink/australia-penfolds-grange.md",
+      "sha256": "09c3052c69efc6220c5ff9060cd239fe3c1a41c6f29b02f46587dbe15722bffe",
+      "id": "drink:australia-penfolds-grange",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink/beijing-erguotou.md",
+      "sha256": "3fdb50b184365d764c72408dd63c90d0e8c3181e700e8ee4e57214a002ddb253",
+      "id": "drink:beijing-erguotou",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink/cuba-bacardi-carta-blanca.md",
+      "sha256": "611c3f61fbde33d3124733eb580d8930d1b482c692daa1f15cc0498c4aa223e6",
+      "id": "drink:cuba-bacardi-carta-blanca",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink/cuba-havana-club-7-year-old.md",
+      "sha256": "717616d6d2acd46ff9f230b6580ed691498cb65dd9adb0091dff3f1ae428ec35",
+      "id": "drink:cuba-havana-club-7-year-old",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink/czech-pilsnerurquell.md",
+      "sha256": "44bb2a8370ca7256abe6b421214399937f4cdf2187f95eb046cc58c0be9e9180",
+      "id": "drink:czech-pilsnerurquell",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink/france-chartreuse.md",
+      "sha256": "c7152fca42ce2d7fe964ea64ac36e4ff3a2cb7753257ad945ac0f1ac1fdf45b2",
+      "id": "drink:france-chartreuse",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink/france-chateaulafiterothschild.md",
+      "sha256": "1f7b68c044fbd0e368a8fd531a09dd034c52c98bacf929691f3372744e93e538",
+      "id": "drink:france-chateaulafiterothschild",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink/france-domperignon.md",
+      "sha256": "c2609c4152800ff5d433de68c31649eeb808d13f260f50cf91abc760cf6a64b8",
+      "id": "drink:france-domperignon",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink/france-hennessyxo.md",
+      "sha256": "d6bb52a29fe34258740796833c88fcbdcc1b5dbca992fde2621ca8ba3ea48021",
+      "id": "drink:france-hennessyxo",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink/france-romaneeconti.md",
+      "sha256": "d4f85982ad0c5e2d7299b0f1fbe1613c068ab8e482d05de8a7c8390511edb020",
+      "id": "drink:france-romaneeconti",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink/guizhou-moutai.md",
+      "sha256": "2cd266e9a3d8a7431154a5f10d3f69c9bec38ee4e716405ac5da7f7957648780",
+      "id": "drink:guizhou-moutai",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink/hunan-jiugui.md",
+      "sha256": "a4d14de50f6af509c0bb819845921632727758476a88fdb8d2872088ae01d7eb",
+      "id": "drink:hunan-jiugui",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink/ireland-guinnessdraughtstout.md",
+      "sha256": "cd86e1dd1387c9674c3e05a1b00e7b06e18ee8d0d886c2d696b74d233bbe631c",
+      "id": "drink:ireland-guinnessdraughtstout",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink/ireland-jamesonirishwhiskey.md",
+      "sha256": "3e4a4d84b710503255a9d773eb3bcb30b0260f87cf23321c20d77f82777c0b11",
+      "id": "drink:ireland-jamesonirishwhiskey",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink/italy-campari.md",
+      "sha256": "ef805615e8369e9c5bd1ba6d211098204d89ab3bc8bbcf9435499470863d231f",
+      "id": "drink:italy-campari",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink/italy-sassicaia.md",
+      "sha256": "48aff18fccb0d31a275e71dd92a2a91ebe9a59ad979a176dbfd3ce857c0d6a55",
+      "id": "drink:italy-sassicaia",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink/japan-yamazaki.md",
+      "sha256": "9e87893b92f25578fa29146709d08caa137263d8beff8a27a9893962be0fed77",
+      "id": "drink:japan-yamazaki",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink/jiangsu-yanghe.md",
+      "sha256": "d9951b12cbc62fb67350eaa74cf0d258e6ce7d606412f4d5525ec4a877eb1bdf",
+      "id": "drink:jiangsu-yanghe",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink/scotland-themacallan.md",
+      "sha256": "58e0fdd47c99c14ce6287e3db0092074d8f584ada1466f97a70b4de524d1be82",
+      "id": "drink:scotland-themacallan",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink/shaanxi-xifengjiu.md",
+      "sha256": "a770f62a7e952832279a9e5f5ec1286e82b66bbaf77dd1b5f33850da1c551765",
+      "id": "drink:shaanxi-xifengjiu",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink/shandong-changyu.md",
+      "sha256": "6421bfa92fa008fb692382e57ed02d6147b07c315d0d268b13a1c3b8e340648e",
+      "id": "drink:shandong-changyu",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink/shandong-tsingtao.md",
+      "sha256": "7ed0fa64b6cfb8c54bb4565188c68ab3993a797e585e482eaf3d8ab793b74e31",
+      "id": "drink:shandong-tsingtao",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink/shanxi-fenjiu.md",
+      "sha256": "4dc4b0c4fddafa4b69a0851d51cdba16a03c35acd36df3e4555e545116bcc825",
+      "id": "drink:shanxi-fenjiu",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink/sichuan-jiannanchun.md",
+      "sha256": "cc0fb3d5a4f9536487f098fa35c353a423462bea35e72f62c65d785f61f9fc5f",
+      "id": "drink:sichuan-jiannanchun",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink/sichuan-langjiu.md",
+      "sha256": "9e26f685e18353a5017215efc011a21658bc7209ad07b1c8069c8c5047c8d0b2",
+      "id": "drink:sichuan-langjiu",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink/sichuan-luzhoulaojiao.md",
+      "sha256": "f347dfee4cb1a43f4b599e4b80190b2c9e4ddd0ffa54a8f7142c0944b2572fe1",
+      "id": "drink:sichuan-luzhoulaojiao",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink/sichuan-wuliangye.md",
+      "sha256": "d2bc85b52e9124b78fc355d8a3e1d0a436a2b0aa6246806b5467033cf687ab98",
+      "id": "drink:sichuan-wuliangye",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink/sweden-absolutvodka.md",
+      "sha256": "6d1f5ff08369fb6fb9a963c22fd53184b8b60a1df3502159542f840f1c0e8458",
+      "id": "drink:sweden-absolutvodka",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink/uk-beefeater.md",
+      "sha256": "6d1a3d204d376eebb1e3f033f83df6986643326a8129e149f5d80a9261fdd978",
+      "id": "drink:uk-beefeater",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink/usa-jackdaniels.md",
+      "sha256": "d99bb6fe4f137183d9f49d33cad263aeb5b5268d13c58bd4adf97105d333bdc8",
+      "id": "drink:usa-jackdaniels",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/drink/zhejiang-guyuelongshan.md",
+      "sha256": "f98c3996a6c213d03de44c318a317fb890e8f242d73d437d84994b471b793e96",
+      "id": "drink:zhejiang-guyuelongshan",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/producer/gujing-distillery.md",
+      "sha256": "8d8ecb6b197bba17246f91fc5f5c5e08e1b9480b578fa0d7577ae8dc313e6729",
+      "id": "producer:gujing-distillery",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/region/anhui.md",
+      "sha256": "3cf8a9d4f6b36e6d76540f0542326e59bf03c9bb19c41ff46f381ba2079829b7",
+      "id": "region:anhui",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/region/bozhou.md",
+      "sha256": "3125311570187ad92432e630dfad70bcff59e78a71a33eeec057a2c3822dc1cd",
+      "id": "region:bozhou",
+      "lang": "zh",
+      "status": "reviewed"
+    },
+    {
+      "repository": "alcoholic-beverages",
+      "path": "zh/region/china.md",
+      "sha256": "1e9f13e3179fde406e22200326e3098bec7287d6a45ed8931c7d357fa460ca67",
+      "id": "region:china",
+      "lang": "zh",
+      "status": "reviewed"
+    }
+  ],
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "pages": [
+    {
+      "path": "/brands/gujing-gongjiu/",
+      "canonical": "https://hejiu.org/brands/gujing-gongjiu/",
+      "id": "brand:gujing-gongjiu",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/cocktails/negroni/",
+      "canonical": "https://hejiu.org/cocktails/negroni/",
+      "id": "cocktail:negroni",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/drinks/australia-penfolds-grange/",
+      "canonical": "https://hejiu.org/drinks/australia-penfolds-grange/",
+      "id": "drink:australia-penfolds-grange",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/drinks/beijing-erguotou/",
+      "canonical": "https://hejiu.org/drinks/beijing-erguotou/",
+      "id": "drink:beijing-erguotou",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/drinks/cuba-bacardi-carta-blanca/",
+      "canonical": "https://hejiu.org/drinks/cuba-bacardi-carta-blanca/",
+      "id": "drink:cuba-bacardi-carta-blanca",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/drinks/cuba-havana-club-7-year-old/",
+      "canonical": "https://hejiu.org/drinks/cuba-havana-club-7-year-old/",
+      "id": "drink:cuba-havana-club-7-year-old",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/drinks/czech-pilsnerurquell/",
+      "canonical": "https://hejiu.org/drinks/czech-pilsnerurquell/",
+      "id": "drink:czech-pilsnerurquell",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/drinks/france-chartreuse/",
+      "canonical": "https://hejiu.org/drinks/france-chartreuse/",
+      "id": "drink:france-chartreuse",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/drinks/france-chateaulafiterothschild/",
+      "canonical": "https://hejiu.org/drinks/france-chateaulafiterothschild/",
+      "id": "drink:france-chateaulafiterothschild",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/drinks/france-domperignon/",
+      "canonical": "https://hejiu.org/drinks/france-domperignon/",
+      "id": "drink:france-domperignon",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/drinks/france-hennessyxo/",
+      "canonical": "https://hejiu.org/drinks/france-hennessyxo/",
+      "id": "drink:france-hennessyxo",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/drinks/france-romaneeconti/",
+      "canonical": "https://hejiu.org/drinks/france-romaneeconti/",
+      "id": "drink:france-romaneeconti",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/drinks/guizhou-moutai/",
+      "canonical": "https://hejiu.org/drinks/guizhou-moutai/",
+      "id": "drink:guizhou-moutai",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/drinks/hunan-jiugui/",
+      "canonical": "https://hejiu.org/drinks/hunan-jiugui/",
+      "id": "drink:hunan-jiugui",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/drinks/ireland-guinnessdraughtstout/",
+      "canonical": "https://hejiu.org/drinks/ireland-guinnessdraughtstout/",
+      "id": "drink:ireland-guinnessdraughtstout",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/drinks/ireland-jamesonirishwhiskey/",
+      "canonical": "https://hejiu.org/drinks/ireland-jamesonirishwhiskey/",
+      "id": "drink:ireland-jamesonirishwhiskey",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/drinks/italy-campari/",
+      "canonical": "https://hejiu.org/drinks/italy-campari/",
+      "id": "drink:italy-campari",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/drinks/italy-sassicaia/",
+      "canonical": "https://hejiu.org/drinks/italy-sassicaia/",
+      "id": "drink:italy-sassicaia",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/drinks/japan-yamazaki/",
+      "canonical": "https://hejiu.org/drinks/japan-yamazaki/",
+      "id": "drink:japan-yamazaki",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/drinks/jiangsu-yanghe/",
+      "canonical": "https://hejiu.org/drinks/jiangsu-yanghe/",
+      "id": "drink:jiangsu-yanghe",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/drinks/scotland-themacallan/",
+      "canonical": "https://hejiu.org/drinks/scotland-themacallan/",
+      "id": "drink:scotland-themacallan",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/drinks/shaanxi-xifengjiu/",
+      "canonical": "https://hejiu.org/drinks/shaanxi-xifengjiu/",
+      "id": "drink:shaanxi-xifengjiu",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/drinks/shandong-changyu/",
+      "canonical": "https://hejiu.org/drinks/shandong-changyu/",
+      "id": "drink:shandong-changyu",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/drinks/shandong-tsingtao/",
+      "canonical": "https://hejiu.org/drinks/shandong-tsingtao/",
+      "id": "drink:shandong-tsingtao",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/drinks/shanxi-fenjiu/",
+      "canonical": "https://hejiu.org/drinks/shanxi-fenjiu/",
+      "id": "drink:shanxi-fenjiu",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/drinks/sichuan-jiannanchun/",
+      "canonical": "https://hejiu.org/drinks/sichuan-jiannanchun/",
+      "id": "drink:sichuan-jiannanchun",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/drinks/sichuan-langjiu/",
+      "canonical": "https://hejiu.org/drinks/sichuan-langjiu/",
+      "id": "drink:sichuan-langjiu",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/drinks/sichuan-luzhoulaojiao/",
+      "canonical": "https://hejiu.org/drinks/sichuan-luzhoulaojiao/",
+      "id": "drink:sichuan-luzhoulaojiao",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/drinks/sichuan-wuliangye/",
+      "canonical": "https://hejiu.org/drinks/sichuan-wuliangye/",
+      "id": "drink:sichuan-wuliangye",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/drinks/sweden-absolutvodka/",
+      "canonical": "https://hejiu.org/drinks/sweden-absolutvodka/",
+      "id": "drink:sweden-absolutvodka",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/drinks/uk-beefeater/",
+      "canonical": "https://hejiu.org/drinks/uk-beefeater/",
+      "id": "drink:uk-beefeater",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/drinks/usa-jackdaniels/",
+      "canonical": "https://hejiu.org/drinks/usa-jackdaniels/",
+      "id": "drink:usa-jackdaniels",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/drinks/zhejiang-guyuelongshan/",
+      "canonical": "https://hejiu.org/drinks/zhejiang-guyuelongshan/",
+      "id": "drink:zhejiang-guyuelongshan",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/brands/gujing-gongjiu/",
+      "canonical": "https://hejiu.org/en/brands/gujing-gongjiu/",
+      "id": "brand:gujing-gongjiu",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/cocktails/negroni/",
+      "canonical": "https://hejiu.org/en/cocktails/negroni/",
+      "id": "cocktail:negroni",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/drinks/australia-penfolds-grange/",
+      "canonical": "https://hejiu.org/en/drinks/australia-penfolds-grange/",
+      "id": "drink:australia-penfolds-grange",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/drinks/beijing-erguotou/",
+      "canonical": "https://hejiu.org/en/drinks/beijing-erguotou/",
+      "id": "drink:beijing-erguotou",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/drinks/cuba-bacardi-carta-blanca/",
+      "canonical": "https://hejiu.org/en/drinks/cuba-bacardi-carta-blanca/",
+      "id": "drink:cuba-bacardi-carta-blanca",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/drinks/cuba-havana-club-7-year-old/",
+      "canonical": "https://hejiu.org/en/drinks/cuba-havana-club-7-year-old/",
+      "id": "drink:cuba-havana-club-7-year-old",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/drinks/czech-pilsnerurquell/",
+      "canonical": "https://hejiu.org/en/drinks/czech-pilsnerurquell/",
+      "id": "drink:czech-pilsnerurquell",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/drinks/france-chartreuse/",
+      "canonical": "https://hejiu.org/en/drinks/france-chartreuse/",
+      "id": "drink:france-chartreuse",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/drinks/france-chateaulafiterothschild/",
+      "canonical": "https://hejiu.org/en/drinks/france-chateaulafiterothschild/",
+      "id": "drink:france-chateaulafiterothschild",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/drinks/france-domperignon/",
+      "canonical": "https://hejiu.org/en/drinks/france-domperignon/",
+      "id": "drink:france-domperignon",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/drinks/france-hennessyxo/",
+      "canonical": "https://hejiu.org/en/drinks/france-hennessyxo/",
+      "id": "drink:france-hennessyxo",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/drinks/france-romaneeconti/",
+      "canonical": "https://hejiu.org/en/drinks/france-romaneeconti/",
+      "id": "drink:france-romaneeconti",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/drinks/guizhou-moutai/",
+      "canonical": "https://hejiu.org/en/drinks/guizhou-moutai/",
+      "id": "drink:guizhou-moutai",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/drinks/hunan-jiugui/",
+      "canonical": "https://hejiu.org/en/drinks/hunan-jiugui/",
+      "id": "drink:hunan-jiugui",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/drinks/ireland-guinnessdraughtstout/",
+      "canonical": "https://hejiu.org/en/drinks/ireland-guinnessdraughtstout/",
+      "id": "drink:ireland-guinnessdraughtstout",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/drinks/ireland-jamesonirishwhiskey/",
+      "canonical": "https://hejiu.org/en/drinks/ireland-jamesonirishwhiskey/",
+      "id": "drink:ireland-jamesonirishwhiskey",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/drinks/italy-campari/",
+      "canonical": "https://hejiu.org/en/drinks/italy-campari/",
+      "id": "drink:italy-campari",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/drinks/italy-sassicaia/",
+      "canonical": "https://hejiu.org/en/drinks/italy-sassicaia/",
+      "id": "drink:italy-sassicaia",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/drinks/japan-yamazaki/",
+      "canonical": "https://hejiu.org/en/drinks/japan-yamazaki/",
+      "id": "drink:japan-yamazaki",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/drinks/jiangsu-yanghe/",
+      "canonical": "https://hejiu.org/en/drinks/jiangsu-yanghe/",
+      "id": "drink:jiangsu-yanghe",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/drinks/scotland-themacallan/",
+      "canonical": "https://hejiu.org/en/drinks/scotland-themacallan/",
+      "id": "drink:scotland-themacallan",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/drinks/shaanxi-xifengjiu/",
+      "canonical": "https://hejiu.org/en/drinks/shaanxi-xifengjiu/",
+      "id": "drink:shaanxi-xifengjiu",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/drinks/shandong-changyu/",
+      "canonical": "https://hejiu.org/en/drinks/shandong-changyu/",
+      "id": "drink:shandong-changyu",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/drinks/shandong-tsingtao/",
+      "canonical": "https://hejiu.org/en/drinks/shandong-tsingtao/",
+      "id": "drink:shandong-tsingtao",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/drinks/shanxi-fenjiu/",
+      "canonical": "https://hejiu.org/en/drinks/shanxi-fenjiu/",
+      "id": "drink:shanxi-fenjiu",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/drinks/sichuan-jiannanchun/",
+      "canonical": "https://hejiu.org/en/drinks/sichuan-jiannanchun/",
+      "id": "drink:sichuan-jiannanchun",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/drinks/sichuan-langjiu/",
+      "canonical": "https://hejiu.org/en/drinks/sichuan-langjiu/",
+      "id": "drink:sichuan-langjiu",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/drinks/sichuan-luzhoulaojiao/",
+      "canonical": "https://hejiu.org/en/drinks/sichuan-luzhoulaojiao/",
+      "id": "drink:sichuan-luzhoulaojiao",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/drinks/sichuan-wuliangye/",
+      "canonical": "https://hejiu.org/en/drinks/sichuan-wuliangye/",
+      "id": "drink:sichuan-wuliangye",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/drinks/sweden-absolutvodka/",
+      "canonical": "https://hejiu.org/en/drinks/sweden-absolutvodka/",
+      "id": "drink:sweden-absolutvodka",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/drinks/uk-beefeater/",
+      "canonical": "https://hejiu.org/en/drinks/uk-beefeater/",
+      "id": "drink:uk-beefeater",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/drinks/usa-jackdaniels/",
+      "canonical": "https://hejiu.org/en/drinks/usa-jackdaniels/",
+      "id": "drink:usa-jackdaniels",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/drinks/zhejiang-guyuelongshan/",
+      "canonical": "https://hejiu.org/en/drinks/zhejiang-guyuelongshan/",
+      "id": "drink:zhejiang-guyuelongshan",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/producers/gujing-distillery/",
+      "canonical": "https://hejiu.org/en/producers/gujing-distillery/",
+      "id": "producer:gujing-distillery",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/regions/anhui/",
+      "canonical": "https://hejiu.org/en/regions/anhui/",
+      "id": "region:anhui",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/regions/bozhou/",
+      "canonical": "https://hejiu.org/en/regions/bozhou/",
+      "id": "region:bozhou",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/regions/china/",
+      "canonical": "https://hejiu.org/en/regions/china/",
+      "id": "region:china",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/styles/aperitif/",
+      "canonical": "https://hejiu.org/en/styles/aperitif/",
+      "id": "drink-style:aperitif",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/styles/baijiu-medicinal/",
+      "canonical": "https://hejiu.org/en/styles/baijiu-medicinal/",
+      "id": "drink-style:baijiu-medicinal",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/styles/baijiu/",
+      "canonical": "https://hejiu.org/en/styles/baijiu/",
+      "id": "drink-style:baijiu",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/styles/beer/",
+      "canonical": "https://hejiu.org/en/styles/beer/",
+      "id": "drink-style:beer",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/styles/brandy/",
+      "canonical": "https://hejiu.org/en/styles/brandy/",
+      "id": "drink-style:brandy",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/styles/fruit-wine/",
+      "canonical": "https://hejiu.org/en/styles/fruit-wine/",
+      "id": "drink-style:fruit-wine",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/styles/gin/",
+      "canonical": "https://hejiu.org/en/styles/gin/",
+      "id": "drink-style:gin",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/styles/liqueur/",
+      "canonical": "https://hejiu.org/en/styles/liqueur/",
+      "id": "drink-style:liqueur",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/styles/rum/",
+      "canonical": "https://hejiu.org/en/styles/rum/",
+      "id": "drink-style:rum",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/styles/sake/",
+      "canonical": "https://hejiu.org/en/styles/sake/",
+      "id": "drink-style:sake",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/styles/soju/",
+      "canonical": "https://hejiu.org/en/styles/soju/",
+      "id": "drink-style:soju",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/styles/strong-aroma-baijiu/",
+      "canonical": "https://hejiu.org/en/styles/strong-aroma-baijiu/",
+      "id": "drink-style:strong-aroma-baijiu",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/styles/tequila/",
+      "canonical": "https://hejiu.org/en/styles/tequila/",
+      "id": "drink-style:tequila",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/styles/vodka/",
+      "canonical": "https://hejiu.org/en/styles/vodka/",
+      "id": "drink-style:vodka",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/styles/whisky/",
+      "canonical": "https://hejiu.org/en/styles/whisky/",
+      "id": "drink-style:whisky",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/styles/wine/",
+      "canonical": "https://hejiu.org/en/styles/wine/",
+      "id": "drink-style:wine",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/en/styles/yellow-wine/",
+      "canonical": "https://hejiu.org/en/styles/yellow-wine/",
+      "id": "drink-style:yellow-wine",
+      "lang": "en",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/producers/gujing-distillery/",
+      "canonical": "https://hejiu.org/producers/gujing-distillery/",
+      "id": "producer:gujing-distillery",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/regions/anhui/",
+      "canonical": "https://hejiu.org/regions/anhui/",
+      "id": "region:anhui",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/regions/bozhou/",
+      "canonical": "https://hejiu.org/regions/bozhou/",
+      "id": "region:bozhou",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/regions/china/",
+      "canonical": "https://hejiu.org/regions/china/",
+      "id": "region:china",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/styles/aperitif/",
+      "canonical": "https://hejiu.org/styles/aperitif/",
+      "id": "drink-style:aperitif",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/styles/baijiu-medicinal/",
+      "canonical": "https://hejiu.org/styles/baijiu-medicinal/",
+      "id": "drink-style:baijiu-medicinal",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/styles/baijiu/",
+      "canonical": "https://hejiu.org/styles/baijiu/",
+      "id": "drink-style:baijiu",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/styles/beer/",
+      "canonical": "https://hejiu.org/styles/beer/",
+      "id": "drink-style:beer",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/styles/brandy/",
+      "canonical": "https://hejiu.org/styles/brandy/",
+      "id": "drink-style:brandy",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/styles/fruit-wine/",
+      "canonical": "https://hejiu.org/styles/fruit-wine/",
+      "id": "drink-style:fruit-wine",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/styles/gin/",
+      "canonical": "https://hejiu.org/styles/gin/",
+      "id": "drink-style:gin",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/styles/liqueur/",
+      "canonical": "https://hejiu.org/styles/liqueur/",
+      "id": "drink-style:liqueur",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/styles/rum/",
+      "canonical": "https://hejiu.org/styles/rum/",
+      "id": "drink-style:rum",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/styles/sake/",
+      "canonical": "https://hejiu.org/styles/sake/",
+      "id": "drink-style:sake",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/styles/soju/",
+      "canonical": "https://hejiu.org/styles/soju/",
+      "id": "drink-style:soju",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/styles/strong-aroma-baijiu/",
+      "canonical": "https://hejiu.org/styles/strong-aroma-baijiu/",
+      "id": "drink-style:strong-aroma-baijiu",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/styles/tequila/",
+      "canonical": "https://hejiu.org/styles/tequila/",
+      "id": "drink-style:tequila",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/styles/vodka/",
+      "canonical": "https://hejiu.org/styles/vodka/",
+      "id": "drink-style:vodka",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/styles/whisky/",
+      "canonical": "https://hejiu.org/styles/whisky/",
+      "id": "drink-style:whisky",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/styles/wine/",
+      "canonical": "https://hejiu.org/styles/wine/",
+      "id": "drink-style:wine",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    },
+    {
+      "path": "/styles/yellow-wine/",
+      "canonical": "https://hejiu.org/styles/yellow-wine/",
+      "id": "drink-style:yellow-wine",
+      "lang": "zh",
+      "status": "reviewed",
+      "published": true,
+      "noindex": false
+    }
+  ],
+  "pageCounts": {
+    "total": 108,
+    "published": 108,
+    "preview": 0
+  },
+  "search": {
+    "localBundle": "pagefind/",
+    "localRecords": 108,
+    "aggregateSource": ".hejiu/published/beverages.json",
+    "includesPreview": false
+  },
+  "distTreeSha256ExcludingManifest": "36d6d922b8d2c8b95bb7a142a8935b44fac7054722d107851741eb1b56863d27",
+  "status": "local-build",
+  "notes": [
+    "No tokens or credentials are written into this manifest.",
+    "distTreeSha256ExcludingManifest is filled by the release drill, not by this local build."
+  ]
+}

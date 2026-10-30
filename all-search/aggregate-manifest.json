@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-29T23:32:28.621Z",
+  "scope": "published-only",
+  "sources": [
+    {
+      "siteKey": "beverages",
+      "generatedAt": "2026-10-29T23:32:27.925Z",
+      "contentTreeSha256": "d00d83ce80b6a6ba752cf3c97093fc394f59e310447154766725d715473dff95",
+      "recordCount": 108
+    },
+    {
+      "siteKey": "guide",
+      "generatedAt": "2026-10-29T23:32:16.595Z",
+      "contentTreeSha256": "d00d83ce80b6a6ba752cf3c97093fc394f59e310447154766725d715473dff95",
+      "recordCount": 16
+    },
+    {
+      "siteKey": "culture",
+      "generatedAt": "2026-10-29T23:32:19.881Z",
+      "contentTreeSha256": "d00d83ce80b6a6ba752cf3c97093fc394f59e310447154766725d715473dff95",
+      "recordCount": 8
+    },
+    {
+      "siteKey": "atlas",
+      "generatedAt": "2026-10-29T23:32:23.585Z",
+      "contentTreeSha256": "d00d83ce80b6a6ba752cf3c97093fc394f59e310447154766725d715473dff95",
+      "recordCount": 34
+    }
+  ],
+  "recordCount": 166
+}

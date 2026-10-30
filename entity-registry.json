@@ -1,0 +1,2505 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-29T23:32:27.647Z",
+  "contentTreeSha256": "d00d83ce80b6a6ba752cf3c97093fc394f59e310447154766725d715473dff95",
+  "counts": {
+    "records": 166,
+    "entities": 83,
+    "publishedPages": 166,
+    "previewPages": 0,
+    "sourceRecords": 167,
+    "sourceEntities": 84
+  },
+  "entities": [
+    {
+      "id": "brand:gujing-gongjiu",
+      "type": "brand",
+      "siteKey": "beverages",
+      "typePath": "brands",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "gujing-gongjiu",
+          "path": "/brands/gujing-gongjiu/",
+          "url": "https://hejiu.org/brands/gujing-gongjiu/",
+          "title": "古井贡酒",
+          "summary": "产自安徽亳州的浓香型白酒品牌，以“年份原浆”系列知名，产品覆盖多个酒精度。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "gujing-gongjiu",
+          "path": "/en/brands/gujing-gongjiu/",
+          "url": "https://hejiu.org/en/brands/gujing-gongjiu/",
+          "title": "Gujing Gongjiu",
+          "summary": "A strong-aroma baijiu brand from Bozhou, Anhui, known for its “Nianfen Yuanjiang” product line.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "cocktail:negroni",
+      "type": "cocktail",
+      "siteKey": "beverages",
+      "typePath": "cocktails",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "negroni",
+          "path": "/cocktails/negroni/",
+          "url": "https://hejiu.org/cocktails/negroni/",
+          "title": "内格罗尼",
+          "summary": "由金酒、苦味开胃酒与甜味美思等量调制的经典鸡尾酒。鸡尾酒身份与配方版本分开记录。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "negroni",
+          "path": "/en/cocktails/negroni/",
+          "url": "https://hejiu.org/en/cocktails/negroni/",
+          "title": "Negroni",
+          "summary": "A classic cocktail of equal parts gin, bitter aperitif and sweet vermouth. The cocktail identity and its recipe versions are separate records.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "culture-article:beyond-the-pub",
+      "type": "article",
+      "siteKey": "culture",
+      "typePath": "articles",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "beyond-the-pub",
+          "path": "/articles/beyond-the-pub/",
+          "url": "https://culture.hejiu.org/articles/beyond-the-pub/",
+          "title": "从酒馆，再走到酿酒的地方",
+          "summary": "酒厂与酒庄参观把风味和工艺连起来；提前预约，尊重生产区域。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "beyond-the-pub",
+          "path": "/en/articles/beyond-the-pub/",
+          "url": "https://culture.hejiu.org/en/articles/beyond-the-pub/",
+          "title": "Beyond the pub, to where it is made",
+          "summary": "Distillery and brewery visits connect flavour with process; book ahead and respect production areas.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "culture-article:place-and-process",
+      "type": "article",
+      "siteKey": "culture",
+      "typePath": "articles",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "place-and-process",
+          "path": "/articles/place-and-process/",
+          "url": "https://culture.hejiu.org/articles/place-and-process/",
+          "title": "一杯酒，为什么有地方的味道？",
+          "summary": "产地通过气候、土壤、品种与工艺进入酒中；风土不是唯一解释。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "place-and-process",
+          "path": "/en/articles/place-and-process/",
+          "url": "https://culture.hejiu.org/en/articles/place-and-process/",
+          "title": "How does a place end up in a glass?",
+          "summary": "Place enters a drink through climate, soil, variety and process; terroir is not the only explanation.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "culture-article:pub-and-city",
+      "type": "article",
+      "siteKey": "culture",
+      "typePath": "articles",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "pub-and-city",
+          "path": "/articles/pub-and-city/",
+          "url": "https://culture.hejiu.org/articles/pub-and-city/",
+          "title": "认识一座城，从一间酒馆开始",
+          "summary": "酒馆是城市生活的切片；历史、街区、常客与酒单共同构成它的性格。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "pub-and-city",
+          "path": "/en/articles/pub-and-city/",
+          "url": "https://culture.hejiu.org/en/articles/pub-and-city/",
+          "title": "Meet a city through one of its pubs",
+          "summary": "A pub is a slice of city life; history, neighbourhood, regulars and the drinks list shape its character.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "culture-article:time-in-a-cup",
+      "type": "article",
+      "siteKey": "culture",
+      "typePath": "articles",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "time-in-a-cup",
+          "path": "/articles/time-in-a-cup/",
+          "url": "https://culture.hejiu.org/articles/time-in-a-cup/",
+          "title": "一杯酒里的时间",
+          "summary": "从《诗经》的春酒到唐诗里的金樽，古人把节令、农事与相聚写进酒中。本文只谈文献能支持的线索。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "time-in-a-cup",
+          "path": "/en/articles/time-in-a-cup/",
+          "url": "https://culture.hejiu.org/en/articles/time-in-a-cup/",
+          "title": "Time in a cup",
+          "summary": "From the spring wine of the Book of Songs to the golden goblets of Tang poetry, writers tied drink to seasons and gatherings. This essay keeps to what the sources support.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink-style:aperitif",
+      "type": "drink-style",
+      "siteKey": "beverages",
+      "typePath": "styles",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "aperitif",
+          "path": "/styles/aperitif/",
+          "url": "https://hejiu.org/styles/aperitif/",
+          "title": "开胃酒",
+          "summary": "餐前饮用、以苦味或干型风味为主的一类酒饮；它是按场景划分的类别，而不是按原料划分的单一酒种。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "aperitif",
+          "path": "/en/styles/aperitif/",
+          "url": "https://hejiu.org/en/styles/aperitif/",
+          "title": "Aperitif",
+          "summary": "A pre-meal drink category defined by occasion and a dry or bitter profile, not by one base ingredient.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink-style:baijiu",
+      "type": "drink-style",
+      "siteKey": "beverages",
+      "typePath": "styles",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "baijiu",
+          "path": "/styles/baijiu/",
+          "url": "https://hejiu.org/styles/baijiu/",
+          "title": "白酒",
+          "summary": "以粮谷为主要原料、经糖化发酵与蒸馏而成的中国传统蒸馏酒。香型是常见分类维度，但不是唯一维度。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "baijiu",
+          "path": "/en/styles/baijiu/",
+          "url": "https://hejiu.org/en/styles/baijiu/",
+          "title": "Baijiu",
+          "summary": "A traditional Chinese distilled spirit made mainly from grains and fermented with qu. Aroma family is one useful lens, not the only one.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink-style:baijiu-medicinal",
+      "type": "drink-style",
+      "siteKey": "beverages",
+      "typePath": "styles",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "baijiu-medicinal",
+          "path": "/styles/baijiu-medicinal/",
+          "url": "https://hejiu.org/styles/baijiu-medicinal/",
+          "title": "保健酒",
+          "summary": "以蒸馏酒或黄酒为基酒、加入药食同源原料制成的配制酒；它是食品类别，不是药品，功能声称受严格限制。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "baijiu-medicinal",
+          "path": "/en/styles/baijiu-medicinal/",
+          "url": "https://hejiu.org/en/styles/baijiu-medicinal/",
+          "title": "Medicinal liquor",
+          "summary": "A Chinese infused liquor made with a distilled or yellow-wine base and food-medicine ingredients; it is food, not medicine.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink-style:beer",
+      "type": "drink-style",
+      "siteKey": "beverages",
+      "typePath": "styles",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "beer",
+          "path": "/styles/beer/",
+          "url": "https://hejiu.org/styles/beer/",
+          "title": "啤酒",
+          "summary": "以谷物糖化、发酵并通常加入啤酒花酿成的低到中等酒精度饮品，按发酵方式、原料和地域形成庞大风格谱系。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "beer",
+          "path": "/en/styles/beer/",
+          "url": "https://hejiu.org/en/styles/beer/",
+          "title": "Beer",
+          "summary": "A fermented cereal drink, usually hopped, ranging from clean lagers to aromatic ales, stouts and sour beers.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink-style:brandy",
+      "type": "drink-style",
+      "siteKey": "beverages",
+      "typePath": "styles",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "brandy",
+          "path": "/styles/brandy/",
+          "url": "https://hejiu.org/styles/brandy/",
+          "title": "白兰地",
+          "summary": "以葡萄酒或其他水果酒蒸馏而成的烈酒；干邑、雅文邑、卡尔瓦多斯与果渣白兰地各有法定工艺与产区。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "brandy",
+          "path": "/en/styles/brandy/",
+          "url": "https://hejiu.org/en/styles/brandy/",
+          "title": "Brandy",
+          "summary": "A spirit distilled from wine or other fruit wine, including Cognac, Armagnac, Calvados and grape-pomace brandies.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink-style:fruit-wine",
+      "type": "drink-style",
+      "siteKey": "beverages",
+      "typePath": "styles",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "fruit-wine",
+          "path": "/styles/fruit-wine/",
+          "url": "https://hejiu.org/styles/fruit-wine/",
+          "title": "果酒",
+          "summary": "以水果汁或水果浸提液发酵而成的低到中等酒精度饮品；与水果利口酒、水果白兰地属于不同类别。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "fruit-wine",
+          "path": "/en/styles/fruit-wine/",
+          "url": "https://hejiu.org/en/styles/fruit-wine/",
+          "title": "Fruit wine",
+          "summary": "A fermented drink made from fruit juice, distinct from fruit liqueur and fruit brandy.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink-style:gin",
+      "type": "drink-style",
+      "siteKey": "beverages",
+      "typePath": "styles",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "gin",
+          "path": "/styles/gin/",
+          "url": "https://hejiu.org/styles/gin/",
+          "title": "金酒",
+          "summary": "以杜松子为核心风味的蒸馏烈酒，按蒸馏方式和添加物分为伦敦干金、蒸馏金酒与复合金酒等类别。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "gin",
+          "path": "/en/styles/gin/",
+          "url": "https://hejiu.org/en/styles/gin/",
+          "title": "Gin",
+          "summary": "A juniper-led spirit, with London dry, distilled gin and compound gin as distinct production categories.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink-style:liqueur",
+      "type": "drink-style",
+      "siteKey": "beverages",
+      "typePath": "styles",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "liqueur",
+          "path": "/styles/liqueur/",
+          "url": "https://hejiu.org/styles/liqueur/",
+          "title": "利口酒",
+          "summary": "以烈酒为基底、加入糖和风味原料制成的甜味酒；按风味可分为水果、草本、坚果、奶油和咖啡等家族。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "liqueur",
+          "path": "/en/styles/liqueur/",
+          "url": "https://hejiu.org/en/styles/liqueur/",
+          "title": "Liqueur",
+          "summary": "A sweetened spirit flavoured with fruit, herbs, nuts, cream or coffee; bitters are a separate, less sweet category.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink-style:rum",
+      "type": "drink-style",
+      "siteKey": "beverages",
+      "typePath": "styles",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "rum",
+          "path": "/styles/rum/",
+          "url": "https://hejiu.org/styles/rum/",
+          "title": "朗姆酒",
+          "summary": "以甘蔗汁或糖蜜发酵蒸馏而成的烈酒，按原料、蒸馏与陈年形成白朗姆、金朗姆、深色朗姆和农业朗姆等类别。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "rum",
+          "path": "/en/styles/rum/",
+          "url": "https://hejiu.org/en/styles/rum/",
+          "title": "Rum",
+          "summary": "A spirit distilled from sugarcane juice or molasses, with white, aged, dark and agricole styles.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink-style:sake",
+      "type": "drink-style",
+      "siteKey": "beverages",
+      "typePath": "styles",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "sake",
+          "path": "/styles/sake/",
+          "url": "https://hejiu.org/styles/sake/",
+          "title": "清酒",
+          "summary": "以米、水、米曲和酵母酿成的日本传统酒类，按精米步合、是否添加酿造酒精与处理方法形成不同类别。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "sake",
+          "path": "/en/styles/sake/",
+          "url": "https://hejiu.org/en/styles/sake/",
+          "title": "Sake",
+          "summary": "A Japanese fermented rice drink made with rice, water, koji and yeast, classified by polishing and brewing method.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink-style:soju",
+      "type": "drink-style",
+      "siteKey": "beverages",
+      "typePath": "styles",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "soju",
+          "path": "/styles/soju/",
+          "url": "https://hejiu.org/styles/soju/",
+          "title": "烧酒",
+          "summary": "朝鲜半岛的传统蒸馏酒，现代大众烧酒多为稀释型；与日本烧酎在原料、法规和风味上并不相同。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "soju",
+          "path": "/en/styles/soju/",
+          "url": "https://hejiu.org/en/styles/soju/",
+          "title": "Soju",
+          "summary": "A Korean spirit ranging from traditional distilled soju to modern diluted soju, distinct from Japanese shochu.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink-style:strong-aroma-baijiu",
+      "type": "drink-style",
+      "siteKey": "beverages",
+      "typePath": "styles",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "strong-aroma-baijiu",
+          "path": "/styles/strong-aroma-baijiu/",
+          "url": "https://hejiu.org/styles/strong-aroma-baijiu/",
+          "title": "浓香型白酒",
+          "summary": "以泥窖固态发酵、续糟配料和混蒸混烧等工艺为特征的浓香型白酒，是白酒风格分类中的一类。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "strong-aroma-baijiu",
+          "path": "/en/styles/strong-aroma-baijiu/",
+          "url": "https://hejiu.org/en/styles/strong-aroma-baijiu/",
+          "title": "Strong-aroma baijiu",
+          "summary": "A baijiu style associated with mud-pit solid-state fermentation, continuous grain topping and mixed steaming. Style is not a quality score.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink-style:tequila",
+      "type": "drink-style",
+      "siteKey": "beverages",
+      "typePath": "styles",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "tequila",
+          "path": "/styles/tequila/",
+          "url": "https://hejiu.org/styles/tequila/",
+          "title": "龙舌兰酒",
+          "summary": "以蓝色韦伯龙舌兰为原料、在墨西哥法定产区生产的蒸馏酒；100% 龙舌兰与混合型、不同陈年等级差异明显。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "tequila",
+          "path": "/en/styles/tequila/",
+          "url": "https://hejiu.org/en/styles/tequila/",
+          "title": "Tequila",
+          "summary": "A Mexican spirit distilled from blue Weber agave, with 100% agave and mixto expressions and several age tiers.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink-style:vodka",
+      "type": "drink-style",
+      "siteKey": "beverages",
+      "typePath": "styles",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "vodka",
+          "path": "/styles/vodka/",
+          "url": "https://hejiu.org/styles/vodka/",
+          "title": "伏特加",
+          "summary": "以谷物、马铃薯、糖蜜等为原料，经发酵蒸馏和过滤得到的中性烈酒；风味差异比“无色无味”的刻板印象更丰富。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "vodka",
+          "path": "/en/styles/vodka/",
+          "url": "https://hejiu.org/en/styles/vodka/",
+          "title": "Vodka",
+          "summary": "A neutral spirit made from grain, potatoes, molasses or other materials, usually 37.5% ABV or higher.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink-style:whisky",
+      "type": "drink-style",
+      "siteKey": "beverages",
+      "typePath": "styles",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "whisky",
+          "path": "/styles/whisky/",
+          "url": "https://hejiu.org/styles/whisky/",
+          "title": "威士忌",
+          "summary": "以谷物为原料、经发酵蒸馏并在橡木桶中陈年的烈酒；苏格兰、爱尔兰、美国、日本等地各有法规与传统。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "whisky",
+          "path": "/en/styles/whisky/",
+          "url": "https://hejiu.org/en/styles/whisky/",
+          "title": "Whisky",
+          "summary": "A grain spirit aged in oak, with Scottish, Irish, American and Japanese traditions and strict labelling rules.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink-style:wine",
+      "type": "drink-style",
+      "siteKey": "beverages",
+      "typePath": "styles",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "wine",
+          "path": "/styles/wine/",
+          "url": "https://hejiu.org/styles/wine/",
+          "title": "葡萄酒",
+          "summary": "以葡萄汁发酵而成的酒精饮料，按颜色、甜度、气泡与产地法规形成不同类别；风土与年份只是部分变量。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "wine",
+          "path": "/en/styles/wine/",
+          "url": "https://hejiu.org/en/styles/wine/",
+          "title": "Wine",
+          "summary": "Fermented grape juice, ranging from still red, white and rosé to sparkling, sweet and fortified wines.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink-style:yellow-wine",
+      "type": "drink-style",
+      "siteKey": "beverages",
+      "typePath": "styles",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "yellow-wine",
+          "path": "/styles/yellow-wine/",
+          "url": "https://hejiu.org/styles/yellow-wine/",
+          "title": "黄酒",
+          "summary": "中国传统的谷物发酵酒，以稻米为主料、麦曲或酒药糖化发酵而成；绍兴酒是其中最知名的地理标志产品。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "yellow-wine",
+          "path": "/en/styles/yellow-wine/",
+          "url": "https://hejiu.org/en/styles/yellow-wine/",
+          "title": "Yellow wine",
+          "summary": "A Chinese fermented grain wine, usually rice-based; Shaoxing is its best-known protected origin.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink:australia-penfolds-grange",
+      "type": "drink",
+      "siteKey": "beverages",
+      "typePath": "drinks",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "australia-penfolds-grange",
+          "path": "/drinks/australia-penfolds-grange/",
+          "url": "https://hejiu.org/drinks/australia-penfolds-grange/",
+          "title": "奔富葛兰许",
+          "summary": "澳大利亚奔富酒庄旗舰酒，由马克斯·舒伯特于 1951 年首创，以设拉子为主的跨产区混酿。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "australia-penfolds-grange",
+          "path": "/en/drinks/australia-penfolds-grange/",
+          "url": "https://hejiu.org/en/drinks/australia-penfolds-grange/",
+          "title": "Penfolds Grange",
+          "summary": "The flagship wine of Penfolds, first made by Max Schubert in 1951 and based mainly on Shiraz.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink:beijing-erguotou",
+      "type": "drink",
+      "siteKey": "beverages",
+      "typePath": "drinks",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "beijing-erguotou",
+          "path": "/drinks/beijing-erguotou/",
+          "url": "https://hejiu.org/drinks/beijing-erguotou/",
+          "title": "二锅头",
+          "summary": "北京传统白酒工艺与产品类别，因取第二锅冷却流出的酒液而得名，风格清香、直接。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "beijing-erguotou",
+          "path": "/en/drinks/beijing-erguotou/",
+          "url": "https://hejiu.org/en/drinks/beijing-erguotou/",
+          "title": "Erguotou",
+          "summary": "A traditional Beijing baijiu style and product category, named for taking the spirit from the second distillation pot.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink:cuba-bacardi-carta-blanca",
+      "type": "drink",
+      "siteKey": "beverages",
+      "typePath": "drinks",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "cuba-bacardi-carta-blanca",
+          "path": "/drinks/cuba-bacardi-carta-blanca/",
+          "url": "https://hejiu.org/drinks/cuba-bacardi-carta-blanca/",
+          "title": "百加得白朗姆",
+          "summary": "以糖蜜为原料的白朗姆酒，经活性炭过滤，常见酒精度 40% vol，适合调制莫吉托和代基里。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "cuba-bacardi-carta-blanca",
+          "path": "/en/drinks/cuba-bacardi-carta-blanca/",
+          "url": "https://hejiu.org/en/drinks/cuba-bacardi-carta-blanca/",
+          "title": "Bacardí Carta Blanca",
+          "summary": "A white rum made from molasses, charcoal-filtered and commonly bottled at 40% ABV.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink:cuba-havana-club-7-year-old",
+      "type": "drink",
+      "siteKey": "beverages",
+      "typePath": "drinks",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "cuba-havana-club-7-year-old",
+          "path": "/drinks/cuba-havana-club-7-year-old/",
+          "url": "https://hejiu.org/drinks/cuba-havana-club-7-year-old/",
+          "title": "哈瓦那俱乐部7年",
+          "summary": "古巴朗姆酒品牌，以糖蜜蒸馏的朗姆酒调配并陈年，常见酒精度 40% vol。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "cuba-havana-club-7-year-old",
+          "path": "/en/drinks/cuba-havana-club-7-year-old/",
+          "url": "https://hejiu.org/en/drinks/cuba-havana-club-7-year-old/",
+          "title": "Havana Club 7",
+          "summary": "A Cuban aged rum blend, commonly 40% ABV, with vanilla, caramel and tobacco notes.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink:czech-pilsnerurquell",
+      "type": "drink",
+      "siteKey": "beverages",
+      "typePath": "drinks",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "czech-pilsnerurquell",
+          "path": "/drinks/czech-pilsnerurquell/",
+          "url": "https://hejiu.org/drinks/czech-pilsnerurquell/",
+          "title": "皮尔森之源",
+          "summary": "捷克皮尔森市的淡色拉格啤酒，1842 年首次酿造，酒精度约 4.4% vol。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "czech-pilsnerurquell",
+          "path": "/en/drinks/czech-pilsnerurquell/",
+          "url": "https://hejiu.org/en/drinks/czech-pilsnerurquell/",
+          "title": "Pilsner Urquell",
+          "summary": "A pale lager from Plzeň, Czechia, first brewed in 1842 and commonly around 4.4% ABV.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink:france-chartreuse",
+      "type": "drink",
+      "siteKey": "beverages",
+      "typePath": "drinks",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "france-chartreuse",
+          "path": "/drinks/france-chartreuse/",
+          "url": "https://hejiu.org/drinks/france-chartreuse/",
+          "title": "查特酒",
+          "summary": "法国加尔都西会修士在 Voiron 生产的草本利口酒，绿查特酒精度 55% vol，黄查特 40% vol。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "france-chartreuse",
+          "path": "/en/drinks/france-chartreuse/",
+          "url": "https://hejiu.org/en/drinks/france-chartreuse/",
+          "title": "Chartreuse",
+          "summary": "A herbal liqueur made by the Carthusian monks in Voiron, France; green is 55% ABV and yellow 40%.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink:france-chateaulafiterothschild",
+      "type": "drink",
+      "siteKey": "beverages",
+      "typePath": "drinks",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "france-chateaulafiterothschild",
+          "path": "/drinks/france-chateaulafiterothschild/",
+          "url": "https://hejiu.org/drinks/france-chateaulafiterothschild/",
+          "title": "拉菲古堡红葡萄酒",
+          "summary": "法国波尔多波亚克一级庄，以赤霞珠为主的混酿，酒体紧致、陈年潜力长。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "france-chateaulafiterothschild",
+          "path": "/en/drinks/france-chateaulafiterothschild/",
+          "url": "https://hejiu.org/en/drinks/france-chateaulafiterothschild/",
+          "title": "Château Lafite Rothschild",
+          "summary": "A first-growth Pauillac estate in Bordeaux, known for Cabernet Sauvignon-based blends with long ageing potential.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink:france-domperignon",
+      "type": "drink",
+      "siteKey": "beverages",
+      "typePath": "drinks",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "france-domperignon",
+          "path": "/drinks/france-domperignon/",
+          "url": "https://hejiu.org/drinks/france-domperignon/",
+          "title": "唐·培里侬香槟",
+          "summary": "酩悦香槟旗下的年份香槟品牌，只在特定年份生产，常见酒精度 12.5% vol。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "france-domperignon",
+          "path": "/en/drinks/france-domperignon/",
+          "url": "https://hejiu.org/en/drinks/france-domperignon/",
+          "title": "Dom Pérignon",
+          "summary": "A vintage Champagne from Moët & Chandon, produced only in declared years and commonly 12.5% ABV.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink:france-hennessyxo",
+      "type": "drink",
+      "siteKey": "beverages",
+      "typePath": "drinks",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "france-hennessyxo",
+          "path": "/drinks/france-hennessyxo/",
+          "url": "https://hejiu.org/drinks/france-hennessyxo/",
+          "title": "轩尼诗XO",
+          "summary": "法国干邑白兰地，由轩尼诗调配百余种生命之水，常见酒精度 40% vol。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "france-hennessyxo",
+          "path": "/en/drinks/france-hennessyxo/",
+          "url": "https://hejiu.org/en/drinks/france-hennessyxo/",
+          "title": "Hennessy XO",
+          "summary": "A Cognac blended from more than 100 eaux-de-vie, commonly 40% ABV; XO is a minimum ageing tier.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink:france-romaneeconti",
+      "type": "drink",
+      "siteKey": "beverages",
+      "typePath": "drinks",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "france-romaneeconti",
+          "path": "/drinks/france-romaneeconti/",
+          "url": "https://hejiu.org/drinks/france-romaneeconti/",
+          "title": "罗曼尼·康帝",
+          "summary": "法国勃艮第沃恩-罗曼尼村的特级园，由罗曼尼·康帝酒庄拥有，全部种植黑皮诺。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "france-romaneeconti",
+          "path": "/en/drinks/france-romaneeconti/",
+          "url": "https://hejiu.org/en/drinks/france-romaneeconti/",
+          "title": "Romanée-Conti",
+          "summary": "A Burgundy grand cru in Vosne-Romanée owned by Domaine de la Romanée-Conti, planted entirely to Pinot Noir.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink:guizhou-moutai",
+      "type": "drink",
+      "siteKey": "beverages",
+      "typePath": "drinks",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "guizhou-moutai",
+          "path": "/drinks/guizhou-moutai/",
+          "url": "https://hejiu.org/drinks/guizhou-moutai/",
+          "title": "茅台酒",
+          "summary": "产自贵州仁怀茅台镇的酱香型白酒代表，以高粱和小麦高温大曲酿造，常见酒精度 53% vol。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "guizhou-moutai",
+          "path": "/en/drinks/guizhou-moutai/",
+          "url": "https://hejiu.org/en/drinks/guizhou-moutai/",
+          "title": "Moutai",
+          "summary": "A sauce-aroma baijiu from Maotai, Guizhou, made from sorghum and wheat qu and commonly bottled at 53% ABV.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink:hunan-jiugui",
+      "type": "drink",
+      "siteKey": "beverages",
+      "typePath": "drinks",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "hunan-jiugui",
+          "path": "/drinks/hunan-jiugui/",
+          "url": "https://hejiu.org/drinks/hunan-jiugui/",
+          "title": "酒鬼酒",
+          "summary": "产自湖南吉首的馥郁香型白酒，融合浓香、清香和酱香工艺特点，常见酒精度 52% vol。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "hunan-jiugui",
+          "path": "/en/drinks/hunan-jiugui/",
+          "url": "https://hejiu.org/en/drinks/hunan-jiugui/",
+          "title": "Jiugui",
+          "summary": "A “fuyu-aroma” baijiu from Jishou, Hunan, combining strong-, light- and sauce-aroma production features.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink:ireland-guinnessdraughtstout",
+      "type": "drink",
+      "siteKey": "beverages",
+      "typePath": "drinks",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "ireland-guinnessdraughtstout",
+          "path": "/drinks/ireland-guinnessdraughtstout/",
+          "url": "https://hejiu.org/drinks/ireland-guinnessdraughtstout/",
+          "title": "健力士世涛啤酒",
+          "summary": "爱尔兰都柏林圣詹姆斯门啤酒厂生产的干世涛，代表产品酒精度约 4.2% vol。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "ireland-guinnessdraughtstout",
+          "path": "/en/drinks/ireland-guinnessdraughtstout/",
+          "url": "https://hejiu.org/en/drinks/ireland-guinnessdraughtstout/",
+          "title": "Guinness Draught",
+          "summary": "An Irish dry stout from St James’s Gate in Dublin, commonly about 4.2% ABV.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink:ireland-jamesonirishwhiskey",
+      "type": "drink",
+      "siteKey": "beverages",
+      "typePath": "drinks",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "ireland-jamesonirishwhiskey",
+          "path": "/drinks/ireland-jamesonirishwhiskey/",
+          "url": "https://hejiu.org/drinks/ireland-jamesonirishwhiskey/",
+          "title": "尊美醇爱尔兰威士忌",
+          "summary": "爱尔兰调和威士忌品牌，由 Midleton 蒸馏厂生产，三次蒸馏，常见酒精度 40% vol。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "ireland-jamesonirishwhiskey",
+          "path": "/en/drinks/ireland-jamesonirishwhiskey/",
+          "url": "https://hejiu.org/en/drinks/ireland-jamesonirishwhiskey/",
+          "title": "Jameson Irish Whiskey",
+          "summary": "An Irish blended whiskey from Midleton, triple-distilled and commonly 40% ABV.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink:italy-campari",
+      "type": "drink",
+      "siteKey": "beverages",
+      "typePath": "drinks",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "italy-campari",
+          "path": "/drinks/italy-campari/",
+          "url": "https://hejiu.org/drinks/italy-campari/",
+          "title": "金巴利",
+          "summary": "意大利苦味开胃酒，1860 年创立于米兰，酒精度通常 20.5%–25% vol，苦甜平衡。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "italy-campari",
+          "path": "/en/drinks/italy-campari/",
+          "url": "https://hejiu.org/en/drinks/italy-campari/",
+          "title": "Campari",
+          "summary": "An Italian bitter aperitif created in Milan in 1860, usually 20.5%–25% ABV.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink:italy-sassicaia",
+      "type": "drink",
+      "siteKey": "beverages",
+      "typePath": "drinks",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "italy-sassicaia",
+          "path": "/drinks/italy-sassicaia/",
+          "url": "https://hejiu.org/drinks/italy-sassicaia/",
+          "title": "西施佳雅",
+          "summary": "意大利托斯卡纳保格利产区的葡萄酒，以赤霞珠和品丽珠为主，是“超级托斯卡纳”代表之一。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "italy-sassicaia",
+          "path": "/en/drinks/italy-sassicaia/",
+          "url": "https://hejiu.org/en/drinks/italy-sassicaia/",
+          "title": "Sassicaia",
+          "summary": "A Bolgheri wine from Tenuta San Guido, based on Cabernet Sauvignon and Cabernet Franc.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink:japan-yamazaki",
+      "type": "drink",
+      "siteKey": "beverages",
+      "typePath": "drinks",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "japan-yamazaki",
+          "path": "/drinks/japan-yamazaki/",
+          "url": "https://hejiu.org/drinks/japan-yamazaki/",
+          "title": "山崎单一麦芽威士忌",
+          "summary": "日本三得利在京都山崎设立的麦芽威士忌蒸馏厂，1923 年投产，常见酒精度 43% vol。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "japan-yamazaki",
+          "path": "/en/drinks/japan-yamazaki/",
+          "url": "https://hejiu.org/en/drinks/japan-yamazaki/",
+          "title": "Yamazaki Single Malt",
+          "summary": "A Japanese single malt from Suntory’s Yamazaki distillery, which began production in 1923.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink:jiangsu-yanghe",
+      "type": "drink",
+      "siteKey": "beverages",
+      "typePath": "drinks",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "jiangsu-yanghe",
+          "path": "/drinks/jiangsu-yanghe/",
+          "url": "https://hejiu.org/drinks/jiangsu-yanghe/",
+          "title": "洋河酒",
+          "summary": "产自江苏宿迁的浓香型白酒品牌，以“绵柔”风格和蓝色经典系列知名，酒精度覆盖多个度数。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "jiangsu-yanghe",
+          "path": "/en/drinks/jiangsu-yanghe/",
+          "url": "https://hejiu.org/en/drinks/jiangsu-yanghe/",
+          "title": "Yanghe",
+          "summary": "A strong-aroma baijiu brand from Suqian, Jiangsu, known for a “soft and mellow” style and the Blue Classic series.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink:scotland-themacallan",
+      "type": "drink",
+      "siteKey": "beverages",
+      "typePath": "drinks",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "scotland-themacallan",
+          "path": "/drinks/scotland-themacallan/",
+          "url": "https://hejiu.org/drinks/scotland-themacallan/",
+          "title": "麦卡伦18年雪莉桶",
+          "summary": "苏格兰斯佩塞单一麦芽威士忌，以雪莉调味橡木桶陈年风格著称，常见酒精度 43% vol。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "scotland-themacallan",
+          "path": "/en/drinks/scotland-themacallan/",
+          "url": "https://hejiu.org/en/drinks/scotland-themacallan/",
+          "title": "The Macallan 18 Sherry Oak",
+          "summary": "A Speyside single malt aged in sherry-seasoned oak and commonly bottled at 43% ABV.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink:shaanxi-xifengjiu",
+      "type": "drink",
+      "siteKey": "beverages",
+      "typePath": "drinks",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "shaanxi-xifengjiu",
+          "path": "/drinks/shaanxi-xifengjiu/",
+          "url": "https://hejiu.org/drinks/shaanxi-xifengjiu/",
+          "title": "西凤酒",
+          "summary": "产自陕西凤翔的凤香型白酒代表，以高粱、大麦、小麦和豌豆制曲，常见酒精度 55% vol。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "shaanxi-xifengjiu",
+          "path": "/en/drinks/shaanxi-xifengjiu/",
+          "url": "https://hejiu.org/en/drinks/shaanxi-xifengjiu/",
+          "title": "Xifengjiu",
+          "summary": "A phoenix-aroma baijiu from Fengxiang, Shaanxi, made with sorghum and a barley, wheat and pea qu.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink:shandong-changyu",
+      "type": "drink",
+      "siteKey": "beverages",
+      "typePath": "drinks",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "shandong-changyu",
+          "path": "/drinks/shandong-changyu/",
+          "url": "https://hejiu.org/drinks/shandong-changyu/",
+          "title": "张裕葡萄酒",
+          "summary": "山东烟台葡萄酒品牌，张裕公司创建于 1892 年，产品覆盖干红、干白和白兰地。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "shandong-changyu",
+          "path": "/en/drinks/shandong-changyu/",
+          "url": "https://hejiu.org/en/drinks/shandong-changyu/",
+          "title": "Changyu Wine",
+          "summary": "A wine brand from Yantai, Shandong; Changyu was founded in 1892 and makes red, white and brandy products.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink:shandong-tsingtao",
+      "type": "drink",
+      "siteKey": "beverages",
+      "typePath": "drinks",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "shandong-tsingtao",
+          "path": "/drinks/shandong-tsingtao/",
+          "url": "https://hejiu.org/drinks/shandong-tsingtao/",
+          "title": "青岛啤酒",
+          "summary": "产自山东青岛的拉格啤酒品牌，1903 年创办，主力产品酒精度约 4% vol。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "shandong-tsingtao",
+          "path": "/en/drinks/shandong-tsingtao/",
+          "url": "https://hejiu.org/en/drinks/shandong-tsingtao/",
+          "title": "Tsingtao Beer",
+          "summary": "A lager brand from Qingdao, Shandong, founded in 1903 and commonly around 4% ABV.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink:shanxi-fenjiu",
+      "type": "drink",
+      "siteKey": "beverages",
+      "typePath": "drinks",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "shanxi-fenjiu",
+          "path": "/drinks/shanxi-fenjiu/",
+          "url": "https://hejiu.org/drinks/shanxi-fenjiu/",
+          "title": "汾酒",
+          "summary": "产自山西汾阳杏花村的清香型白酒代表，以高粱、大麦和豌豆制曲，常见酒精度 53% vol。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "shanxi-fenjiu",
+          "path": "/en/drinks/shanxi-fenjiu/",
+          "url": "https://hejiu.org/en/drinks/shanxi-fenjiu/",
+          "title": "Fenjiu",
+          "summary": "A light-aroma baijiu from Xinghuacun, Fenyang, Shanxi, made with sorghum and a barley-pea qu.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink:sichuan-jiannanchun",
+      "type": "drink",
+      "siteKey": "beverages",
+      "typePath": "drinks",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "sichuan-jiannanchun",
+          "path": "/drinks/sichuan-jiannanchun/",
+          "url": "https://hejiu.org/drinks/sichuan-jiannanchun/",
+          "title": "剑南春",
+          "summary": "产自四川绵竹的浓香型白酒，以五粮为原料、泥窖固态发酵，常见酒精度 52% vol。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "sichuan-jiannanchun",
+          "path": "/en/drinks/sichuan-jiannanchun/",
+          "url": "https://hejiu.org/en/drinks/sichuan-jiannanchun/",
+          "title": "Jiannanchun",
+          "summary": "A strong-aroma baijiu from Mianzhu, Sichuan, made from five grains and fermented in mud pits.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink:sichuan-langjiu",
+      "type": "drink",
+      "siteKey": "beverages",
+      "typePath": "drinks",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "sichuan-langjiu",
+          "path": "/drinks/sichuan-langjiu/",
+          "url": "https://hejiu.org/drinks/sichuan-langjiu/",
+          "title": "郎酒",
+          "summary": "产自四川古蔺赤水河畔的白酒品牌，兼有酱香与浓香产品，青花郎等酱香产品较为知名。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "sichuan-langjiu",
+          "path": "/en/drinks/sichuan-langjiu/",
+          "url": "https://hejiu.org/en/drinks/sichuan-langjiu/",
+          "title": "Langjiu",
+          "summary": "A baijiu producer based in Erlang, Gulin, Sichuan, making both sauce-aroma and strong-aroma products.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink:sichuan-luzhoulaojiao",
+      "type": "drink",
+      "siteKey": "beverages",
+      "typePath": "drinks",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "sichuan-luzhoulaojiao",
+          "path": "/drinks/sichuan-luzhoulaojiao/",
+          "url": "https://hejiu.org/drinks/sichuan-luzhoulaojiao/",
+          "title": "泸州老窖",
+          "summary": "产自四川泸州的浓香型白酒代表，以老窖池续糟发酵为特色，常见产品酒精度 52% vol。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "sichuan-luzhoulaojiao",
+          "path": "/en/drinks/sichuan-luzhoulaojiao/",
+          "url": "https://hejiu.org/en/drinks/sichuan-luzhoulaojiao/",
+          "title": "Luzhou Laojiao",
+          "summary": "A strong-aroma baijiu from Luzhou, Sichuan, known for long-used mud pits and continued mash fermentation.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink:sichuan-wuliangye",
+      "type": "drink",
+      "siteKey": "beverages",
+      "typePath": "drinks",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "sichuan-wuliangye",
+          "path": "/drinks/sichuan-wuliangye/",
+          "url": "https://hejiu.org/drinks/sichuan-wuliangye/",
+          "title": "五粮液",
+          "summary": "产自四川宜宾的浓香型白酒，以高粱、大米、糯米、小麦、玉米五种粮食为原料，常见酒精度 52% vol。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "sichuan-wuliangye",
+          "path": "/en/drinks/sichuan-wuliangye/",
+          "url": "https://hejiu.org/en/drinks/sichuan-wuliangye/",
+          "title": "Wuliangye",
+          "summary": "A strong-aroma baijiu from Yibin, Sichuan, made from five grains and commonly bottled at 52% ABV.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink:sweden-absolutvodka",
+      "type": "drink",
+      "siteKey": "beverages",
+      "typePath": "drinks",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "sweden-absolutvodka",
+          "path": "/drinks/sweden-absolutvodka/",
+          "url": "https://hejiu.org/drinks/sweden-absolutvodka/",
+          "title": "绝对伏特加",
+          "summary": "瑞典伏特加品牌，以冬小麦为原料、连续蒸馏，常见酒精度 40% vol。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "sweden-absolutvodka",
+          "path": "/en/drinks/sweden-absolutvodka/",
+          "url": "https://hejiu.org/en/drinks/sweden-absolutvodka/",
+          "title": "Absolut Vodka",
+          "summary": "A Swedish vodka made from winter wheat and continuously distilled, commonly 40% ABV.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink:uk-beefeater",
+      "type": "drink",
+      "siteKey": "beverages",
+      "typePath": "drinks",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "uk-beefeater",
+          "path": "/drinks/uk-beefeater/",
+          "url": "https://hejiu.org/drinks/uk-beefeater/",
+          "title": "必富达伦敦干金酒",
+          "summary": "伦敦干金酒品牌，1863 年创立，以杜松子和柑橘等植物原料蒸馏，常见酒精度 40% vol。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "uk-beefeater",
+          "path": "/en/drinks/uk-beefeater/",
+          "url": "https://hejiu.org/en/drinks/uk-beefeater/",
+          "title": "Beefeater London Dry Gin",
+          "summary": "A London dry gin founded in 1863, distilled with juniper and citrus botanicals and commonly 40% ABV.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink:usa-jackdaniels",
+      "type": "drink",
+      "siteKey": "beverages",
+      "typePath": "drinks",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "usa-jackdaniels",
+          "path": "/drinks/usa-jackdaniels/",
+          "url": "https://hejiu.org/drinks/usa-jackdaniels/",
+          "title": "杰克丹尼老7号",
+          "summary": "美国田纳西威士忌，采用林肯县木炭过滤工艺，常见酒精度 40% vol。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "usa-jackdaniels",
+          "path": "/en/drinks/usa-jackdaniels/",
+          "url": "https://hejiu.org/en/drinks/usa-jackdaniels/",
+          "title": "Jack Daniel's Old No. 7",
+          "summary": "A Tennessee whiskey made with the Lincoln County Process and commonly 40% ABV.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "drink:zhejiang-guyuelongshan",
+      "type": "drink",
+      "siteKey": "beverages",
+      "typePath": "drinks",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "zhejiang-guyuelongshan",
+          "path": "/drinks/zhejiang-guyuelongshan/",
+          "url": "https://hejiu.org/drinks/zhejiang-guyuelongshan/",
+          "title": "古越龙山花雕酒",
+          "summary": "浙江绍兴黄酒品牌，以糯米、麦曲和鉴湖水酿造，花雕、加饭等产品常见酒精度 15%–18% vol。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "zhejiang-guyuelongshan",
+          "path": "/en/drinks/zhejiang-guyuelongshan/",
+          "url": "https://hejiu.org/en/drinks/zhejiang-guyuelongshan/",
+          "title": "Guyuelongshan Huadiao",
+          "summary": "A Shaoxing huangjiu brand from Zhejiang, brewed from glutinous rice, wheat qu and Jian Lake water.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "guide:choose-a-glass",
+      "type": "guide",
+      "siteKey": "guide",
+      "typePath": "guides",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "choose-a-glass",
+          "path": "/guides/choose-a-glass/",
+          "url": "https://guide.hejiu.org/guides/choose-a-glass/",
+          "title": "换一只杯子，会有什么不同？",
+          "summary": "杯型改变香气聚集、入口位置与温度；先理解目的，再谈仪式。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "choose-a-glass",
+          "path": "/en/guides/choose-a-glass/",
+          "url": "https://guide.hejiu.org/en/guides/choose-a-glass/",
+          "title": "A different glass, a different view",
+          "summary": "Glass shape changes aroma concentration, where the liquid hits your mouth and how fast it warms.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "guide:cocktail-basics",
+      "type": "guide",
+      "siteKey": "guide",
+      "typePath": "guides",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "cocktail-basics",
+          "path": "/guides/cocktail-basics/",
+          "url": "https://guide.hejiu.org/guides/cocktail-basics/",
+          "title": "调酒，是另一种认识酒的方式",
+          "summary": "从基酒、酸甜、稀释和冰开始，理解一杯鸡尾酒的结构。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "cocktail-basics",
+          "path": "/en/guides/cocktail-basics/",
+          "url": "https://guide.hejiu.org/en/guides/cocktail-basics/",
+          "title": "A cocktail is another way in",
+          "summary": "Start with base spirit, sweet, sour, dilution and ice; recipes come after structure.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "guide:first-tasting",
+      "type": "guide",
+      "siteKey": "guide",
+      "typePath": "guides",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "first-tasting",
+          "path": "/guides/first-tasting/",
+          "url": "https://guide.hejiu.org/guides/first-tasting/",
+          "title": "第一口，先别急着下结论",
+          "summary": "从颜色、香气到入口，用自己的词描述一杯酒。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "first-tasting",
+          "path": "/en/guides/first-tasting/",
+          "url": "https://guide.hejiu.org/en/guides/first-tasting/",
+          "title": "Give the first sip a moment",
+          "summary": "Look, smell and taste. Describe a glass in words you already know.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "guide:food-pairing",
+      "type": "guide",
+      "siteKey": "guide",
+      "typePath": "guides",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "food-pairing",
+          "path": "/guides/food-pairing/",
+          "url": "https://guide.hejiu.org/guides/food-pairing/",
+          "title": "先看盘子里，再看杯子里",
+          "summary": "搭配不是寻找唯一答案，而是平衡浓度、酸度、甜度、脂肪与辛香。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "food-pairing",
+          "path": "/en/guides/food-pairing/",
+          "url": "https://guide.hejiu.org/en/guides/food-pairing/",
+          "title": "Look at the plate before the glass",
+          "summary": "Pairing is not a single right answer; it is a balance of weight, acidity, sweetness, fat and heat.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "guide:ice-and-temperature",
+      "type": "guide",
+      "siteKey": "guide",
+      "typePath": "guides",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "ice-and-temperature",
+          "path": "/guides/ice-and-temperature/",
+          "url": "https://guide.hejiu.org/guides/ice-and-temperature/",
+          "title": "加冰这件事，没有标准答案",
+          "summary": "冰会降温、稀释并改变香气释放；先决定你想保留什么，再决定加不加。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "ice-and-temperature",
+          "path": "/en/guides/ice-and-temperature/",
+          "url": "https://guide.hejiu.org/en/guides/ice-and-temperature/",
+          "title": "Ice is a choice, not a test",
+          "summary": "Ice cools, dilutes and changes aroma release. Decide what you want to keep before adding it.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "guide:read-a-label",
+      "type": "guide",
+      "siteKey": "guide",
+      "typePath": "guides",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "read-a-label",
+          "path": "/guides/read-a-label/",
+          "url": "https://guide.hejiu.org/guides/read-a-label/",
+          "title": "酒标很小，线索不少",
+          "summary": "酒标先告诉你类别、产地、酒精度和净含量；宣传语不等于事实。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "read-a-label",
+          "path": "/en/guides/read-a-label/",
+          "url": "https://guide.hejiu.org/en/guides/read-a-label/",
+          "title": "A small label, plenty of clues",
+          "summary": "A label tells you category, origin, strength and volume first; marketing words are not facts.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "place:american-bar-savoy",
+      "type": "place",
+      "siteKey": "atlas",
+      "typePath": "places",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "american-bar-savoy",
+          "path": "/places/american-bar-savoy/",
+          "url": "https://atlas.hejiu.org/places/american-bar-savoy/",
+          "title": "萨沃伊美式酒吧",
+          "summary": "伦敦萨沃伊酒店内的经典美式酒吧，1893 年随酒店开业，以《萨沃伊鸡尾酒书》和经典调酒传统闻名。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "american-bar-savoy",
+          "path": "/en/places/american-bar-savoy/",
+          "url": "https://atlas.hejiu.org/en/places/american-bar-savoy/",
+          "title": "American Bar at The Savoy",
+          "summary": "The classic American bar at The Savoy in London, opened with the hotel in 1893 and known for The Savoy Cocktail Book.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "place:cafe-central",
+      "type": "place",
+      "siteKey": "atlas",
+      "typePath": "places",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "cafe-central",
+          "path": "/places/cafe-central/",
+          "url": "https://atlas.hejiu.org/places/cafe-central/",
+          "title": "中央咖啡馆",
+          "summary": "维也纳历史悠久的文学咖啡馆，1876 年开业，以咖啡、蛋糕和知识分子顾客闻名。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "cafe-central",
+          "path": "/en/places/cafe-central/",
+          "url": "https://atlas.hejiu.org/en/places/cafe-central/",
+          "title": "Café Central",
+          "summary": "A historic Viennese coffee house opened in 1876, known for coffee, cake and its literary and intellectual clientele.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "place:cafe-de-flore",
+      "type": "place",
+      "siteKey": "atlas",
+      "typePath": "places",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "cafe-de-flore",
+          "path": "/places/cafe-de-flore/",
+          "url": "https://atlas.hejiu.org/places/cafe-de-flore/",
+          "title": "花神咖啡馆",
+          "summary": "巴黎圣日耳曼德佩的文学咖啡馆，19 世纪末开业，以知识分子顾客和经典巴黎咖啡馆氛围闻名。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "cafe-de-flore",
+          "path": "/en/places/cafe-de-flore/",
+          "url": "https://atlas.hejiu.org/en/places/cafe-de-flore/",
+          "title": "Café de Flore",
+          "summary": "A literary café in Saint-Germain-des-Prés, Paris, opened in the late 19th century and known for its intellectual clientele.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "place:caffe-florian",
+      "type": "place",
+      "siteKey": "atlas",
+      "typePath": "places",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "caffe-florian",
+          "path": "/places/caffe-florian/",
+          "url": "https://atlas.hejiu.org/places/caffe-florian/",
+          "title": "花神咖啡馆（威尼斯）",
+          "summary": "威尼斯圣马可广场的历史咖啡馆，1720 年开业，是欧洲持续经营时间最长的咖啡馆之一。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "caffe-florian",
+          "path": "/en/places/caffe-florian/",
+          "url": "https://atlas.hejiu.org/en/places/caffe-florian/",
+          "title": "Caffè Florian",
+          "summary": "A historic café on Piazza San Marco in Venice, opened in 1720 and one of Europe’s longest-running cafés.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "place:eagle-and-child",
+      "type": "place",
+      "siteKey": "atlas",
+      "typePath": "places",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "eagle-and-child",
+          "path": "/places/eagle-and-child/",
+          "url": "https://atlas.hejiu.org/places/eagle-and-child/",
+          "title": "鹰与孩童酒馆",
+          "summary": "牛津圣吉尔斯街的历史酒馆，以“Inklings”文学小组（托尔金、C.S.刘易斯等）的聚会地闻名。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "eagle-and-child",
+          "path": "/en/places/eagle-and-child/",
+          "url": "https://atlas.hejiu.org/en/places/eagle-and-child/",
+          "title": "The Eagle and Child",
+          "summary": "A historic pub on St Giles’ in Oxford, known as a meeting place of the Inklings, including Tolkien and C.S. Lewis.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "place:el-floridita",
+      "type": "place",
+      "siteKey": "atlas",
+      "typePath": "places",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "el-floridita",
+          "path": "/places/el-floridita/",
+          "url": "https://atlas.hejiu.org/places/el-floridita/",
+          "title": "小佛罗里达酒馆",
+          "summary": "哈瓦那老城的传奇酒吧，1817 年创立，以海明威、冷冻代基里和海鲜吧闻名。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "el-floridita",
+          "path": "/en/places/el-floridita/",
+          "url": "https://atlas.hejiu.org/en/places/el-floridita/",
+          "title": "El Floridita",
+          "summary": "A legendary Havana bar founded in 1817, known for Hemingway, frozen Daiquiris and its seafood bar.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "place:gujing-wine-culture-museum",
+      "type": "place",
+      "siteKey": "atlas",
+      "typePath": "places",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "gujing-wine-culture-museum",
+          "path": "/places/gujing-wine-culture-museum/",
+          "url": "https://atlas.hejiu.org/places/gujing-wine-culture-museum/",
+          "title": "古井酒文化博物馆",
+          "summary": "位于安徽省亳州市谯城区古井镇古井酒厂对面的酒文化博物馆，1994 年建成、1996 年开放。开放时间与票务需另行核实。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "gujing-wine-culture-museum",
+          "path": "/en/places/gujing-wine-culture-museum/",
+          "url": "https://atlas.hejiu.org/en/places/gujing-wine-culture-museum/",
+          "title": "Gujing Wine Culture Museum",
+          "summary": "A wine-culture museum opposite the Gujing distillery in Gujing Town, Qiaocheng District, Bozhou, Anhui. Built in 1994 and opened in 1996; current opening and ticket details still need checking.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "place:harrys-bar-venice",
+      "type": "place",
+      "siteKey": "atlas",
+      "typePath": "places",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "harrys-bar-venice",
+          "path": "/places/harrys-bar-venice/",
+          "url": "https://atlas.hejiu.org/places/harrys-bar-venice/",
+          "title": "哈里酒吧（威尼斯）",
+          "summary": "威尼斯圣马可广场附近的传奇酒吧，1931 年由朱塞佩·奇普里亚尼创立，以贝里尼和生牛肉薄片闻名。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "harrys-bar-venice",
+          "path": "/en/places/harrys-bar-venice/",
+          "url": "https://atlas.hejiu.org/en/places/harrys-bar-venice/",
+          "title": "Harry's Bar Venice",
+          "summary": "A legendary bar near Piazza San Marco, founded by Giuseppe Cipriani in 1931 and known for the Bellini and carpaccio.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "place:hofbrauhaus",
+      "type": "place",
+      "siteKey": "atlas",
+      "typePath": "places",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "hofbrauhaus",
+          "path": "/places/hofbrauhaus/",
+          "url": "https://atlas.hejiu.org/places/hofbrauhaus/",
+          "title": "皇家啤酒屋",
+          "summary": "慕尼黑历史悠久的啤酒馆，1589 年由巴伐利亚公爵创立，以啤酒大厅和巴伐利亚菜闻名。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "hofbrauhaus",
+          "path": "/en/places/hofbrauhaus/",
+          "url": "https://atlas.hejiu.org/en/places/hofbrauhaus/",
+          "title": "Hofbräuhaus",
+          "summary": "A historic Munich beer hall founded by the Bavarian duke in 1589, known for its large halls and Bavarian food.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "place:la-bodeguita-del-medio",
+      "type": "place",
+      "siteKey": "atlas",
+      "typePath": "places",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "la-bodeguita-del-medio",
+          "path": "/places/la-bodeguita-del-medio/",
+          "url": "https://atlas.hejiu.org/places/la-bodeguita-del-medio/",
+          "title": "半途小酒馆",
+          "summary": "哈瓦那老城的著名小酒馆，1942 年开业，以莫吉托和文人顾客的墙面签名闻名。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "la-bodeguita-del-medio",
+          "path": "/en/places/la-bodeguita-del-medio/",
+          "url": "https://atlas.hejiu.org/en/places/la-bodeguita-del-medio/",
+          "title": "La Bodeguita del Medio",
+          "summary": "A famous Havana bar opened in 1942, known for Mojitos and the signatures covering its walls.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "place:les-deux-magots",
+      "type": "place",
+      "siteKey": "atlas",
+      "typePath": "places",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "les-deux-magots",
+          "path": "/places/les-deux-magots/",
+          "url": "https://atlas.hejiu.org/places/les-deux-magots/",
+          "title": "双叟咖啡馆",
+          "summary": "巴黎圣日耳曼德佩的文学咖啡馆，1885 年开业，曾与海明威、萨特和波伏娃等名字联系在一起。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "les-deux-magots",
+          "path": "/en/places/les-deux-magots/",
+          "url": "https://atlas.hejiu.org/en/places/les-deux-magots/",
+          "title": "Les Deux Magots",
+          "summary": "A literary café in Saint-Germain-des-Prés, Paris, opened in 1885 and associated with Hemingway, Sartre and Beauvoir.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "place:mcsorleys-old-ale-house",
+      "type": "place",
+      "siteKey": "atlas",
+      "typePath": "places",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "mcsorleys-old-ale-house",
+          "path": "/places/mcsorleys-old-ale-house/",
+          "url": "https://atlas.hejiu.org/places/mcsorleys-old-ale-house/",
+          "title": "麦克索利老麦酒馆",
+          "summary": "纽约东村的历史酒馆，1854 年开业，以只供应淡色和深色艾尔、历史陈设闻名。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "mcsorleys-old-ale-house",
+          "path": "/en/places/mcsorleys-old-ale-house/",
+          "url": "https://atlas.hejiu.org/en/places/mcsorleys-old-ale-house/",
+          "title": "McSorley's Old Ale House",
+          "summary": "A historic New York ale house opened in 1854, long serving only light and dark ale.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "place:raffles-long-bar",
+      "type": "place",
+      "siteKey": "atlas",
+      "typePath": "places",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "raffles-long-bar",
+          "path": "/places/raffles-long-bar/",
+          "url": "https://atlas.hejiu.org/places/raffles-long-bar/",
+          "title": "莱佛士长廊酒吧",
+          "summary": "新加坡莱佛士酒店的历史酒吧，以新加坡司令和花生壳传统闻名。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "raffles-long-bar",
+          "path": "/en/places/raffles-long-bar/",
+          "url": "https://atlas.hejiu.org/en/places/raffles-long-bar/",
+          "title": "Raffles Long Bar",
+          "summary": "The historic bar at Raffles Hotel Singapore, known for the Singapore Sling and its peanut-shell tradition.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "place:schlenkerla",
+      "type": "place",
+      "siteKey": "atlas",
+      "typePath": "places",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "schlenkerla",
+          "path": "/places/schlenkerla/",
+          "url": "https://atlas.hejiu.org/places/schlenkerla/",
+          "title": "施伦克拉烟熏啤酒馆",
+          "summary": "德国班贝格的 historic 烟熏啤酒酒馆，以 Rauchbier 和传统法兰肯菜闻名。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "schlenkerla",
+          "path": "/en/places/schlenkerla/",
+          "url": "https://atlas.hejiu.org/en/places/schlenkerla/",
+          "title": "Schlenkerla",
+          "summary": "A historic smoked-beer tavern in Bamberg, Germany, known for Rauchbier and Franconian food.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "place:u-fleku",
+      "type": "place",
+      "siteKey": "atlas",
+      "typePath": "places",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "u-fleku",
+          "path": "/places/u-fleku/",
+          "url": "https://atlas.hejiu.org/places/u-fleku/",
+          "title": "弗勒克啤酒屋",
+          "summary": "布拉格历史悠久的啤酒馆和微型啤酒厂，创立于 1499 年，以自酿黑啤和捷克菜闻名。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "u-fleku",
+          "path": "/en/places/u-fleku/",
+          "url": "https://atlas.hejiu.org/en/places/u-fleku/",
+          "title": "U Fleků",
+          "summary": "A historic Prague beer hall and microbrewery founded in 1499, known for its dark lager and Czech food.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "place:white-horse-tavern",
+      "type": "place",
+      "siteKey": "atlas",
+      "typePath": "places",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "white-horse-tavern",
+          "path": "/places/white-horse-tavern/",
+          "url": "https://atlas.hejiu.org/places/white-horse-tavern/",
+          "title": "白马酒馆",
+          "summary": "纽约格林威治村的历史酒馆，1880 年开业，因诗人迪伦·托马斯等文人顾客闻名。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "white-horse-tavern",
+          "path": "/en/places/white-horse-tavern/",
+          "url": "https://atlas.hejiu.org/en/places/white-horse-tavern/",
+          "title": "White Horse Tavern",
+          "summary": "A historic Greenwich Village bar opened in 1880, known for the poet Dylan Thomas and its literary regulars.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "place:ye-olde-cheshire-cheese",
+      "type": "place",
+      "siteKey": "atlas",
+      "typePath": "places",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "ye-olde-cheshire-cheese",
+          "path": "/places/ye-olde-cheshire-cheese/",
+          "url": "https://atlas.hejiu.org/places/ye-olde-cheshire-cheese/",
+          "title": "柴郡奶酪酒馆",
+          "summary": "伦敦舰队街的历史酒馆，现建筑 1667 年重建，以木结构内饰和传统英式菜闻名。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "ye-olde-cheshire-cheese",
+          "path": "/en/places/ye-olde-cheshire-cheese/",
+          "url": "https://atlas.hejiu.org/en/places/ye-olde-cheshire-cheese/",
+          "title": "Ye Olde Cheshire Cheese",
+          "summary": "A historic Fleet Street pub in London, rebuilt in 1667, known for its wood-panelled rooms and British food.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "producer:gujing-distillery",
+      "type": "producer",
+      "siteKey": "beverages",
+      "typePath": "producers",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "gujing-distillery",
+          "path": "/producers/gujing-distillery/",
+          "url": "https://hejiu.org/producers/gujing-distillery/",
+          "title": "安徽古井贡酒股份有限公司",
+          "summary": "位于安徽省亳州市古井镇的白酒生产企业，古井贡酒品牌的生产主体。本页区分公司身份、品牌与具体产品。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "gujing-distillery",
+          "path": "/en/producers/gujing-distillery/",
+          "url": "https://hejiu.org/en/producers/gujing-distillery/",
+          "title": "Anhui Gujing Distillery Co., Ltd.",
+          "summary": "A baijiu producer based in Gujing Town, Bozhou, Anhui, and the company behind the Gujing Gongjiu brand. Company, brand and product are separate records.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "recipe:negroni",
+      "type": "recipe",
+      "siteKey": "guide",
+      "typePath": "recipes",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "negroni",
+          "path": "/recipes/negroni/",
+          "url": "https://guide.hejiu.org/recipes/negroni/",
+          "title": "内格罗尼配方（IBA 版本）",
+          "summary": "金酒、金巴利与甜味美思各 30 毫升，搅拌后滤入装有冰块的古典杯，以橙皮装饰。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "negroni",
+          "path": "/en/recipes/negroni/",
+          "url": "https://guide.hejiu.org/en/recipes/negroni/",
+          "title": "Negroni recipe (IBA version)",
+          "summary": "30 ml each of gin, Campari and sweet vermouth, stirred and strained over ice into a rocks glass, garnished with orange peel.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "region:anhui",
+      "type": "region",
+      "siteKey": "beverages",
+      "typePath": "regions",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "anhui",
+          "path": "/regions/anhui/",
+          "url": "https://hejiu.org/regions/anhui/",
+          "title": "安徽省",
+          "summary": "中国东部省份，长江与淮河横贯其间。本页作为亳州市等下级地区的组织节点。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "anhui",
+          "path": "/en/regions/anhui/",
+          "url": "https://hejiu.org/en/regions/anhui/",
+          "title": "Anhui",
+          "summary": "A province in eastern China crossed by the Yangtze and Huai rivers. It organises city records such as Bozhou.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "region:bozhou",
+      "type": "region",
+      "siteKey": "beverages",
+      "typePath": "regions",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "bozhou",
+          "path": "/regions/bozhou/",
+          "url": "https://hejiu.org/regions/bozhou/",
+          "title": "亳州市",
+          "summary": "安徽省西北部的地级市，古井镇位于其谯城区。本页组织该地区的生产者与参访地点。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "bozhou",
+          "path": "/en/regions/bozhou/",
+          "url": "https://hejiu.org/en/regions/bozhou/",
+          "title": "Bozhou",
+          "summary": "A prefecture-level city in northwestern Anhui. Gujing Town lies in its Qiaocheng District.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "region:china",
+      "type": "region",
+      "siteKey": "beverages",
+      "typePath": "regions",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "china",
+          "path": "/regions/china/",
+          "url": "https://hejiu.org/regions/china/",
+          "title": "中国",
+          "summary": "地区层级中的国家节点。酒类产区、生产者与地点通过地区键关联到这里。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "china",
+          "path": "/en/regions/china/",
+          "url": "https://hejiu.org/en/regions/china/",
+          "title": "China",
+          "summary": "The country node in the region hierarchy. Regions, producers and places connect to more specific records beneath it.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    },
+    {
+      "id": "vessel:rocks-glass",
+      "type": "vessel",
+      "siteKey": "guide",
+      "typePath": "vessels",
+      "translations": {
+        "zh": {
+          "lang": "zh",
+          "slug": "rocks-glass",
+          "path": "/vessels/rocks-glass/",
+          "url": "https://guide.hejiu.org/vessels/rocks-glass/",
+          "title": "古典杯",
+          "summary": "杯身较矮、杯口较宽的短饮杯，常用于加冰纯饮与搅拌类鸡尾酒。",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": null
+        },
+        "en": {
+          "lang": "en",
+          "slug": "rocks-glass",
+          "path": "/en/vessels/rocks-glass/",
+          "url": "https://guide.hejiu.org/en/vessels/rocks-glass/",
+          "title": "Rocks glass",
+          "summary": "A short, wide-mouthed tumbler used for spirits over ice and stirred cocktails.",
+          "status": "reviewed",
+          "published": true,
+          "translationStatus": "reviewed"
+        }
+      }
+    }
+  ]
+}
