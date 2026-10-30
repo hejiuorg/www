@@ -1,9 +1,0 @@
-# robots.txt for hejiu.org
-# https://hejiu.org/
-
-User-agent: *
-Allow: /
-Crawl-delay: 2
-
-# Sitemap
-Sitemap: https://hejiu.org/sitemap.xml
